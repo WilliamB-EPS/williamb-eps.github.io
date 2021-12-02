@@ -86,5 +86,34 @@ body {
 
 .coolText {
     text-align: center;
-    font-size: 100;
+    font-size: 100px;
+    animation-name: move-text;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-direction: normal;
+}
+
+@keyframes move-text {
+    0% {
+        width: 100%;
+        height: 100%;
+    }
+    25% {
+        width: 75%;
+        height: 200%;
+    }
+    50% {
+        width: 100%;
+        height: 100%;
+    }
+    75% {
+        width: 125%;
+        height: 100%;
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+    }
 }
