@@ -10,25 +10,29 @@
 </head>
 
 <body>
-    <ul class="navBar">
+    <!-- Navbar inspired by info/examples from w3 schools -->
+    <div class="navBar">
         <div style="float:left"><a href="index.html" class="navItem">Home</a></div>
         <div style="float:left"><a href="history.html" class="navItem">History</a></div>
         <div style="float:left"><a href="experience.html" class="navItem">The Experience</a></div>
-    </ul>
+    </div>
     <h1>History of Fusor</h1>
+    <!-- Grid code inspired by info/examples from w3 schools -->
     <div class="gridContainer">
-        <div class="gridItem1"><img src="images/sensors.jpg" style="width:100%; height:100%" alt=""></div>
+        <div class="gridItem1"><img src="images/sensors.jpg" style="width:100%; height:100%" alt="Sensory Board"></div>
         <div class="gridItem2" style="padding:10px;">
             <p>Fusor was created by students at Eastside Preparatory school in 2015. The idea was to create a Farnsworth-Hirsch fusor in the school's basement. This project was also the baby of Mr. Mein, the school's previous technology teacher. Currently,
-                plasma has been created within the vacuum chamber, however, no fusion of deuterium ions has occured (yet).</p>
-            <div class="button">
-                <p id="special"></p>
-                <button onclick="document.getElementById('special').innerHTML='The great melting' ">Fusor Mishaps</button>
+                plasma has been created within the vacuum chamber, however, no actual fusion has occured.</p>
+            <p id="special"></p>
+            <div id="center">
+                <button onclick="document.getElementById('special').innerHTML='One time we drew too much current during an experiment and fried all of our electronics :(' ">Fusor Mishaps</button>
             </div>
 
         </div>
     </div>
-
+    <footer>&copy; 2021 William Bowers -
+        <a style="color:white" href="mailto:wbowers@eastsideprep.org">wbowers@eastsideprep.org</a>
+    </footer>
 </body>
 
 </html>

@@ -1,18 +1,16 @@
 body {
     background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     text-align: center;
     color: darkblue;
 }
 
 p {
-    padding: 25px;
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navBar {
@@ -20,8 +18,8 @@ p {
     margin: 0;
     overflow: hidden;
     background-color: darkblue;
-    padding-left: 450px;
-    height: 80%;
+    padding-left: 440px;
+    transition-duration: 0.4s;
 }
 
 .navItem {
@@ -31,10 +29,15 @@ p {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    transition-duration: 0.5s;
 }
 
 a:hover {
     background-color: darkgrey;
+}
+
+a:active {
+    color: purple;
 }
 
 .gridContainer {
@@ -57,6 +60,12 @@ a:hover {
     padding-top: 30px;
 }
 
+.inlineImg {
+    width: 48.25%;
+    float: left;
+    padding: 10px;
+}
+
 .centered {
     display: block;
     margin-left: auto;
@@ -66,13 +75,27 @@ a:hover {
     padding: 10px;
 }
 
-.button {
-    border-radius: 50%;
-    padding: 10px;
+#center {
+    text-align: center;
+}
+
+button {
+    border-radius: 20%;
     transition-duration: 0.5s;
-    color: darkblue;
+    background: darkblue;
+    color: white;
+    width: 180px;
+    height: 150px;
+    font-size: 30px;
 }
 
 button:hover {
-    color: lightgrey;
+    background-color: darkgrey;
+}
+
+footer {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 3px;
 }
