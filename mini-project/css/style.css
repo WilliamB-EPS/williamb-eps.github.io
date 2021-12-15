@@ -18,6 +18,8 @@
     
     h2 {
         text-align: center;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
     }
     
     #countdown {
