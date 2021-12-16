@@ -18,12 +18,12 @@ p {
     margin: 0;
     overflow: hidden;
     background-color: darkblue;
-    padding-left: 440px;
     transition-duration: 0.4s;
 }
 
 .navItem {
     display: block;
+    text-align: center;
     color: white;
     padding: 20px 20px;
     text-decoration: none;
