@@ -57,3 +57,13 @@
         background: rgba(0, 0, 0, 0.8);
         transform: translate(0, 0px);
     }
+    
+    footer {
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }

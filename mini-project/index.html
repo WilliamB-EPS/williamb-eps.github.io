@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christmas!</title>
+    <title>Christmas</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-
-    <video autoplay muted loop id="bgVideo">
-        <source src="videos/background-vid.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-      </video>
+    <video autoplay muted loop id="bgVideo"> 
+        <source src="videos/background-vid.mp4" type="video/mp4">Your browser does not support HTML5 video.
+    </video>
 
     <div id="countdown-container">
         <h1>Countdown to Christmas:</h1>
         <p id="countdown"></p>
+
+        <!-- JS influenced by info from w3 schools -->
         <script>
             var christmasDay = new Date("Dec 25, 2021 00:00:00").getTime();
 
@@ -34,15 +34,16 @@
                     minutes + "m " + seconds + "s ";
                 if (distance < 0) {
                     clearInterval(x);
-                    document.getElementById("countdown").innerHTML = "EXPIRED";
+                    document.getElementById("countdown").innerHTML = "MERRY CHRISTMAS!";
                 }
             }, 1000);
         </script>
     </div>
 
     <div id="content">
-        <h2>Hover for fun facts</h2>
+        <h2>Hover for a fun fact</h2>
         <p>The song "Jingle Bells" was originally a Thanksgiving song written in the mid 19th century. It is now the most popular Christmas song.</p>
+        <footer>&copy; William Bowers <a href="mailto:wbowers@eastsideprep.org">(email)</a></footer>
     </div>
 
 </body>
