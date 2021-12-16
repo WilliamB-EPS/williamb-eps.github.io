@@ -16,12 +16,13 @@
     }
     
     h1 {
-        font-size: 70px;
+        font-size: 6vw;
         text-align: center;
         color: white;
     }
     
     h2 {
+        font-size: 4vw;
         text-align: center;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: black;
@@ -29,17 +30,16 @@
     
     #countdown {
         text-align: center;
-        font-size: 80px;
+        font-size: 8vw;
         margin-top: 0;
     }
     
     #countdown-container {
-        position: fixed;
-        bottom: 0;
+        position: relative;
+        bottom: 20%;
         color: #f1f1f1;
-        font-size: 80px;
         width: 100%;
-        margin-bottom: 200px;
+        font-size: 8vw;
         font-weight: bold;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: black;
@@ -47,20 +47,18 @@
     
     #content {
         position: fixed;
-        bottom: 0;
-        background: rgba(0, 0, 0, 0);
         color: #f1f1f1;
-        font-size: 30px;
+        font-size: 2vw;
+        margin-top: 5%;
         width: 100%;
-        padding: 20px;
-        transform: translate(0, 150px);
+        padding: 1%;
         transition-duration: 0.6s;
         transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1)
     }
     
     #content:hover {
         background: rgba(0, 0, 0, 0.8);
-        transform: translate(0, 0px);
+        transform: translate(0, -40%);
     }
     
     footer {
