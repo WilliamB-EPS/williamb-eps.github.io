@@ -58,11 +58,11 @@
     
     #content:hover {
         background: rgba(0, 0, 0, 0.8);
-        transform: translate(0, -40%);
+        transform: translate(0, -50%);
     }
     
     footer {
-        font-size: 12px;
+        font-size: 1vw;
         font-family: 'Times New Roman', Times, serif;
     }
     
