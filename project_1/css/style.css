@@ -16,7 +16,6 @@ p {
 .navBar {
     list-style-type: none;
     margin: 0;
-    padding-left: 450px;
     overflow: hidden;
     background-color: darkblue;
     transition-duration: 0.4s;
