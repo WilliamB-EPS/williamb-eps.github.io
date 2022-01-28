@@ -24,6 +24,11 @@ body {
     border-radius: 0.5vw;
 }
 
+.nav a:hover {
+    background: rgb(99, 24, 27);
+    color: white;
+}
+
 .bar {
     float: right;
   }
