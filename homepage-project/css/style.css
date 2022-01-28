@@ -43,7 +43,7 @@ p {
 }
 
 .background-1 {
-    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/homepage-project/images/spread.png");
+    background: url("https://williamb-eps.github.io/homepage-project/images/spread.png");
     background-size: cover;
     background-repeat: none;
     height: 45vw;
@@ -63,7 +63,7 @@ p {
 }
 
 .background-2 {
-    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/homepage-project/images/dishes.png");
+    background: url("https://williamb-eps.github.io/homepage-project/images/dishes.png");
     background-size: cover;
     height: 50vw;
     width: 100%;
