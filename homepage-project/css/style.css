@@ -42,13 +42,18 @@ p {
     font-size: 2vw;
 }
 
+.background-1 {
+    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/homepage-project/images/spread.png");
+    background-size: cover;
+    background-repeat: none;
+    height: 45vw;
+    width: 100%;
+}
+
 .welcome-text {
-    position: absolute;
     text-align: center;
-    left: 50vw;
-    top: 25vw;
-    transform: translate(-50%, -50%);
     background: rgba(0,0,0,0.8);
+    transform: translate(40%, 40%);
     color: white;
     font-size: 1vw;
     width: 55vw;
@@ -57,11 +62,19 @@ p {
 
 }
 
+.background-2 {
+    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/homepage-project/images/dishes.png");
+    background-size: cover;
+    height: 50vw;
+    width: 100%;
+    background-repeat: none;
+}
+
 .award-text {
-    position: absolute;
     color: white;
+    transform: translate(0, -10%);
     text-align: center;
-    top: 47vw;
+    top: 46vw;
     height: 41.25vw;
     width: 99%;
     padding: 3vw;
@@ -107,7 +120,7 @@ p {
 
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 900px) {
 
     .visit-us, .contact-us, .hours {
         width: 100%;
