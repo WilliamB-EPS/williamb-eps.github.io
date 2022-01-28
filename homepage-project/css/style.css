@@ -25,8 +25,9 @@ body {
 }
 
 .bar {
-      float: right;
+    float: right;
   }
+  
 
 h1 {
     font-family: Rubik;
@@ -85,17 +86,17 @@ p {
     width: 100%;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 1vw;
     margin-top: -2vw;
     float: left;
 }
 
 .info-container p {
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .info-container h2 {
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 .visit-us {
@@ -149,5 +150,13 @@ p {
         
     .bar {
         float: none;
+    }
+
+    .info-container p {
+        font-size: 2vw;
+    }
+    
+    .info-container h2 {
+        font-size: 2.5vw;
     }
 }
