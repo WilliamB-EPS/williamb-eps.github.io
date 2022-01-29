@@ -148,11 +148,11 @@ p {
     }
 
     .background-1 {
-        height: 70vw;
+        height: 80vw;
     }
 
     .background-2 {
-        height: 85vw;
+        height: 110vw;
     }
     .nav a {
         float: none;
@@ -160,7 +160,7 @@ p {
         text-align: left;
         text-align: center;
         font-size: 3vw;
-        padding: 2.5vw;
+        padding: 3vw;
     }
 
     .nav h2 {
@@ -172,7 +172,7 @@ p {
     }
 
     .info-container p {
-        font-size: 2vw;
+        font-size: 3vw;
     }
     
     .info-container h2 {
@@ -180,23 +180,23 @@ p {
     }
 
     p {
-        font-size: 3vw;
-    }
-
-    h1 {
-        font-size: 4.5vw;
-    }
-
-    h2 {
         font-size: 3.5vw;
     }
 
+    h1 {
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
     .info-container p {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     
     .info-container h2 {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     
 }
