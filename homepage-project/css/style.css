@@ -152,7 +152,7 @@ p {
     }
 
     .background-2 {
-        height: 110vw;
+        height: 115vw;
     }
     .nav a {
         float: none;
@@ -184,11 +184,11 @@ p {
     }
 
     h1 {
-        font-size: 5vw;
+        font-size: 5.5vw;
     }
 
     h2 {
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
 
     .info-container p {
