@@ -10,24 +10,23 @@ body {
 .nav {
     overflow: hidden;
     background-color: #f1f1f1;
-    padding: 1vw 1vw;
+    padding: 10px 10px;
 }
 
 .logo {
     float: left; 
-    margin: 0.5vw 5vw; 
-    font-size: 2.2vw;
+    margin: 0 10px; 
+    font-size: 20px;
 }
   
 .nav a {
     float: left;
     color: black;
     text-align: center;
-    padding: 1.5vw;
+    padding: 8px;
     text-decoration: none;
-    font-size: 1.5vw;
-    line-height: 0.5vw;
-    border-radius: 0.5vw;
+    font-size: 17px;
+    border-radius: 10px;
 }
 
 .nav a:hover {
@@ -42,23 +41,23 @@ body {
 
 h1 {
     font-family: Rubik;
-    font-size: 3.5vw;
+    font-size: 30px;
 }
 
 h2 {
-    font-size: 2.75vw;
+    font-size: 25px;
     font-family: Rubik;
 }
 
 p {
-    font-size: 2vw;
+    font-size: 20px;;
 }
 
 .background-1 {
     background: url("https://williamb-eps.github.io/homepage-project/images/spread.png");
     background-size: cover;
     background-repeat: none;
-    height: 45vw;
+    height: 80vh;
     width: 100%;
 }
 
@@ -67,17 +66,16 @@ p {
     background: rgba(0,0,0,0.8);
     transform: translate(40%, 40%);
     color: white;
-    font-size: 1vw;
     width: 55vw;
-    padding: 1vw;
-    border-radius: 1vw;
+    padding: 10px;
+    border-radius: 10px;
 
 }
 
 .background-2 {
     background: url("https://williamb-eps.github.io/homepage-project/images/dishes.png");
     background-size: cover;
-    height: 50vw;
+    height: 85vh;
     width: 100%;
     background-repeat: none;
 }
@@ -86,10 +84,9 @@ p {
     color: white;
     transform: translate(0, -10%);
     text-align: center;
-    top: 46vw;
-    height: 41.25vw;
-    width: 99%;
-    padding: 3vw;
+    height: 50vh;
+    width: 100%;
+    padding: 10px;
 }
 
 .info-container {
@@ -103,11 +100,11 @@ p {
 }
 
 .info-container p {
-    font-size: 1.5vw;
+    font-size: 15px;
 }
 
 .info-container h2 {
-    font-size: 2vw;
+    font-size: 20px;
 }
 
 .visit-us {
@@ -151,8 +148,8 @@ p {
         display: block;
         text-align: left;
         text-align: center;
-        font-size: 2.25vw;
-        padding: vw;
+        font-size: 20px;
+        padding: 12px;
     }
 
     .nav h2 {
@@ -163,11 +160,11 @@ p {
         float: none;
     }
 
-    .info-container p {
-        font-size: 2vw;
-    }
-    
-    .info-container h2 {
-        font-size: 2.5vw;
+}
+
+@media only screen and (max-width: 600px) {
+
+    p {
+        font-size: 18px;
     }
 }
