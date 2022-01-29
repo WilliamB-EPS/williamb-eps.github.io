@@ -12,6 +12,12 @@ body {
     background-color: #f1f1f1;
     padding: 1vw 1vw;
 }
+
+.logo {
+    float: left; 
+    margin: 0.5vw 5vw; 
+    font-size: 2.2vw;
+}
   
 .nav a {
     float: left;
@@ -126,7 +132,7 @@ p {
 
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 850px) {
 
     .visit-us, .contact-us, .hours {
         width: 100%;
@@ -145,8 +151,8 @@ p {
         display: block;
         text-align: left;
         text-align: center;
-        font-size: 2.5vw;
-        padding: 2vw;
+        font-size: 2.25vw;
+        padding: 1.75vw;
     }
 
     .nav h2 {
