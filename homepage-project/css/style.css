@@ -37,7 +37,7 @@ body {
 
 .bar {
     float: right;
-  }
+}
   
 
 h1 {
@@ -132,7 +132,7 @@ p {
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
 
     .visit-us, .contact-us, .hours {
         width: 100%;
@@ -152,15 +152,15 @@ p {
     }
 
     .background-2 {
-        height: 115vw;
+        height: 120vw;
     }
     .nav a {
         float: none;
         display: block;
         text-align: left;
         text-align: center;
-        font-size: 3vw;
-        padding: 3vw;
+        font-size: 3.5vw;
+        padding: 3.5vw;
     }
 
     .nav h2 {
