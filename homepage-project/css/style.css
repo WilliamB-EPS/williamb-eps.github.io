@@ -146,13 +146,21 @@ p {
     .award-text {
         top: 115vw;
     }
+
+    .background-1 {
+        height: 70vw;
+    }
+
+    .background-2 {
+        height: 85vw;
+    }
     .nav a {
         float: none;
         display: block;
         text-align: left;
         text-align: center;
-        font-size: 2.5vw;
-        padding: 2vw;
+        font-size: 3vw;
+        padding: 2.5vw;
     }
 
     .nav h2 {
@@ -170,4 +178,25 @@ p {
     .info-container h2 {
         font-size: 2.5vw;
     }
+
+    p {
+        font-size: 3vw;
+    }
+
+    h1 {
+        font-size: 4.5vw;
+    }
+
+    h2 {
+        font-size: 3.5vw;
+    }
+
+    .info-container p {
+        font-size: 2.5vw;
+    }
+    
+    .info-container h2 {
+        font-size: 3vw;
+    }
+    
 }
