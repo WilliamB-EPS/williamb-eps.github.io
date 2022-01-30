@@ -135,6 +135,11 @@ p {
 
 }
 
+.link {
+    display: block; 
+    padding: 0 0 1.5vw 0;
+}
+
 .footer {
     text-align: center;
     font-size: 1.75vw;
@@ -208,6 +213,10 @@ p {
     .visit-us, .contact-us, .hours {
         width: 100%;
         padding: 0;
+    }
+
+    .link {
+        padding: 0 0 3.5vw 0;
     }
 
     .footer, .footer a {
