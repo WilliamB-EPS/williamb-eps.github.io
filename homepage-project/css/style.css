@@ -54,6 +54,7 @@ p {
     font-size: 2vw;
 }
 
+
 .background-1 {
     background: url("https://williamb-eps.github.io/homepage-project/images/spread.png");
     background-size: cover;
@@ -102,8 +103,10 @@ p {
     float: left;
 }
 
-.info-container p {
+.info-container p,a {
     font-size: 1.5vw;
+    text-decoration: none;
+    color: white;
 }
 
 .info-container h2 {
@@ -130,6 +133,16 @@ p {
     padding: 20px;
     text-align: center;
 
+}
+
+.footer {
+    text-align: center;
+    font-size: 1.75vw;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
 }
 
 @media only screen and (max-width: 800px) {
@@ -183,7 +196,11 @@ p {
         font-size: 4.5vw;
     }
 
-    .info-container p {
+    .info-container {
+        padding-bottom: 3vw;
+    }
+
+    .info-container p,a {
         font-size: 3vw;
     }
     
@@ -191,6 +208,9 @@ p {
         font-size: 3.5vw;
     }
 
+    .footer {
+        font-size: 2.5vw
+    }
  
 
 
