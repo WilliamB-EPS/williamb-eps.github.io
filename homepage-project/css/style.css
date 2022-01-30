@@ -148,26 +148,6 @@ p {
 
 @media only screen and (max-width: 800px) {
 
-    .visit-us, .contact-us, .hours {
-        width: 100%;
-        padding: 0;
-    }
-
-    .welcome-text {
-        top: 100vw;
-    }
-
-    .award-text {
-        top: 115vw;
-    }
-
-    .background-1 {
-        height: 80vw;
-    }
-
-    .background-2 {
-        height: 120vw;
-    }
     .nav a {
         float: none;
         display: block;
@@ -183,6 +163,22 @@ p {
         
     .bar {
         float: none;
+    }
+
+    .background-1 {
+        height: 80vw;
+    }
+
+    .welcome-text {
+        top: 100vw;
+    }
+
+    .background-2 {
+        height: 120vw;
+    }
+
+    .award-text {
+        top: 115vw;
     }
 
     p {
@@ -209,11 +205,13 @@ p {
         font-size: 3.5vw;
     }
 
+    .visit-us, .contact-us, .hours {
+        width: 100%;
+        padding: 0;
+    }
+
     .footer, .footer a {
         font-size: 2.5vw
     }
- 
 
-
-    
 }
