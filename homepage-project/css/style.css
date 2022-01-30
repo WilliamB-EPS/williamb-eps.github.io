@@ -132,7 +132,7 @@ p {
 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 
     .visit-us, .contact-us, .hours {
         width: 100%;
