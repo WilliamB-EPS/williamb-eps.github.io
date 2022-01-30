@@ -171,14 +171,6 @@ p {
         float: none;
     }
 
-    .info-container p {
-        font-size: 3vw;
-    }
-    
-    .info-container h2 {
-        font-size: 2.5vw;
-    }
-
     p {
         font-size: 3.5vw;
     }
@@ -198,5 +190,9 @@ p {
     .info-container h2 {
         font-size: 3.5vw;
     }
+
+ 
+
+
     
 }
