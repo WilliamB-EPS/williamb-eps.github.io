@@ -27,7 +27,7 @@ p {
 }
 
 pre code {
-    background: linear-gradient(90deg, #888ca4, #8a95a1);
+    background: linear-gradient(45deg, #888ca4, #8a95a1);
     font-size: 15px;
     border: 1px solid #999;
     display: block;

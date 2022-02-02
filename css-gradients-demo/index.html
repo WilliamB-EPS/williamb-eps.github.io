@@ -15,14 +15,14 @@
         <p>Welcome to my demo! In this demo, we will learn how to use CSS gradients to add style to our websites, and we will also learn some interesting applications of these gradients so you can get creative.</p>
         <hr>
         <h2>Step 0: Basic HTML & CSS</h2>
-        <p>CSS gradients work with the background property, so be sure to create and size your div before beginning.</p>
+        <p>CSS gradients work with the background property, so be sure to create, size, and position your div before beginning.</p>
         <pre>
             <code>
                 &ltdiv class="gradient"&gt Welcome to my website! &lt/div&gt
 
                 .gradient-container {
-                    width: 500px;
-                    height: 300px;
+                    width: 300px;
+                    height: 200px;
                 }
             </code>
         </pre>
@@ -37,8 +37,6 @@
                 .linear-gradient {
                     width: 300px;
                     height: 200px;
-                    margin: 10px;
-                    float: left;
                     background: linear-gradient(darkblue, purple);
                 }
 
@@ -47,8 +45,6 @@
                 .radial-gradient {
                     width: 300px;
                     height: 200px;
-                    margin: 10px;
-                    float: left;
                     background: radial-gradient(darkblue, purple);
                 }
 
@@ -57,8 +53,6 @@
                 .conic-gradient {
                     width: 300px;
                     height: 200px;
-                    margin: 10px;
-                    float: left;
                     background: conic-gradient(darkblue, purple);
                 }
             </code>
@@ -77,7 +71,6 @@
         <pre>    
             <code>
                 .linear-gradient-2 {
-                    margin: 0 auto;
                     width: 500px;
                     height: 200px;
                     background: linear-gradient(45deg, darkblue, purple, darkred);
@@ -89,7 +82,6 @@
         <pre>
             <code>
                 .radial-gradient-2 {
-                    margin: 0 auto;
                     width: 500px;
                     height: 200px;
                     background: radial-gradient(circle at top, darkblue, purple);
@@ -102,7 +94,6 @@
         <pre>
             <code>
                 .conic-gradient-2 {
-                    margin: 0 auto;
                     width: 500px;
                     height: 200px;
                     background: conic-gradient(darkblue 30%, purple 0 70%, darkred 0);
@@ -112,16 +103,17 @@
 
         <div class="conic-gradient-2"></div>
 
+        <hr>
         <h2>Step 3 (optional): Get Creative!</h2>
         <p>One cool thing to do with linear gradients in make patterns. You can do this by utilizing the degree and transparency properties of the function. Here, we are also using set color percentages so that the gradient hard stops at those percentages (like we previously did for the conic gradient).</p>
         <pre>    
             <code>
                 .pattern {
-                    margin: 0 auto;
                     width: 575px;
                     height: 200px;
                     background-color: purple;
                     background-image: linear-gradient(90deg, transparent 50%,rgba(255,255,255,.5) 50%);
+                    /* This part is important! It's what gives the repeating pattern. */
                     background-size: 50px 50px;
                 }
             </code>
