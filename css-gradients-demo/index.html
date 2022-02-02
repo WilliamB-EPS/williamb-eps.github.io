@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bowers | Gradient Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- 
+        To-do
+        Add examples
+        Change colors (design) 
+            Use color theme for portfolio
+        
+        https://css-tricks.com/a-complete-guide-to-css-gradients/#h-repeating-gradients -->
+
+    <div class="bodycontainer">
+        <h1>CSS-Gradients Demo</h1>
+        <h2 style="text-align: center;">By William</h2>
+        <p>Welcome to my demo! In this demo, we will learn how to use CSS gradients to add style to our websites, and we will also learn some interesting applications of these gradients so you can get creative.</p>
+        <hr>
+        <h2>Step 0: Basic HTML & CSS</h2>
+        <p>CSS gradients work with the background property, so be sure to create and size your div before beginning.</p>
+        <pre>
+            <code>
+                &ltdiv class="gradient"&gt Welcome to my website! &lt/div&gt
+
+                .gradient-container {
+                    width: 500px;
+                    height: 300px;
+                }
+            </code>
+        </pre>
+
+        <hr>
+        <h2>Step 1: Implement Your Gradient</h2>
+        <p>If we think of CSS-gradients as a property of some div, then it is implemented like this.</p>
+        <pre>
+            <code>
+                /* Linear gradient */
+
+                .linear-gradient {
+                    width: 300px;
+                    height: 200px;
+                    margin: 10px;
+                    float: left;
+                    background: linear-gradient(darkblue, purple);
+                }
+
+                /* Radial gradient */
+                
+                .radial-gradient {
+                    width: 300px;
+                    height: 200px;
+                    margin: 10px;
+                    float: left;
+                    background: radial-gradient(darkblue, purple);
+                }
+
+                /* Conic gradient */
+
+                .conic-gradient {
+                    width: 300px;
+                    height: 200px;
+                    margin: 10px;
+                    float: left;
+                    background: conic-gradient(darkblue, purple);
+                }
+            </code>
+        </pre>
+        <p>As you can see, linear gradients move in one direction, radial gradients move outwards from a circle, and conic gradients rotate around a point.</p>
+        <div class="container">
+            <div class="linear-gradient"></div>
+            <div class="radial-gradient"></div>
+            <div class="conic-gradient"></div>
+        </div>
+        <hr>
+
+        <h2>Step 2: Style Your Gradient</h2>
+        <p>This step depends on which type of gradient you are using and how you want to style it. Below are some ways to style linear, radial, and conic gradients.</p>
+        <p>For linear gradients, we can change the direction of the gradient and add multiple colors.</p>
+        <pre>    
+            <code>
+                .linear-gradient-2 {
+                    margin: 0 auto;
+                    width: 500px;
+                    height: 200px;
+                    background: linear-gradient(45deg, darkblue, purple, darkred);
+                }
+            </code>
+        </pre>
+        <div class="linear-gradient-2"></div>
+        <p>For radial gradients, we can change the shape and the position of the center.</p>
+        <pre>
+            <code>
+                .radial-gradient-2 {
+                    margin: 0 auto;
+                    width: 500px;
+                    height: 200px;
+                    background: radial-gradient(circle at top, darkblue, purple);
+                }
+            </code>
+        </pre>
+
+        <div class="radial-gradient-2"></div>
+        <p>For conic gradients, we can change the percentage of each color and add multiple colors.</p>
+        <pre>
+            <code>
+                .conic-gradient-2 {
+                    margin: 0 auto;
+                    width: 500px;
+                    height: 200px;
+                    background: conic-gradient(darkblue 30%, purple 0 70%, darkred 0);
+                }
+            </code>
+        </pre>
+
+        <div class="conic-gradient-2"></div>
+
+
+        <h2>Step 3 (optional): Get Creative!</h2>
+        <p>One cool thing to do with linear gradients in make patterns. You can do this by utilizing the degree and transparency properties of the function. Here, we are also using set color percentages so that the gradient hard stops at those percentages (like we previously did for the conic gradient).</p>
+        <pre>    
+            <code>
+                .pattern {
+                    margin: 0 auto;
+                    width: 575px;
+                    height: 200px;
+                    background-color: purple;
+                    background-image: linear-gradient(90deg, transparent 50%,rgba(255,255,255,.5) 50%);
+                    background-size: 50px 50px;
+                }
+            </code>
+        </pre>
+        <div class="pattern"></div>
+        <p>We can also make a border with gradients, and even combine that with the patterns we just talked about to make something cool!</p>
+        <pre>    
+            <code>
+                &ltdiv class="gradient-border"&gt 
+                    &ltdiv&gt class="content-wrapper" Hello! &lt/div&gt 
+                &lt/div&gt
+
+                .gradient-border {
+                    background-color: purple;
+                    background-image: linear-gradient(90deg, transparent 50%,rgba(255,255,255,.5) 50%);
+                    background-size: 50px 50px;
+                    border-radius: 16px;
+                    padding: 10px;
+                }
+                
+                .content-wrapper {
+                    background:#20283f;
+                    font-size: 20px;
+                    padding: 35px;
+                    text-align: center;
+                }
+                
+            </code>
+        </pre>
+
+        <div class="border-pattern">
+            <div class="border-content">Hello!</div>
+        </div>
+    </div>
+    
+</body>
+</html>

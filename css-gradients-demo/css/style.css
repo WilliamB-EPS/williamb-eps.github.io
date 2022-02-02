@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(#888ca4,#8a95a1);
+    color: white;
+}
+
+h1 {
+    font-size: 45px;
+    color: #c46272;
+    text-align: center;
+}
+
+h2 {
+    color: #c46272;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.bodycontainer {
+    width: 1000px;
+    margin: 0 auto;
+    background:#20283f;
+    padding: 20px;
+}
+
+pre code {
+    background: linear-gradient(90deg, #888ca4, #8a95a1);
+    font-size: 15px;
+    border: 1px solid #999;
+    display: block;
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+    padding: 15px;
+    float: left;
+    margin: 0 auto;
+
+}
+
+.linear-gradient {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    background: linear-gradient(darkblue, purple);
+}
+
+.radial-gradient {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    background: radial-gradient(darkblue, purple);
+}
+
+.conic-gradient {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    background: conic-gradient(darkblue, purple);
+}
+
+.linear-gradient-2 {
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(45deg, darkblue, purple, darkred);
+}
+
+
+.radial-gradient-2 {
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    background: radial-gradient(circle at top, darkblue, purple);
+}
+
+
+.conic-gradient-2 {
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    background: conic-gradient(darkblue 30%, purple 0 70%, darkred 0);
+}
+
+.pattern {
+    margin: 0 auto;
+    width: 575px;
+    height: 200px;
+    background-color: purple;
+    background-image: linear-gradient(90deg, transparent 50%,rgba(255,255,255,.5) 50%);
+    background-size: 50px 50px;
+}
+
+
+.border-pattern {
+    background-color: purple;
+    background-image: linear-gradient(90deg, transparent 50%,rgba(255,255,255,.5) 50%);
+    background-size: 50px 50px;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.border-content {
+    background:#20283f;
+    font-size: 20px;
+    padding: 35px;
+    text-align: center;
+}
