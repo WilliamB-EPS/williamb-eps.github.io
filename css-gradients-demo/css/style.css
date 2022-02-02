@@ -105,6 +105,7 @@ pre code {
     background-size: 50px 50px;
     border-radius: 16px;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .border-content {
@@ -112,4 +113,33 @@ pre code {
     font-size: 20px;
     padding: 35px;
     text-align: center;
+}
+
+.link {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #c46272;
+    text-align: center;
+}
+
+a:hover {
+    color: purple;
+}
+
+.footer {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
 }
