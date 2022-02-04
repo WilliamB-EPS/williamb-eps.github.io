@@ -5,7 +5,7 @@
 
 
 body {
-    background-image: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/building-demo/images/background-img.jpeg");
+    background-image: url("https://williamb-eps.github.io/building-demo/images/background-img.jpeg");
     background-attachment: fixed;
     background-size: cover;
     display: grid;
