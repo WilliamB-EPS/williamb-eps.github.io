@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-image: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/building-demo/images/background-img.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    width: 10%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    float: left;
+    position: fixed
+}
+
+.nav ol {
+    list-style: none;
+}
+
+.nav ol li a {
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+
+.nav ol li a:hover {
+    background-color: rgba(0,0,0,1);
+}
+
+
+.container {
+    width: 40rem;
+    height: 25rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    margin: 100px auto;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.container:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+#text {
+    margin-top: -30px;
+    height: 23vw;
+    width: 60vw;
+}
+
+h1 {
+    font-size: 45px;
+    padding: 10px;
+}
+
+p {
+    font-size: 25px;
+}
+
+@keyframes fadeIn { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+}
+
+
+@keyframes fadeInUp { 
+    0% { 
+        opacity: 0; 
+        transform: translate3d(0, 100%, 0); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: none; 
+    } 
+}
+
+.scene_element {
+    animation-duration: 0.25s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+}
+
+.scene_element--fadeinup { 
+    animation-name: fadeInUp; 
+}
+
+.footer {
+    color: white;
+    height: 5vw;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
