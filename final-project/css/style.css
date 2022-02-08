@@ -64,7 +64,7 @@ p, a {
 
 
 .intro {
-    background: radial-gradient(circle at left,#20283F90 35%, rgba(232, 37, 19,0.5));
+    background: radial-gradient(circle at left,#20283F 35%, rgba(232, 37, 19,0.5));
     height: 55vw;
     padding: 8vw 5vw;
 }
