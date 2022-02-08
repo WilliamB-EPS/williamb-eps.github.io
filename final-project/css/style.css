@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@600&family=Nunito+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Nunito Sans;
+    color: white;
+    background:#20283F90 
+}
+
+h1 {
+    font-family: Expletus Sans;
+    font-size: 6vw;
+}
+
+h2 {
+    font-family: Expletus Sans;
+    font-size: 3.5vw;
+}
+
+p, a {
+    font-size: 2vw;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 4vw;
+    padding: 2.5vw;
+    font-size: 1.5vw;
+    z-index: 1;
+}
+
+
+.name {
+    float: left;
+    width: 50%
+}
+
+.menu {
+    float: right;
+}
+
+.bar1, .bar2 {
+    width: 3.25vw;
+    height: 0.2vw;
+    background-color: white;
+    margin: 1vw 0;
+    transition: 0.4s;
+  }
+  
+
+.intro-container {
+    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/intro-img.jpeg");
+    background-size: cover;
+    background-repeat: none;
+    height: 55vw;
+    width: 100%;
+}
+
+
+.intro {
+    background: radial-gradient(circle at left,#20283F90 70%, rgba(232, 37, 19,0.5));
+    height: 55vw;
+    padding: 8vw 5vw;
+}
+
+.big-name {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.logo {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin: 2vw 0vw 0vw 18vw;
+}
+
+.sample1 {
+    width: 100%;
+    height: 45vw;
+    background: linear-gradient(#20283F, rgb(91, 70, 102));
+}
+
+.left {
+    margin-top: 4vw;
+    float: left;
+    width: 45%;
+    text-align: center;
+    padding: 2vw;
+}
+
+.right {
+    margin-top: 5vw;
+    float: left;
+    width: 55%;
+    text-align: center;
+    padding: 2vw;
+}
+
+button {
+    background-color: rgb(232, 37, 19);
+    border-radius: 1vw;
+    width: 10vw;
+    height: 4vw;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: Nunito Sans;
+}
+
+button:hover {
+    background-color: rgb(200, 37, 19);
+}
+
+.img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sample2 {
+    width: 100%;
+    height: 35vw;
+    background: linear-gradient(rgb(91, 70, 102),#20283F);
+}
+
+
+@media only screen and (max-width: 800px) {
+    h1,h2,h3 {
+        font-size: 11vw;
+    }
+    p,a {
+        font-size: 7vw;
+    } 
+
+    .header {
+        font-size: 4vw;
+    }
+
+    .intro-container,.intro {
+        height: 110vw;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 450px) {
+    h1,h2,h3 {
+        font-size: 13vw;
+    }
+    p,a {
+        font-size: 9vw;
+    } 
+
+    .header {
+        font-size: 5vw;
+    }
+
+    .intro-container,.intro {
+        height: 150vw;
+    }
+
+    
+}
