@@ -9,7 +9,7 @@ body {
     margin: 0;
     font-family: Nunito Sans;
     color: white;
-    background:#20283F90 
+    background:black;
 }
 
 h1 {
@@ -54,6 +54,7 @@ p, a {
   }
   
 
+/* Make gradient more transparent */
 .intro-container {
     background: url("https://williamb-eps.github.io/final-project/images/intro-img.jpeg");
     background-size: cover;
@@ -82,10 +83,15 @@ p, a {
     margin: 2vw 0vw 0vw 18vw;
 }
 
+hr {
+    margin: 0;
+    color: white;
+}
+
 .sample1 {
     width: 100%;
     height: 45vw;
-    background: linear-gradient(#20283F, rgb(91, 70, 102));
+    background: linear-gradient(90deg,#20283F, rgb(91, 70, 102));
 }
 
 .left {
@@ -130,7 +136,7 @@ button:hover {
 .sample2 {
     width: 100%;
     height: 35vw;
-    background: linear-gradient(rgb(91, 70, 102),#20283F);
+    background: linear-gradient(90deg, rgb(91, 70, 102),#20283F);
 }
 
 
