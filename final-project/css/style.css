@@ -55,7 +55,7 @@ p, a {
   
 
 .intro-container {
-    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/intro-img.jpeg");
+    background: url("https://williamb-eps.github.io/final-project/images/intro-img.jpeg");
     background-size: cover;
     background-repeat: none;
     height: 55vw;
