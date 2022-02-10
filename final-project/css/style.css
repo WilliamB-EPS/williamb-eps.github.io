@@ -61,7 +61,7 @@ p, a {
     z-index: 2;
     top: 0;
     left: 0;
-    background-image: linear-gradient(-45deg, #20283f,rgb(232, 37, 19));
+    background-image: linear-gradient(-45deg, #20283f,rgb(184, 78, 46));
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -103,7 +103,7 @@ p, a {
 
 
 .intro {
-    background: radial-gradient(circle at left,#20283F 30%, rgba(232, 37, 19,0.5));
+    background: radial-gradient(circle at left,rgb(32, 40, 63,0.9) 30%, rgba(184, 78, 46,0.7));
     height: 55vw;
     padding: 8vw 5vw;
 }
@@ -129,7 +129,7 @@ hr {
 .sample {
     width: 100%;
     height: 42vw;
-    background: linear-gradient(90deg,#20283F, rgb(91, 70, 102));
+    background: linear-gradient(90deg,rgb(32, 40, 63), rgb(49, 62, 97));
 }
 
 .left {
@@ -164,7 +164,7 @@ button a {
 }
 
 button:hover {
-    background-color: rgb(200, 37, 19);
+    background-color:rgb(184, 78, 46);
 }
 
 .img {
@@ -172,23 +172,67 @@ button:hover {
     margin: 0 auto;
 }
 
-.about-me {
-    background: #20283F; /* insert headshot image */;
+.footer {
+    background: rgb(32, 40, 63);
+    text-align: center;
+    font-size: 1.2vw;
+    padding: 0.5vw;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw
+}
+
+.title-page-container {
+    background: linear-gradient(-90deg, rgba(184, 78, 46,0.8),rgba(49, 62, 97,0.8)); 
     width: 100%;
-    height: 55vw;
     padding: 15vw;
     text-align: center;
+    height: 55vw;
 }
+
+.title-page-container-intense {
+    background: linear-gradient(-90deg, rgba(184, 78, 46,0.9),rgba(49, 62, 97,0.9)); 
+    width: 100%;
+    padding: 15vw;
+    text-align: center;
+    height: 55vw;
+}
+
+.headshot {
+    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/placeholder-headshot.jpeg");
+    width: 100%;
+    height: 55vw;
+}
+
 
 .about-me-content {
     width: 100%;
     height: 55vw;
-    background: linear-gradient(90deg, #20283F,rgb(91, 70, 102), rgb(232, 37, 19)); 
+    background: linear-gradient(90deg, rgb(32, 40, 63), rgb(49, 62, 97)); 
+}
+
+.portfolio-img {
+    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/portfolio-img.jpeg");
+    background-size: cover;
+    background-repeat: none;
+    height: 55vw;
+    width: 100%;
+}
+
+
+.gallery-container {
+    background: rgb(49, 62, 97); 
+    height: 80vw;
+    width: 100%;
+    padding: 5vw;
 }
 
 .gallery {
     width: 100%;
-    padding: 3vw;
+    padding-bottom: 4vw;
 }
 
 .gallery-element {
@@ -197,6 +241,46 @@ button:hover {
     width: 33%;
     padding: 2vw;
 }
+
+.comp-modelling-img {
+    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/comp-modelling-intro.png");
+    width: 100%;
+    height: 55vw;
+}
+
+.project-content {
+    background: linear-gradient(90deg, rgb(32, 40, 63), rgb(49, 62, 97)); 
+    padding: 5vw;
+}
+
+.current-projects-img{
+    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/curr-projects.jpeg");
+    width: 100%;
+    height: 55vw;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.project {
+    width: 100%;
+    height: 30vw;
+    background: linear-gradient(90deg,rgb(32, 40, 63), rgb(49, 62, 97));
+}
+
+.float-item {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.contact-photo {
+    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/contact-photo.jpeg");
+    background-size: cover;
+    background-repeat: none;
+    height: 55vw;
+    width: 100%;
+}
+
 
 
 @media only screen and (max-width: 800px) {
