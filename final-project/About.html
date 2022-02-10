@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="nav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="Case-Study.html">Case Study</a>
+            <a href="Current-Works.html">Current Works</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="header">
+        <div class="menu" onclick="openNav()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+        </div>
+        <div class="name">William Bowers</div>
+    </div>
+    <div class="about-me">
+        <h1 style="top:20vw; right: 20vw;">About Me</h1>
+        <p>This background will be a headshot</p>
+    </div>
+    <div class="about-me-content">
+        <div class="left">
+            <h2>Education</h2>
+            <p>Insert paragraph here</p>
+            <h2>Experience</h2>
+            <p>Insert paragraph here</p>
+            <h2>Interests and Passions</h2>
+            <p>Insert paragraph here</p>
+        </div>
+        <div class="right">
+            <p style="margin:8vw;">Image</p>
+            <p style="margin:18vw;">Image</p>
+        </div>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("nav").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("nav").style.width = "0%";
+        }
+    </script>
+</body>
+</html>

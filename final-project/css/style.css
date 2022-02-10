@@ -15,6 +15,7 @@ body {
 h1 {
     font-family: Expletus Sans;
     font-size: 6vw;
+    margin: 0;
 }
 
 h2 {
@@ -92,7 +93,6 @@ p, a {
     font-size: 6vw;
 }
 
-/* Make gradient more transparent */
 .intro-container {
     background: url("https://williamb-eps.github.io/final-project/images/intro-img.jpeg");
     background-size: cover;
@@ -111,6 +111,7 @@ p, a {
 .big-name {
     float: left;
     width: 30%;
+    margin-top: 5vw;
 }
 
 .logo {
@@ -125,31 +126,32 @@ hr {
     color: white;
 }
 
-.sample1 {
+.sample {
     width: 100%;
-    height: 45vw;
+    height: 42vw;
     background: linear-gradient(90deg,#20283F, rgb(91, 70, 102));
 }
 
 .left {
     margin-top: 4vw;
     float: left;
-    width: 45%;
+    width: 50%;
     text-align: center;
-    padding: 2vw;
+    padding: 2.5vw;
 }
 
 .right {
     margin-top: 5vw;
     float: left;
-    width: 55%;
+    width: 50%;
     text-align: center;
-    padding: 2vw;
+    padding: 2.5vw;
 }
 
 button {
     background-color: rgb(232, 37, 19);
     border-radius: 1vw;
+    margin: 2.5vw;
     width: 10vw;
     height: 4vw;
 }
@@ -170,14 +172,35 @@ button:hover {
     margin: 0 auto;
 }
 
-.sample2 {
+.about-me {
+    background: #20283F; /* insert headshot image */;
     width: 100%;
-    height: 35vw;
-    background: linear-gradient(90deg, rgb(91, 70, 102),#20283F);
+    height: 55vw;
+    padding: 15vw;
+    text-align: center;
+}
+
+.about-me-content {
+    width: 100%;
+    height: 55vw;
+    background: linear-gradient(90deg, #20283F,rgb(91, 70, 102), rgb(232, 37, 19)); 
+}
+
+.gallery {
+    width: 100%;
+    padding: 3vw;
+}
+
+.gallery-element {
+    float: left;
+    background:#20283f;
+    width: 33%;
+    padding: 2vw;
 }
 
 
 @media only screen and (max-width: 800px) {
+
     h1,h2,h3 {
         font-size: 11vw;
     }
