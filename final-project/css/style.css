@@ -203,7 +203,7 @@ button:hover {
 }
 
 .headshot {
-    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/placeholder-headshot.jpeg");
+    background: url("https://williamb-eps.github.io/final-project/images/placeholder-headshot.jpeg");
     width: 100%;
     height: 55vw;
 }
@@ -216,7 +216,7 @@ button:hover {
 }
 
 .portfolio-img {
-    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/portfolio-img.jpeg");
+    background: url("https://williamb-eps.github.io/final-project/images/portfolio-img.jpeg");
     background-size: cover;
     background-repeat: none;
     height: 55vw;
@@ -243,7 +243,7 @@ button:hover {
 }
 
 .comp-modelling-img {
-    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/comp-modelling-intro.png");
+    background: url("https://williamb-eps.github.io/final-project/images/comp-modelling-intro.png");
     width: 100%;
     height: 55vw;
 }
@@ -254,7 +254,7 @@ button:hover {
 }
 
 .current-projects-img{
-    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/curr-projects.jpeg");
+    background: url("https://williamb-eps.github.io/final-project/images/curr-projects.jpeg");
     width: 100%;
     height: 55vw;
     background-size: cover;
@@ -274,7 +274,7 @@ button:hover {
 }
 
 .contact-photo {
-    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/contact-photo.jpeg");
+    background: url("https://williamb-eps.github.io/final-project/images/contact-photo.jpeg");
     background-size: cover;
     background-repeat: none;
     height: 55vw;
