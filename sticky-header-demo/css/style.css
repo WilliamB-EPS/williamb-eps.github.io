@@ -78,6 +78,7 @@ header {
     float: left;
     width: 100%;
     margin-bottom: 10px;
+    top: 6.5vw;
 }
 
 .banner {
@@ -144,7 +145,7 @@ header {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
     .left, .main, .right {
         width: 100%;
     }
