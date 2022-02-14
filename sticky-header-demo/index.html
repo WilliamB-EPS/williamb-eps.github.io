@@ -9,19 +9,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
-    <div class="nav" id="myTopnav">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Gallery</a>
-        <a href="#">Contact</a>
-
-        <!-- Hamburger html from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
-
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
+    <header>
+        <div class="header-inner">
+            <div class="nav" id="myTopnav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+        
+                <!-- Hamburger html from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+        
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <p>LOGO</p>
+            </div>
+        </div>
+    </header>
 
     <div class="container">
 
@@ -55,7 +61,7 @@
     </div>
 
     <!-- Javascript from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
-    
+
     <script>
         function myFunction() {
           var x = document.getElementById("myTopnav");

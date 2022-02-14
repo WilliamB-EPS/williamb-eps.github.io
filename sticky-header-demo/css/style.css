@@ -23,9 +23,24 @@ p, a {
     font-size: 1.6vw;
 }
 
+header {
+    position: sticky;
+    top: -50px;
+    height: 120px;
+}
+
+.header-inner {
+    float: left;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
 .nav {
     overflow: hidden;
     background-color: #333;
+    float: left;
+    width: 80%;
   }
   
 .nav a {
@@ -45,6 +60,18 @@ p, a {
 
 .nav .icon {
     display: none;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+    height: 6.3vw;
+    background: darkgray;
+    text-align: center;
+}
+.logo p {
+    font-size: 2vw;
+    color: white;
 }
 
 .container {
@@ -106,11 +133,7 @@ p, a {
     color: white;
     padding: 10px;
     clear: both;
-}
-
-footer {
-    width: 60%;
-    margin: 0 auto;
+    text-align: center;
 }
 
 .gallery {
@@ -125,7 +148,7 @@ footer {
     .left, .main, .right {
         width: 100%;
     }
-    
+
     /* nav-related media queries from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
 
     .nav.responsive {position: relative;}
@@ -161,6 +184,13 @@ footer {
     }
 
     .nav a {
+        font-size: 3vw;
+    }
+    .logo {
+        height: 7.5vw;
+    }
+    .logo p {
+        margin-top: 2vw;
         font-size: 3vw;
     }
 }
