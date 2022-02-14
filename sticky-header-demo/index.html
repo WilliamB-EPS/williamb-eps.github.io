@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bowers | Responsive Demo</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
-    <header>
-        <div class="header-inner">
-            <div class="logo">
-                <p>LOGO</p>
-            </div>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Gallery</a>
-                <a href="#">Contact</a>
-            </nav>
-        </div>
-    </header>
+    <div class="nav" id="myTopnav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+
+        <!-- Hamburger html from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
     <div class="container">
 
@@ -54,7 +54,18 @@
         <footer>Web 2 &copy; 2021</footer>
     </div>
 
-    </div>
+    <!-- Javascript from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+    
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "nav") {
+            x.className += " responsive";
+          } else {
+            x.className = "nav";
+          }
+        }
+    </script>
 
 </body>
 </html>
