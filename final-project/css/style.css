@@ -180,15 +180,14 @@ p, a {
     margin: 2% 0vw 0vw 30%;
 }
 
-hr {
-    margin: 0;
-    color: white;
+.sample-container {
+    background: linear-gradient(90deg,rgb(32, 40, 63), rgb(49, 62, 97));
+    height: 120vw;
 }
 
 .sample {
     width: 100%;
     height: 38vw;
-    background: linear-gradient(90deg,rgb(32, 40, 63), rgb(49, 62, 97));
 }
 
 .left {
@@ -220,6 +219,7 @@ button a {
     color: white;
     text-decoration: none;
     font-size: 1.5vw;
+    padding: 0;
     font-family: Nunito Sans;
 }
 
@@ -391,9 +391,9 @@ input[type=text], select, textarea {
     font-family: Nunito Sans;
     margin-bottom: 1vw;
     resize: vertical;
-  }
+}
   
-  input[type=submit] {
+input[type=submit] {
     background-color:rgb(232, 37, 19);
     color: white;
     padding: 1vw 1.5vw;
@@ -401,8 +401,98 @@ input[type=text], select, textarea {
     border-radius: 1vw;
     cursor: pointer;
     font-size: 1.25vw;
-  }
+}
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: rgb(184, 78, 46);
-  }
+}
+
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 15vw;
+    }
+    
+    h2 {
+        font-size: 7vw;
+    }
+    
+    p, a {
+        font-size: 4vw;
+    }
+
+    .bar1, .bar2 {
+        width: 10vw;
+        height: 0.7vw;
+        margin: 2.5vw;
+    }
+
+    .name {
+        font-size: 4vw;
+        margin: 2.5vw;
+    }
+
+    .overlay a {
+        font-size: 10vw;
+        padding: 8vw;
+    }
+
+    .overlay .closebtn {
+        font-size: 15vw;
+    }
+
+    .intro-container, .intro {
+        height: 150vw;
+    }
+
+    .big-name, .logo {
+        width: 100%;
+        text-align: center;
+        margin: 5vw 0;
+    }
+
+    button {
+        height: 10vw;
+        width: 25vw;
+        border-radius: 2vw;
+    }
+
+    button a {
+        font-size: 4vw;
+    }
+
+    .sample-container {
+        height: 400vw;
+    }
+    
+    .sample {
+        width: 100%;
+        height: 38vw;
+    }
+    
+    .left, .right {
+        width: 100%;
+    }
+
+    .footer {
+        height: 65vw;
+        font-size: 4vw;
+    }
+
+    .footer-left, .footer-right {
+        width: 100%;
+        text-align: center;
+        margin: 2vw 0;
+        font-size: 3.5vw;
+    }
+
+    .footer a, .footer p {
+        font-size: 4vw;
+        margin: 2vw;
+    }
+
+    .mini-nav {
+        margin-bottom: 6.5vw;
+    }
+
+}
