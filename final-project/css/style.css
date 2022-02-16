@@ -54,6 +54,56 @@ p, a {
     transition: 0.4s;
 }
 
+.content {
+    
+}
+
+.loader {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.loader:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 32px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: loader 1.2s infinite;
+}
+
+  @keyframes loader {
+    0% {
+      transform: rotate(0);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+      transform: rotate(900deg);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+      transform: rotate(1800deg);
+    }
+  }
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #20283f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .overlay {
     height: 100%;
     width: 0;
@@ -101,7 +151,6 @@ p, a {
     width: 100%;
 }
 
-
 .intro {
     background: radial-gradient(circle at left,rgb(32, 40, 63,0.9) 30%, rgba(184, 78, 46,0.7));
     height: 55vw;
@@ -129,7 +178,7 @@ hr {
 
 .sample {
     width: 100%;
-    height: 42vw;
+    height: 38vw;
     background: linear-gradient(90deg,rgb(32, 40, 63), rgb(49, 62, 97));
 }
 
@@ -178,13 +227,36 @@ button:hover {
     background: rgb(32, 40, 63);
     text-align: center;
     font-size: 1.2vw;
-    padding: 0.5vw;
+    height: 10vw;
 }
 
-.footer a {
+.footer-left {
+    width: 55%;
+    float: left;
+    padding: 2vw;
+    text-align: left;
+    margin-left: 5vw;
+}
+
+.footer-right {
+    margin-top: 1vw;
+    padding: 1.5vw;
+    float: left;
+    width: 40%;
+}
+
+.footer a, .footer p {
     color: white;
     text-decoration: none;
-    font-size: 1.2vw
+    font-size: 1.2vw;
+    display: inline-block;
+    margin: 1vw;
+}
+
+.mini-nav a {
+    display: inline-block;
+    margin: 0.5vw;
+    font-size: 1.4vw;
 }
 
 .title-page-container {
@@ -209,11 +281,20 @@ button:hover {
     height: 55vw;
 }
 
-
 .about-me-content {
     width: 100%;
-    height: 55vw;
+    height: 75vw;
+    margin-top: -5vw;
     background: linear-gradient(90deg, rgb(32, 40, 63), rgb(49, 62, 97)); 
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.resume {
+    text-align: center;
 }
 
 .portfolio-img {
@@ -284,6 +365,35 @@ button:hover {
 
 .contact-box {
     background: linear-gradient(90deg,rgb(32, 40, 63), rgb(49, 62, 97));
-    height: 45vw;
+    height: 52vw;
     padding: 5vw;
 }
+
+label {
+    font-size: 1.5vw;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    height: 4vw;
+    padding: 1.5vw;
+    border-radius: 0.5vw;
+    box-sizing: border-box;
+    font-family: Nunito Sans;
+    margin-bottom: 1vw;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:rgb(232, 37, 19);
+    color: white;
+    padding: 1vw 1.5vw;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+    font-size: 1.25vw;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(184, 78, 46);
+  }
