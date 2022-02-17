@@ -188,7 +188,6 @@ p, a {
 .sample {
     width: 100%;
     height: 38vw;
-    padding: 2.5vw;
 }
 
 .left {
@@ -196,6 +195,7 @@ p, a {
     float: left;
     width: 50%;
     text-align: center;
+    padding: 1.5vw;
 }
 
 .right {
@@ -203,6 +203,7 @@ p, a {
     float: left;
     width: 50%;
     text-align: center;
+    padding: 1.5vw;
 }
 
 button {
