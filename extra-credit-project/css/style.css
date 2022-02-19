@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+p {
+    font-size: 1.75vw;
+}
+
+.intro-img {
+    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/extra-credit-project/images/background.png");
+    width: 100%;
+    height: 55vw;
+}
+
+.intro {
+    background: linear-gradient(45deg, rgba(153, 23, 2,0.7),rgba(0,0,0,0.5));
+    padding: 15vw;
+    height: 55vw;
+    text-align: center;
+}
+
+.past-projects {
+    padding: 1vw;
+    width: 100%;
+    background: linear-gradient(45deg, rgb(153, 23, 2),rgb(0,0,0));
+    height: 150vw;
+}
+
+.project-item {
+    float: left;
+    width: 50%;
+    height: 25vw;
+    padding: 2vw;
+    text-align: center;
+}
+
+button {
+    background: rgb(153, 23, 2);
+    border-radius: 1vw;
+    border: none;
+    width: 10vw;
+    height: 4vw;
+    margin-top: 2vw;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    padding: 0.5vw;
+}
+
+img {
+    width: 100%;
+    margin: auto 0;
+    border-radius: 1.5vw;
+}

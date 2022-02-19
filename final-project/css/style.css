@@ -190,12 +190,13 @@ p, a {
     height: 38vw;
 }
 
+
 .left {
     margin-top: 4vw;
     float: left;
     width: 50%;
     text-align: center;
-    padding: 1.5vw;
+    padding: 2.25vw;
 }
 
 .right {
@@ -203,7 +204,7 @@ p, a {
     float: left;
     width: 50%;
     text-align: center;
-    padding: 1.5vw;
+    padding: 2.25vw;
 }
 
 button {
@@ -230,6 +231,7 @@ button:hover {
 .img {
     width: 100%;
     margin: 0 auto;
+    border-radius: 1.25vw;
 }
 
 .footer {
