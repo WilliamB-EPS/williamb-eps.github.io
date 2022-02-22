@@ -294,7 +294,7 @@ button:hover {
 }
 
 .headshot {
-    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/headshot.png");
+    background: url("https://williamb-eps.github.io/final-project/images/headshot.png");
     width: 100%;
     height: 55vw;
     background-size: cover;
@@ -394,7 +394,7 @@ a {
 }
 
 .contact-photo {
-    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/contact-photo.jpeg");
+    background: url("https://williamb-eps.github.io/final-project/images/contact-photo.jpeg");
     background-size: cover;
     background-repeat: none;
     height: 55vw;
