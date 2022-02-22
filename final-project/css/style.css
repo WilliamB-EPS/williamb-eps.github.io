@@ -156,10 +156,14 @@ p, a {
     font-size: 6vw;
 }
 
+/* Background properties add parallax effect */
+
 .intro-container {
     background: url("https://williamb-eps.github.io/final-project/images/intro-img.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
-    background-repeat: none;
     height: 55vw;
     width: 100%;
 }
@@ -298,8 +302,10 @@ button:hover {
     background: url("https://williamb-eps.github.io/final-project/images/headshot.png");
     width: 100%;
     height: 55vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
-    background-repeat: none;
 }
 
 .about-me-content {
@@ -307,6 +313,7 @@ button:hover {
     height: 85vw;
     margin-top: -5vw;
     background: linear-gradient(90deg, rgb(32, 40, 63), rgb(49, 62, 97)); 
+    
 }
 
 .about-section {
@@ -396,8 +403,10 @@ a {
 
 .contact-photo {
     background: url("https://williamb-eps.github.io/final-project/images/contact-photo.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
-    background-repeat: none;
     height: 55vw;
     width: 100%;
 }

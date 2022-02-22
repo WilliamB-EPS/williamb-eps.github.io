@@ -22,22 +22,27 @@ p {
 }
 
 .intro-img {
-    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/extra-credit-project/images/background.png");
+    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/extra-credit-project/images/background.jpg");
     width: 100%;
     height: 55vw;
 }
 
 .intro {
-    background: linear-gradient(45deg, rgba(153, 23, 2,0.7),rgba(0,0,0,0.5));
-    padding: 15vw;
-    height: 55vw;
     text-align: center;
+    background: rgba(0,0,0,0.8);
+    transform: translate(40%, 40%);
+    color: white;
+    font-size: 1vw;
+    width: 55vw;
+    padding: 1vw;
+    border-radius: 1vw;
 }
 
 .past-projects {
-    padding: 1vw;
-    width: 100%;
-    background: linear-gradient(80deg, rgba(153, 23, 2,0.5),rgb(0,0,0));
+    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/extra-credit-project/images/background-2.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     height: 150vw;
 }
 
