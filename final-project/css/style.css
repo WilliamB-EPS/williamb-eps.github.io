@@ -54,6 +54,8 @@ p, a {
     transition: 0.4s;
 }
 
+/* Loading animation for home page (original code) */
+
 .loader {
     display: inline-block;
     position: relative;
@@ -74,7 +76,7 @@ p, a {
     animation: loader 1.2s infinite;
 }
 
-  @keyframes loader {
+@keyframes loader {
     0% {
       transform: rotate(0);
       animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
@@ -88,7 +90,7 @@ p, a {
     }
   }
 
-  @keyframes fadeOut {
+@keyframes fadeOut {
       90% {
         opacity: 100%;
       }
@@ -96,7 +98,9 @@ p, a {
         opacity: 0;
         visibility: hidden;
       }
-  }
+}
+
+/* Code for wrapper influenced by (not copied from): https://redstapler.co/add-loading-animation-to-website/*/
 
 .loader-wrapper {
     width: 100%;
@@ -180,6 +184,7 @@ p, a {
     margin: 2% 0vw 0vw 30%;
 }
 
+
 .sample-container {
     background: linear-gradient(90deg,rgb(32, 40, 63), rgb(49, 62, 97));
     height: 120vw;
@@ -262,6 +267,10 @@ button:hover {
     margin: 1vw;
 }
 
+.footer a:hover {
+    color: rgb(232, 37, 19);
+}
+
 .mini-nav a {
     display: inline-block;
     margin: 0.5vw;
@@ -285,7 +294,7 @@ button:hover {
 }
 
 .headshot {
-    background: url("https://williamb-eps.github.io/final-project/images/placeholder-headshot.jpeg");
+    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/headshot.png");
     width: 100%;
     height: 55vw;
     background-size: cover;
@@ -385,7 +394,7 @@ a {
 }
 
 .contact-photo {
-    background: url("https://williamb-eps.github.io/final-project/images/contact-photo.jpeg");
+    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/final-project/images/contact-photo.jpeg");
     background-size: cover;
     background-repeat: none;
     height: 55vw;
@@ -410,12 +419,17 @@ a {
 
 .contact-buttons a {
     margin: 1vw 3.5vw;
+}
+
+.contact-buttons a:hover {
     color: rgb(232, 37, 19);
 }
 
 label {
     font-size: 1.5vw;
 }
+
+/* Style for submission form */
 
 input[type=text], select, textarea {
     width: 100%;
@@ -441,6 +455,8 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: rgb(184, 78, 46);
 }
+
+/* Responsive elements */
 
 @media only screen and (max-width: 600px) {
 
@@ -553,7 +569,7 @@ input[type=submit]:hover {
     }
 
     .contact-box {
-        height: 250vw;
+        height: 235vw;
     }
 
     .contact-buttons {
