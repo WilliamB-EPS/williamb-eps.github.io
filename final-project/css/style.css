@@ -9,7 +9,7 @@ body {
     margin: 0;
     font-family: Nunito Sans;
     color: white;
-    background:black;
+    background: black;
 }
 
 h1 {
@@ -131,14 +131,14 @@ p, a {
   
 .overlay-content {
     position: relative;
-    top: 7%;
+    top: 0;
     width: 100%;
     text-align: center;
     margin-top: 5vw;
   }
   
 .overlay a {
-    padding: 2vw;
+    padding: 1vw;
     text-decoration: none;
     font-size: 4vw;
     color: white;
@@ -187,17 +187,18 @@ p, a {
 
 .sample-container {
     background: linear-gradient(90deg,rgb(32, 40, 63), rgb(49, 62, 97));
-    height: 120vw;
+    height: 115vw;
 }
 
-.sample {
-    width: 100%;
-    height: 38vw;
+
+hr {
+    color: white;
+    margin: 0;
 }
 
 
 .left {
-    margin-top: 4vw;
+    margin-top: 3vw;
     float: left;
     width: 50%;
     padding: 2.25vw;
@@ -205,10 +206,10 @@ p, a {
 }
 
 .right {
-    margin-top: 5vw;
+    margin: 3vw 0;
     float: left;
     width: 50%;
-    padding: 2.25vw;
+    padding: 2vw;
 }
 
 
@@ -403,13 +404,17 @@ a {
 
 .contact-box {
     background: linear-gradient(90deg,rgb(32, 40, 63), rgb(49, 62, 97));
-    height: 95vw;
-    padding: 5vw;
+    width: 100%;
+    height: 120vw;
+    padding: 5vw 0;
 }
 
 .contact-box h2 {
-    margin: 0;
     text-align: center;
+}
+
+.contact-box p, .contact-box form {
+    padding: 0 4vw;
 }
 
 .contact-buttons {
@@ -418,7 +423,7 @@ a {
 }
 
 .contact-buttons a {
-    margin: 1vw 3.5vw;
+    margin: 1vw 5vw;
 }
 
 .contact-buttons a:hover {
@@ -433,12 +438,13 @@ label {
 
 input[type=text], select, textarea {
     width: 100%;
-    height: 4vw;
+    height: 5vw;
     padding: 1.5vw;
+    font-size: 1.25vw;
     border-radius: 0.5vw;
     box-sizing: border-box;
     font-family: Nunito Sans;
-    margin-bottom: 1vw;
+    margin-bottom: 4vw;
     resize: vertical;
 }
   
@@ -450,6 +456,7 @@ input[type=submit] {
     border-radius: 1vw;
     cursor: pointer;
     font-size: 1.25vw;
+    margin-bottom: 2vw;
 }
   
 input[type=submit]:hover {
@@ -526,7 +533,7 @@ input[type=submit]:hover {
     }
 
     .sample-container {
-        height: 400vw;
+        height: 390vw;
     }
     
     .sample {
@@ -560,16 +567,16 @@ input[type=submit]:hover {
     }
 
     .about-me-content {
-        height: 340vw;
+        height: 370vw;
     }
 
     .about-section, .about-section-2 {
         width: 100%;
-        padding: 2vw;
+        padding: 6vw;
     }
 
     .contact-box {
-        height: 235vw;
+        height: 290vw;
     }
 
     .contact-buttons {
@@ -582,6 +589,7 @@ input[type=submit]:hover {
 
     input[type=text], select, textarea {
         height: 8vw;
+        font-size: 3.5vw;
     }
 
     label {
