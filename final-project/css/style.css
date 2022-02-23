@@ -188,18 +188,15 @@ p, a {
     margin: 2% 0vw 0vw 30%;
 }
 
-
 .sample-container {
     background: linear-gradient(90deg,rgb(32, 40, 63), rgb(49, 62, 97));
     height: 115vw;
 }
 
-
 hr {
     color: white;
     margin: 0;
 }
-
 
 .left {
     margin-top: 3vw;
@@ -215,7 +212,6 @@ hr {
     width: 50%;
     padding: 2vw;
 }
-
 
 button {
     background-color: rgb(232, 37, 19);
@@ -236,6 +232,7 @@ button a {
 
 button:hover {
     background-color:rgb(184, 78, 46);
+    transition-duration: 0.5s;
 }
 
 .img {
@@ -274,6 +271,7 @@ button:hover {
 
 .footer a:hover {
     color: rgb(232, 37, 19);
+    transition-duration: 0.5s;
 }
 
 .mini-nav a {
@@ -414,7 +412,6 @@ a {
 .contact-box {
     background: linear-gradient(90deg,rgb(32, 40, 63), rgb(49, 62, 97));
     width: 100%;
-    height: 120vw;
     padding: 5vw 0;
 }
 
@@ -437,6 +434,7 @@ a {
 
 .contact-buttons a:hover {
     color: rgb(232, 37, 19);
+    transition-duration: 0.5s;
 }
 
 label {
@@ -470,6 +468,7 @@ input[type=submit] {
   
 input[type=submit]:hover {
     background-color: rgb(184, 78, 46);
+    transition-duration: 0.5s;
 }
 
 /* Responsive elements */
@@ -500,8 +499,8 @@ input[type=submit]:hover {
     }
 
     .overlay a {
-        font-size: 10vw;
-        padding: 8vw;
+        font-size: 8.5vw;
+        padding: 4vw;
     }
 
     .overlay .closebtn {
@@ -582,10 +581,6 @@ input[type=submit]:hover {
     .about-section, .about-section-2 {
         width: 100%;
         padding: 6vw;
-    }
-
-    .contact-box {
-        height: 290vw;
     }
 
     .contact-buttons {
