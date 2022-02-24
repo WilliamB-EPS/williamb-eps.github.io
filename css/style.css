@@ -56,10 +56,6 @@ p {
     margin: 2vw 0;
 }
 
-hr {
-    margin: 0;
-}
-
 button {
     background: rgb(240, 78, 29);
     border-radius: 1vw;
@@ -163,7 +159,7 @@ img {
         font-size: 7vw;
     }
 
-    p, a {
+    p, a, .footer-content h2 {
         font-size: 5vw;
     }
 
@@ -172,7 +168,7 @@ img {
     }
 
     .intro {
-        height: 75vw;
+        height: 70vw;
         border-radius: 5vw;
         width: 70vw;
         transform: translate(22%, 30%);
@@ -206,7 +202,7 @@ img {
     .demos button {
         width: 25vw;
         height: 15vw;
-        margin: 5vw 5vw;
+        margin: 5vw;
     }
 
     .demos h2 {
@@ -219,10 +215,6 @@ img {
 
     .footer-content {
         width: 100%;
-    }
-
-    .footer-content h2 {
-        font-size: 5vw;
     }
 
     .footer-content a, .footer-content p {
