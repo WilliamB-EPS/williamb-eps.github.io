@@ -148,3 +148,8 @@ img {
 .footer h2 {
     font-size: 2vw;
 }
+
+.footer a:hover {
+    color: rgb(240, 78, 29);
+    transition-duration: 0.5s;
+}
