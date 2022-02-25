@@ -466,7 +466,7 @@ input[type=submit]:hover {
         font-size: 4vw;
     }
 
-    button a {
+    button a, label {
         font-size: 3.5vw;
     }
 
@@ -562,10 +562,6 @@ input[type=submit]:hover {
 
     input[type=text], select, textarea {
         height: 8vw;
-        font-size: 3.5vw;
-    }
-
-    label {
         font-size: 3.5vw;
     }
 
