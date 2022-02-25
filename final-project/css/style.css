@@ -437,7 +437,7 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 600px) {
 
-    h1,.overlay .closebtn {
+    h1, .overlay .closebtn {
         font-size: 15vw;
     }
     
@@ -527,7 +527,7 @@ input[type=submit]:hover {
     }
 
     .about-me-content {
-        height: 375vw;
+        height: 380vw;
     }
 
     .about-section, .about-section-2 {
