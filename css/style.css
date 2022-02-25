@@ -38,6 +38,11 @@ p {
     border-radius: 1vw;
 }
 
+hr {
+    color: white;
+    margin: 0;
+}
+
 .past-projects {
     background: url("https://williamb-eps.github.io/images/background-2.png");
     background-repeat: no-repeat;
