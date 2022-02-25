@@ -474,8 +474,12 @@ input[type=submit]:hover {
         font-size: 7vw;
     }
     
-    p, a, button a {
+    p, a{
         font-size: 4vw;
+    }
+
+    button a {
+        font-size: 3.5vw;
     }
 
     .bar1, .bar2 {
