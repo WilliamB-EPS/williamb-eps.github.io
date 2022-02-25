@@ -177,7 +177,9 @@ img {
     .past-projects {
         height: 550vw;
         padding: 0 3vw;
-        transform: translate3d(0,0,0);
+        background-attachment: initial;
+        /* Fixed background property is not supported by mobile browsers */
+        background-repeat: repeat-y;
     }
 
     .project-item {
