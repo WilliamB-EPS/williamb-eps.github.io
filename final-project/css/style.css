@@ -191,7 +191,7 @@ p, a {
 
 hr {
     margin: 0;
-    color: white;
+    clear: both;
 }
 
 .left {
