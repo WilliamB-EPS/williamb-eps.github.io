@@ -54,51 +54,41 @@ p, a {
     transition: 0.4s;
 }
 
-/* Loading animation for home page (original code) */
+/* Loading animation influenced by (not copied from): https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_loader*/
 
 .loader {
     display: inline-block;
     position: relative;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 }
 
 .loader:after {
     content: " ";
     display: block;
-    border-radius: 50%;
     width: 0;
     height: 0;
-    margin: 8px;
+    margin: 0 auto;
+    border-radius: 50%;
     box-sizing: border-box;
-    border: 32px solid #fff;
-    border-color: #fff transparent #fff transparent;
+    border: 32px solid white;
+    border-color: black white;
     animation: loader 1.2s infinite;
 }
 
 @keyframes loader {
     0% {
-      transform: rotate(0);
-      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        transform: rotate(0);
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
     }
     50% {
-      transform: rotate(900deg);
-      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        transform: rotate(360deg);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     }
     100% {
-      transform: rotate(1800deg);
+        transform: rotate(720deg);
     }
   }
-
-@keyframes fadeOut {
-      90% {
-        opacity: 100%;
-      }
-      100% {
-        opacity: 0;
-        visibility: hidden;
-      }
-}
 
 /* Code for wrapper influenced by (not copied from): https://redstapler.co/add-loading-animation-to-website/*/
 
@@ -117,14 +107,25 @@ p, a {
     animation-fill-mode: forwards;
 }
 
+
+@keyframes fadeOut {
+    90% {
+      opacity: 100%;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+}
+
+/* Code for nav css influenced by (not copied from): https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
+
 .overlay {
-    height: 100%;
-    width: 0;
+    height: 0;
+    width: 100%;
     position: fixed;
     z-index: 2;
-    top: 0;
-    left: 0;
-    background-image: linear-gradient(-45deg, #20283f,rgb(184, 78, 46));
+    background: linear-gradient(-45deg, #20283f,rgb(184, 78, 46));
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -441,7 +442,6 @@ label {
     font-size: 1.5vw;
 }
 
-/* Style for submission form */
 
 input[type=text], select, textarea {
     width: 100%;
@@ -471,11 +471,11 @@ input[type=submit]:hover {
     transition-duration: 0.5s;
 }
 
-/* Responsive elements */
+/* Mobile CSS */
 
 @media only screen and (max-width: 600px) {
 
-    h1 {
+    h1,.overlay .closebtn {
         font-size: 15vw;
     }
     
@@ -483,7 +483,7 @@ input[type=submit]:hover {
         font-size: 7vw;
     }
     
-    p, a {
+    p, a, button a {
         font-size: 4vw;
     }
 
@@ -501,10 +501,6 @@ input[type=submit]:hover {
     .overlay a {
         font-size: 8.5vw;
         padding: 4vw;
-    }
-
-    .overlay .closebtn {
-        font-size: 15vw;
     }
 
     .intro-container, .intro, .headshot, .title-page-container, .contact-photo {
@@ -534,10 +530,6 @@ input[type=submit]:hover {
         height: 10vw;
         width: 25vw;
         border-radius: 2vw;
-    }
-
-    button a {
-        font-size: 4vw;
     }
 
     .sample-container {
@@ -606,5 +598,4 @@ input[type=submit]:hover {
         padding: 2vw;
         margin-bottom: 5vw;
     }
-  
 }
