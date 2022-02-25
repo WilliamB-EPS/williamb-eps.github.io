@@ -41,6 +41,10 @@ p, a {
     width: 50%
 }
 
+.name {
+    float: right;
+}
+
 .bar1, .bar2 {
     width: 3.25vw;
     height: 0.2vw;
