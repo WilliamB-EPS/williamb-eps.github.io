@@ -192,6 +192,7 @@ p, a {
 hr {
     margin: 0;
     clear: both;
+    color: white;
 }
 
 .left {
