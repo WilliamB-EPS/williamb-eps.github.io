@@ -45,7 +45,6 @@ p, a {
     float: right;
 }
 
-
 .bar1, .bar2 {
     width: 3.25vw;
     height: 0.2vw;
@@ -107,8 +106,10 @@ p, a {
     animation-fill-mode: forwards;
 }
 
-
 @keyframes fadeOut {
+
+    /* Loading animation plays, then fadeout occurs suddenly */
+
     90% {
       opacity: 100%;
     }
@@ -157,8 +158,6 @@ p, a {
     font-size: 6vw;
 }
 
-/* Background properties add parallax effect */
-
 .intro-container {
     background: url("https://williamb-eps.github.io/final-project/images/intro-img.jpeg");
     background-size: cover;
@@ -192,7 +191,6 @@ p, a {
 }
 
 hr {
-    color: white;
     margin: 0;
 }
 
@@ -278,16 +276,10 @@ button:hover {
     font-size: 1.4vw;
 }
 
+/* Gradient overlay used for the top of each page */
+
 .title-page-container {
     background: linear-gradient(-90deg, rgba(184, 78, 46,0.8),rgba(49, 62, 97,0.8)); 
-    width: 100%;
-    padding: 15vw;
-    text-align: center;
-    height: 55vw;
-}
-
-.title-page-container-intense {
-    background: linear-gradient(-90deg, rgba(184, 78, 46,0.9),rgba(49, 62, 97,0.9)); 
     width: 100%;
     padding: 15vw;
     text-align: center;
@@ -306,7 +298,6 @@ button:hover {
     height: 85vw;
     margin-top: -5vw;
     background: linear-gradient(90deg, rgb(32, 40, 63), rgb(49, 62, 97)); 
-    
 }
 
 .about-section {
@@ -407,32 +398,15 @@ a {
     padding: 5vw 0;
 }
 
-.contact-box h2 {
-    text-align: center;
-}
-
-.contact-box p, .contact-box form {
-    padding: 0 4vw;
-}
-
 .contact-buttons {
     margin: 4vw 0;
     text-align: center;
-}
-
-.contact-buttons a {
-    margin: 1vw 5vw;
 }
 
 .contact-buttons a:hover {
     color: rgb(232, 37, 19);
     transition-duration: 0.5s;
 }
-
-label {
-    font-size: 1.5vw;
-}
-
 
 input[type=text], select, textarea {
     width: 100%;
@@ -474,7 +448,7 @@ input[type=submit]:hover {
         font-size: 7vw;
     }
     
-    p, a{
+    p, a {
         font-size: 4vw;
     }
 
@@ -530,18 +504,13 @@ input[type=submit]:hover {
     .sample-container {
         height: 390vw;
     }
-    
-    .sample {
-        width: 100%;
-        height: 38vw;
-    }
-    
+
     .left, .right {
         width: 100%;
     }
 
     .footer {
-        height: 65vw;
+        height: 60vw;
         font-size: 4vw;
     }
 
@@ -558,7 +527,7 @@ input[type=submit]:hover {
     }
 
     .mini-nav {
-        margin-bottom: 6.5vw;
+        margin-bottom: 3vw;
     }
 
     .about-me-content {

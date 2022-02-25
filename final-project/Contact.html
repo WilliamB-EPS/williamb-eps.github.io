@@ -8,6 +8,23 @@
     <link rel="stylesheet" href="css/style.css">
      <!-- Import for social media icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        .contact-box p, form {
+            padding: 0 4vw;
+        }
+
+        a {
+            margin: 1vw 5vw;
+        }
+
+        label {
+            font-size: 1.5vw;
+        }
+    </style>
 </head>
 <body>
     <div id="nav" class="overlay">
@@ -53,16 +70,18 @@
         <hr>
 
         <h2>Send me a Message!</h2>
-
-        <!-- Contact form - uses getform.io to process all form submissions -->
-        <!-- Form html influenced by (not copied from): https://www.w3schools.com/html/html_forms.asp -->
         <p style="text-align: center;">Let me know if you're interested in a project or have any questions</p>
+
+        <!-- Form html influenced by (not copied from): https://www.w3schools.com/html/html_forms.asp -->
+
+        <!-- Uses getform.io to process all form submissions -->
+        
         <form action="https://getform.io/f/698e55e6-080c-43db-b852-37c456558871" method="POST" enctype="multipart/form-data">
             <label for="name">Full name</label>
             <input type="text" id="name" name="name" placeholder="First and last name..">
 
             <label for="country">Country</label>
-                <select id="country" name="country">
+            <select id="country" name="country">
                 <option value="usa">United States</option>
                 <option value="uk">Britain</option>
                 <option value="australia">Australia</option>
@@ -76,12 +95,12 @@
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
         
             <input type="submit" value="Submit">
-          </form>
+        </form>
 
-          <hr>
+        <hr>
 
-          <h2>Availability</h2>
-          <p>I'm mostly avaiable from 9-5 on weekdays, but I occasionally check my email on the weekend. If you want to meet live or on zoom, be sure to schedule it for the weekend.</p>
+        <h2>Availability</h2>
+        <p>I'm mostly avaiable from 9-5 on weekdays, but I occasionally check my email on the weekend. If you want to meet live or on zoom, be sure to schedule it for the weekend.</p>
     </div>
 
     <hr>
@@ -101,7 +120,7 @@
                 ◦
                 <a href="Contact.html">Contact</a>
             </div>
-            <p>William Bowers 2022 &copy; </p>
+            <p>William Bowers 2022 &copy;</p>
         </div>
         <div class="footer-right"> 
             <a href="https://www.instagram.com/buford_15/?r=nametag" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
@@ -120,7 +139,6 @@
         function closeNav() {
             document.getElementById("nav").style.height = "0%";
         }
-
     </script>
 </body>
 </html>
