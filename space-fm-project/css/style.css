@@ -23,7 +23,7 @@ p,a {
 }
 
 .content {
-    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/space-fm-project/images/bg.webp");
+    background: url("https://williamb-eps.github.io/space-fm-project/images/bg.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
