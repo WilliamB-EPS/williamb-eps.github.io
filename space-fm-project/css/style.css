@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 h2 {
@@ -23,7 +23,7 @@ p,a {
 }
 
 .content {
-    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/space-fm-project/images/body-bg.jpeg");
+    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/space-fm-project/images/bg.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -35,17 +35,10 @@ p,a {
     text-align: center;
 }
 
-.header-bg-img {
-    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/space-fm-project/images/header-bg.jpeg");
-    position: sticky;
-    top: -150px;
-}
 
 .header {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.85);
     padding: 1vw 0;
-    text-align: right;
-    height: 14vw;
     width: 100%;
     color: white;
 }
@@ -63,6 +56,7 @@ p,a {
 
 .logo img {
     height: 5vw;
+    width: 100%;
 }
 
 .widget {
@@ -113,11 +107,9 @@ button:hover {
     padding: 0 4vw;
     margin-top: 1.25vw;
     text-align: center;
-    position: sticky;
-    top: 5vw;
 }
 
-.nav p{
+.nav p {
     color: black;
     float: left;
     margin: 0;
@@ -146,32 +138,39 @@ button:hover {
     margin-bottom: 2vw;
 }
 
-
-.container {
-    background:rgba(0,0,0,0.8);
-    width: 80vw;
-    height: 40vw;
-    border-radius: 3vw;
-    padding: 0 2vw;
-    margin: 0 auto;
+hr {
+    color: white;
+    clear: both;
+    margin: 0;
 }
 
-.container h1 {
-    padding-top: 3vw;
-}
 
-.icons {
-    width: 100%;
-}
-
-.item {
+.container1 {
+    background:rgba(0,0,0,0.75);
     float: left;
-    width: 50%;
-    text-align: center;
+    width: 33%;
+    height: 30vw;
+    margin: 1.5vw;
+    padding: 1.5vw;
 }
 
-.item button {
-    margin: 1vw 3vw;
+.container2 {
+    background:rgba(0,0,0,0.75);
+    float: left;
+    width: 60.5%;
+    height: 30vw;
+    margin: 1.5vw;
+    padding: 1.5vw;
+}
+
+.container2 p {
+    margin: 3vw 0;
+}
+
+.container1 button {
+    margin: 2.25vw 1vw;
+    width: 20vw;
+    height: 5vw;
 }
 
 .fa:hover {
@@ -181,52 +180,14 @@ button:hover {
 
 .fa {
     color: white;
-    margin: 3.5vw;
+    margin: 1vw 2vw;
 }
 
-.footer {
-    margin-top: 5vw;
-    background: rgba(0,0,0,0.9);
-    z-index: 10;
-    text-align: center;
-    font-size: 1.2vw;
-    height: 15vw;
-    padding: 3vw;
-}
-
-.footer-left {
-    width: 60%;
+.split {
     float: left;
-    text-align: left;
+    width: 50%;
+    padding: 0.5vw;
 }
 
-.footer-right {
-    margin-top: 1vw;
-    float: left;
-    text-align: center;
-    width: 35%;
-}
 
-.footer a, .footer p {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2vw;
-    display: inline-block;
-    margin: 1vw;
-}
-
-.footer a:hover {
-    color: rgb(232, 37, 19);
-    transition-duration: 0.5s;
-}
-
-.footer .fa {
-    margin: 0vw 1.5vw;
-}
-
-.mini-nav a {
-    display: inline-block;
-    margin: 0.5vw;
-    font-size: 1.4vw;
-}
 
