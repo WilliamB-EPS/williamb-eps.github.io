@@ -90,7 +90,8 @@ img {
 }
 
 .demos {
-    background: rgb(36, 69, 156);
+    /*background: rgb(36, 69, 156);*/
+    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/images/demos-bg.jpeg");
     width: 100%;
     height: 42vw;
     margin-top: -5.5vw;
