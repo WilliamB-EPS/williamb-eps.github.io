@@ -147,7 +147,7 @@ p, a {
     color: white;
     display: block;
     transition: 0.3s;
-  }
+}
 
 .overlay a:hover, .overlay a:focus {
     text-decoration: underline;
