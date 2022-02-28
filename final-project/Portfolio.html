@@ -37,26 +37,39 @@
     </div>
     <div class="gallery-container">
         <h2 style="margin: 2vw;">Web Design:</h2>
-        <div style="margin-bottom: 26vw;">
-            <div class="gallery-element">
-                <p>Image + short paragraph</p>
+
+        <!-- Slideshow (JS in script.js file) -->
+
+        <div class="slides-container">
+            <div class="slides ">
+                <img src="images/homepage-project.png" style="width:100%">
             </div>
-            <div class="gallery-element">
-                <p>Image + short paragraph</p>
+    
+            <div class="slides">
+                <img src="images/midterm.png" style="width:100%">
             </div>
-            <div class="gallery-element">
-                <p>Image + short paragraph</p>
+    
+            <div class="slides">
+                <img src="images/project-1.png" style="width:100%">
             </div>
-            <div class="gallery-element">
-                <p>Image + short paragraph</p>
+
+            <div class="slides">
+                <img src="images/mini-project.png" style="width:100%">
             </div>
-            <div class="gallery-element">
-                <p>Image + short paragraph</p>
+
+            <div class="slides">
+                <img src="images/gradients-website.png" style="width:100%">
             </div>
-            <div class="gallery-element">
-                <p>Image + short paragraph</p>
+
+            <div class="slides">
+                <img src="images/space-fm-project.png" style="width:100%">
             </div>
         </div>
+
+        <a class="prev" onclick="increment(-1)">&#10094;</a>
+        <a class="next" onclick="increment(1)" style="padding-left: 90vw">&#10095;</a>
+
+
         <h2 style="margin: 2vw;">Digital Art:</h2>
         <div style="margin-bottom: 16vw;">
             <div class="gallery-element">
@@ -106,5 +119,11 @@
             <a href="https://github.com/WilliamB-EPS" target="_blank"><i class="fa fa-github fa-2x"></i></a>
         </div>
     </div>
+
+    <!-- Calling this internally since it didn't recognize it when I called it with the external script -->
+
+    <script>
+        displayContent(slideIdx);
+    </script>
 </body>
 </html>

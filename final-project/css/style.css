@@ -396,6 +396,16 @@ input[type=submit]:hover {
     padding: 5vw;
 }
 
+.slides-container {
+    max-width: 60vw;
+    position: relative;
+    margin: auto;
+}
+
+.slides {
+    display: none;
+}
+
 .gallery-element {
     float: left;
     background:#20283f;
