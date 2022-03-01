@@ -14,9 +14,6 @@ function closeNav() {
 // set intial slide index
 var slideIdx = 2;
 
-// call the function
-displayContent(slideIdx);
-
 // increment function for buttons
 function increment(n) {
     displayContent(slideIdx += n);
