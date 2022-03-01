@@ -391,26 +391,52 @@ input[type=submit]:hover {
 
 .gallery-container {
     background: rgb(49, 62, 97); 
-    height: 80vw;
+    height: 135vw;
     width: 100%;
-    padding: 5vw;
+    padding: 1vw 0;
 }
 
 .slides-container {
     max-width: 60vw;
     position: relative;
-    margin: auto;
+    margin: 1vw auto 5vw auto;
+    border: 1vw solid black;
 }
 
 .slides {
     display: none;
+    text-align: center;
+}
+
+.arrow-left, .arrow-right {
+    cursor: pointer;
+    position: absolute;
+    top: 80vw;
+    color: white;
+    font-size: 5vw;
+    width: 2vw;
+    height: 2vw;
+}
+
+.arrow-left{
+    left: 10%;
+}
+
+.arrow-right {
+    right: 10%;
+}
+
+.arrow-left:hover, .arrow-right:hover {
+    color:rgb(184, 78, 46);
 }
 
 .gallery-element {
     float: left;
     background:#20283f;
-    width: 33%;
-    padding: 2vw;
+    width: 29%;
+    height: 28vw;
+    padding: 1vw;
+    margin: 2vw;
 }
 
 .comp-modelling-img {
@@ -481,8 +507,9 @@ input[type=submit]:hover {
         padding: 4vw;
     }
 
-    .intro-container, .intro, .headshot, .title-page-container, .contact-photo {
+    .intro-container, .intro, .headshot, .title-page-container, .contact-photo, .portfolio-img {
         height: 150vw;
+        background-position: center;
     }
 
     .intro button {
@@ -565,5 +592,29 @@ input[type=submit]:hover {
         border-radius: 2vw;
         padding: 2vw;
         margin-bottom: 5vw;
+    }
+
+    .slides-container {
+        max-width: 90vw;
+    }
+
+    .arrow-left {
+        top: 195vw;
+        left: 1%;
+    }
+
+    .arrow-right {
+        top: 195vw;
+        right: 1%;
+    }
+
+    .gallery-container {
+        height: 565vw;
+    }
+
+    .gallery-element {
+        width: 80%;
+        height: 70vw;
+        margin: 2vw 10vw;
     }
 }

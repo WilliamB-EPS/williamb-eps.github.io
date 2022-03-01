@@ -9,6 +9,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <!-- Import for JS (includes nav animation) -->
      <script src="js/script.js"></script>
+     <style>
+         h2  {
+             text-align: center;
+             margin: 1vw;
+         }
+
+         p {
+             text-align: center;
+             display: inline;
+         }
+
+         img {
+             width: 100%;
+             margin: 0vw auto 0.5vw auto;
+         }
+     </style>
 </head>
 <body>
     <div id="nav" class="overlay">
@@ -35,63 +51,97 @@
             <p>Previous works in programming, web design, and digital art</p>
         </div>
     </div>
+    <hr>
     <div class="gallery-container">
-        <h2 style="margin: 2vw;">Web Design:</h2>
+        <h2>Web Design Projects</h2>
 
         <!-- Slideshow (JS in script.js file) -->
 
         <div class="slides-container">
-            <div class="slides ">
+            <div class="slides">
+                <!-- Different image than example "example-web-pic" since it has different dimensions -->
                 <img src="images/homepage-project.png" style="width:100%">
+                <p>Hompage redesign project for palace KBBQ</p>
+                <button>
+                    <a href="https://williamb-eps.github.io/homepage-project/">Visit me</a>
+                </button>
             </div>
     
             <div class="slides">
                 <img src="images/midterm.png" style="width:100%">
+                <p>Website redesign for Redmond Chiropractic</p>
+                <button>
+                    <a href="https://eastsidepreparatoryschool.github.io/web2-group1/index.html">Visit me</a>
+                </button>
             </div>
     
             <div class="slides">
                 <img src="images/project-1.png" style="width:100%">
+                <p>First project: fusion reactor club website</p>
+                <button>
+                    <a href="https://eastsidepreparatoryschool.github.io/web2-group1/index.html">Visit me</a>
+                </button>
             </div>
 
             <div class="slides">
                 <img src="images/mini-project.png" style="width:100%">
+                <p>Mini project: Christmas countdown website</p>
+                <button>
+                    <a href="https://williamb-eps.github.io/mini-project/">Visit me</a>
+                </button>
             </div>
 
             <div class="slides">
                 <img src="images/gradients-website.png" style="width:100%">
+                <p>Demo: how to add gradients to your website</p>
+                <button>
+                    <a href="https://williamb-eps.github.io/css-gradients-demo">Visit me</a>
+                </button>
             </div>
 
             <div class="slides">
                 <img src="images/space-fm-project.png" style="width:100%">
+                <p style="padding: 2vw 0">Space Radio website redesign (work in progress)</p>
+                <button>
+                    <a href="https://williamb-eps.github.io/space-fm-project">Visit me</a>
+                </button>
             </div>
         </div>
 
-        <a class="prev" onclick="increment(-1)">&#10094;</a>
-        <a class="next" onclick="increment(1)" style="padding-left: 90vw">&#10095;</a>
+        <a class="arrow-left" onclick="increment(-1)">&#10094;</a>
+        <a class="arrow-right" onclick="increment(1)">&#10095;</a>
 
+        <hr>
 
-        <h2 style="margin: 2vw;">Digital Art:</h2>
-        <div style="margin-bottom: 16vw;">
-            <div class="gallery-element">
-                <p>Image + short paragraph</p>
-            </div>
-            <div class="gallery-element">
-                <p>Image + short paragraph</p>
-            </div>
-            <div class="gallery-element">
-                <p>Image + short paragraph</p>
-            </div>
-        </div>
-        <h2 style="margin: 2vw;">Computational Modelling</h2>
-
+        <h2 style="margin: 2vw;">Digital Art Projects</h2>
         <div class="gallery-element">
-            <p>Image + short paragraph</p>
+            <img src="images/planet.png" alt="">
+            <p>Planet rendering project in blender and illustrator</p>
         </div>
         <div class="gallery-element">
-            <p>Image + short paragraph</p>
+            <img src="images/snowman.png" alt="">
+                <p>Snowman rendering project in blender</p>
         </div>
         <div class="gallery-element">
-            <p>Image + short paragraph</p>
+            <img src="images/house.png" alt="">
+            <p>House rendering project in blender and illustrator</p>
+        </div>
+
+        <hr>
+
+        <h2>Programming Projects</h2>
+
+        <div class="gallery-element">
+            <img src="images/paschen-curve.png" alt="">
+            <p>Monte Carlo simulation of Paschen's Law in Mathematica</p>
+        </div>
+        <div class="gallery-element">
+            <img src="images/maze-solver.png" alt="">
+            <p>Java project which solves a maze inputted by the user</p>
+        </div>
+        <div class="gallery-element">
+            <img src="images/wumpus.png" alt="">
+            <p>(In progress) Space themed version of hunt the wumpus in unity</p>
         </div>
     </div>
     
