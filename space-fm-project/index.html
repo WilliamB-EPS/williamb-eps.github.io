@@ -7,6 +7,7 @@
     <title>Space Radio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
 
@@ -38,18 +39,56 @@
                 <a href="#"><i class="fa fa-search"></i></a>
             </div>
         </div>
-    
+        
+        <!-- <div class="video">
+            <video src="images/radio-bg-vid.mp4" autoplay loop muted></video>
+        </div> -->
+        <h1>Welcome to Space 101.1 Radio</h1>
             <div class="container1">
-                <h1>Welcome to Space 101.1 Radio!</h1>
-                <p>People-powered arts-oriented radio for Northeast Seattle and beyond.</p>
-                <br>
+                <h2>Highlighted programs</h2>
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <img src="images/orbit.webp" style="width:100%">
+                      <div class="text">NW Orbit</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <img src="images/blues.png" style="width:100%">
+                      <div class="text">Magnuson Blues</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <img src="images/rock.jpeg" style="width:100%">
+                      <div class="text">Wedgwood Rocks</div>
+                    </div>
+                    
+                    </div>
+                    <div style="text-align:center">
+                        <span class="dot"></span> 
+                        <span class="dot"></span> 
+                        <span class="dot"></span> 
+                      </div>
+                      
             </div>
-            <div class="container2">
-                <h2>Recent songs:</h2>
-                <p>Song ◦ Artist ◦ Time</p>
-                <p>Song ◦ Artist ◦ Time</p>
-                <p>Song ◦ Artist ◦ Time</p>
-                <p>Song ◦ Artist ◦ Time</p>
+            <div class="container1">
+                    <h2>Recent songs:</h2>
+                    <p>Song ◦ Artist ◦ Time</p>
+                    <p>Song ◦ Artist ◦ Time</p>
+                    <p>Song ◦ Artist ◦ Time</p>
+                    <p>Song ◦ Artist ◦ Time</p>
+                    <p>Song ◦ Artist ◦ Time</p>
+                    <p>Song ◦ Artist ◦ Time</p>            
+            </div>
+            <div class="container1">
+                <h2>Schedule</h2>
+                <div class="" id="show"></div>
+                <button>
+                    <a href="#">Weekly Schedule</a>
+                </button>
+                <button>
+                    <a href="#">More Programs</a>
+                </button>
             </div>
             <div class="container2">
                 <div class="split">
@@ -77,10 +116,31 @@
                 <button>
                     <a href="#">Weekly Schedule</a>
                 </button>
-                <a href=""><i class="fa fa-instagram fa-3x"></i></a>
-                <a href=""><i class="fa fa-facebook fa-3x"></i></a>
             </div>
      </div>
+
+     <script>
+         document.getElementById("show").innerHTML = "Current show: " + show;
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+        }
+     </script>
     
 
 </body>

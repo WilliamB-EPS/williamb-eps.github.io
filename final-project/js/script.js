@@ -9,6 +9,7 @@ function closeNav() {
 }
 
 // code for slide show (html on portfolio page):
+// JavaScript influenced by (not copied from): https://www.w3schools.com/howto/howto_js_slideshow.asp -->
 
 
 // set intial slide index
@@ -38,3 +39,16 @@ function displayContent(n) {
     // display only the current slide
     mySlides[slideIdx-1].style.display = "block";  
 }
+
+// code for before and after slides on case study page 
+
+// javascript influenced by (not copied from) Taras' demo: https://jacketedsquash6.github.io/sliderDemo/
+
+function cropImage(val) {
+    percent = val + "%";
+    document.getElementsByClassName("before-img")[0].style.width = percent;
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    cropImage(document.getElementById("slider").value)
+});

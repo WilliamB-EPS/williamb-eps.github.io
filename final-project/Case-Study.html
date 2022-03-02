@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <!-- Import for JS (includes nav animation) -->
      <script src="js/script.js"></script>
+
 </head>
 <body>
     <div id="nav" class="overlay">
@@ -41,14 +42,22 @@
         <div style="float: left; width: 50%;">
             <h2>The Project</h2>
             <p>Insert paragraph here</p>
-            <h2>Images</h2>
-            <p>Insert images here</p>
         </div>
             <h2>Fun facts</h2>
             <p>Insert paragraph here</p>
+
             <h2>Before and After</h2>
-            <p>Insert paragraph here</p>
+
+            <!-- HTML influenced by (not copied from) Taras' demo: https://jacketedsquash6.github.io/sliderDemo/ -->
+
+            <div class="slider-container">
+                <div class="after-img img"></div>
+                <div class="before-img img"></div>
+                <input type="range" min="0" max="100" value="50" class="slider" name="slider" id="slider" oninput="cropImage(this.value)">
+            </div>
+        
     </div>
+    
 
     <div class="footer">
         <div class="footer-left">

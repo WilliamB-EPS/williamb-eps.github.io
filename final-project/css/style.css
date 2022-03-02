@@ -450,6 +450,42 @@ input[type=submit]:hover {
     padding: 5vw;
 }
 
+/* CSS influenced by (not copied from) Taras' demo: https://jacketedsquash6.github.io/sliderDemo/ */
+
+.slider-container {
+    position: relative;
+    width: 80vw;
+    height: 40vw;
+    border: 1vw solid black;
+    margin: auto;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 80vw 100%;
+}
+
+.after-img {
+    background-image: url("/Users/wbowers/Library/CloudStorage/OneDrive-EastsidePreparatorySchool/Documents/Web Design 2/williamb-eps.github.io/final-project/images/homepage-project.png");
+}
+
+.before-img {
+    background-image: url("/Users/wbowers/Library/CloudStorage/OneDrive-EastsidePreparatorySchool/Documents/Web Design 2/williamb-eps.github.io/final-project/images/house.png");
+    width: 50%;
+}
+
+.slider {
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    margin-top: 20vw;
+}
+
+
 .current-projects-img{
     background: url("https://williamb-eps.github.io/final-project/images/curr-projects.jpeg");
     width: 100%;
