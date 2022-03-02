@@ -22,6 +22,11 @@ p,a {
     text-decoration: none;
 }
 
+iframe {
+    font-size: 2vw;
+    color: white;
+}
+
 .content {
     background: white;
     margin-top: -5vw;
@@ -271,3 +276,6 @@ video {
 
 
 
+.recentsong {
+    font-size: 40px !important;
+}

@@ -440,7 +440,7 @@ input[type=submit]:hover {
 }
 
 .web-sample-img {
-    background: url("/Users/wbowers/Library/CloudStorage/OneDrive-EastsidePreparatorySchool/Documents/Web Design 2/williamb-eps.github.io/final-project/images/case-study-pic.png");
+    background: url("https://williamb-eps.github.io/final-project/images/case-study-pic.png");
     width: 100%;
     height: 55vw;
     background-position: center;
@@ -473,11 +473,11 @@ input[type=submit]:hover {
 }
 
 .after-img {
-    background-image: url("/Users/wbowers/Library/CloudStorage/OneDrive-EastsidePreparatorySchool/Documents/Web Design 2/williamb-eps.github.io/final-project/images/homepage-project.png");
+    background-image: url("https://williamb-eps.github.io/final-project/images/homepage-project.png");
 }
 
 .before-img {
-    background-image: url("/Users/wbowers/Library/CloudStorage/OneDrive-EastsidePreparatorySchool/Documents/Web Design 2/williamb-eps.github.io/final-project/images/before-img.png");
+    background-image: url("https://williamb-eps.github.io/final-project/images/before-img.png");
     width: 50%;
 }
 
