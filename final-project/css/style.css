@@ -439,15 +439,18 @@ input[type=submit]:hover {
     margin: 2vw;
 }
 
-.comp-modelling-img {
-    background: url("https://williamb-eps.github.io/final-project/images/comp-modelling-intro.png");
+.web-sample-img {
+    background: url("/Users/wbowers/Library/CloudStorage/OneDrive-EastsidePreparatorySchool/Documents/Web Design 2/williamb-eps.github.io/final-project/images/case-study-pic.png");
     width: 100%;
     height: 55vw;
+    background-position: center;
+    background-size: cover;
 }
 
 .project-content {
     background: linear-gradient(90deg, rgb(32, 40, 63), rgb(49, 62, 97)); 
-    padding: 5vw;
+    padding: 6vw 0;
+    height: 90vw;
 }
 
 /* CSS influenced by (not copied from) Taras' demo: https://jacketedsquash6.github.io/sliderDemo/ */
@@ -457,7 +460,7 @@ input[type=submit]:hover {
     width: 80vw;
     height: 40vw;
     border: 1vw solid black;
-    margin: auto;
+    margin: 1vw auto;
 }
 
 .img {
@@ -474,7 +477,7 @@ input[type=submit]:hover {
 }
 
 .before-img {
-    background-image: url("/Users/wbowers/Library/CloudStorage/OneDrive-EastsidePreparatorySchool/Documents/Web Design 2/williamb-eps.github.io/final-project/images/house.png");
+    background-image: url("/Users/wbowers/Library/CloudStorage/OneDrive-EastsidePreparatorySchool/Documents/Web Design 2/williamb-eps.github.io/final-project/images/before-img.png");
     width: 50%;
 }
 
@@ -482,9 +485,16 @@ input[type=submit]:hover {
     position: absolute;
     width: 100%;
     height: 0%;
-    margin-top: 20vw;
+    margin-top: 19vw;
 }
 
+.slider::-moz-range-thumb {
+    width: 0.5vw;
+    height: 39vw;
+    background: rgb(184, 78, 46);;
+    cursor: pointer;
+    border: none;
+}
 
 .current-projects-img{
     background: url("https://williamb-eps.github.io/final-project/images/curr-projects.jpeg");
@@ -494,16 +504,26 @@ input[type=submit]:hover {
     background-repeat: none;
 }
 
-.project {
-    width: 100%;
-    height: 30vw;
-    background: linear-gradient(90deg,rgb(32, 40, 63), rgb(49, 62, 97));
+.project-float {
+    float: left;
+    width: 50%;
+    margin: -6vw auto -2vw auto;
+    height: 32vw;
+    padding: 0 2.5vw;
 }
+
+.projects {
+    width: 100%;
+    height: 100vw;
+    background: linear-gradient(90deg, rgb(32, 40, 63), rgb(49, 62, 97)); 
+    padding: 5vw 0;
+}   
 
 .float-item {
     float: left;
     width: 50%;
-    text-align: center;
+    padding: 1vw 5vw;
+    height: 30vw;
 }
 
 
@@ -543,7 +563,7 @@ input[type=submit]:hover {
         padding: 4vw;
     }
 
-    .intro-container, .intro, .headshot, .title-page-container, .contact-photo, .portfolio-img {
+    .intro-container, .intro, .headshot, .title-page-container, .contact-photo, .portfolio-img, .web-sample-img {
         height: 150vw;
         background-position: center;
     }
@@ -652,5 +672,28 @@ input[type=submit]:hover {
         width: 80%;
         height: 70vw;
         margin: 2vw 10vw;
+    }
+
+    .project-content {
+        height: 195vw;
+    }
+
+    .project-float {
+        width: 100%;
+        height: 60vw;
+    }
+
+    .slider-container {
+        width: 95vw;
+        height: 45vw;
+    }
+
+    .slider {
+        margin-top: 21.5vw;
+    }
+
+    .slider::-moz-range-thumb {
+        width: 1vw;
+        height: 44vw;
     }
 }
