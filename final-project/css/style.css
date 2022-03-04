@@ -315,6 +315,15 @@ button:hover {
     margin: 5vw auto 0 auto;
 }
 
+.resume img {
+    width: 30%;
+}
+
+.resume img:hover {
+    width: 35%;
+    transition-duration: 0.5s;
+}
+
 .contact-photo {
     background: url("https://williamb-eps.github.io/final-project/images/contact-photo.jpeg");
     background-size: cover;
@@ -403,6 +412,10 @@ input[type=submit]:hover {
     border: 1vw solid black;
 }
 
+.slides-container img {
+    max-height: 28vw;
+}
+
 .slides {
     display: none;
     text-align: center;
@@ -440,7 +453,7 @@ input[type=submit]:hover {
 }
 
 .web-sample-img {
-    background: url("https://williamb-eps.github.io/final-project/images/case-study-pic.png");
+    background: url("/Users/wbowers/Library/CloudStorage/OneDrive-EastsidePreparatorySchool/Documents/Web Design 2/williamb-eps.github.io/final-project/images/case-study-pic.jpeg");
     width: 100%;
     height: 55vw;
     background-position: center;
@@ -462,6 +475,7 @@ input[type=submit]:hover {
     border: 1vw solid black;
     margin: 1vw auto;
 }
+
 
 .img {
     position: absolute;
@@ -568,7 +582,7 @@ input[type=submit]:hover {
         padding: 4vw;
     }
 
-    .intro-container, .intro, .headshot, .title-page-container, .contact-photo, .portfolio-img, .web-sample-img {
+    .intro-container, .intro, .headshot, .title-page-container, .contact-photo, .portfolio-img, .web-sample-img, .current-projects-img {
         height: 150vw;
         background-position: center;
     }
@@ -659,6 +673,10 @@ input[type=submit]:hover {
         max-width: 90vw;
     }
 
+    .slides-container img {
+        max-height: 43vw;
+    }
+
     .arrow-left {
         top: 195vw;
         left: 1%;
@@ -677,6 +695,7 @@ input[type=submit]:hover {
         width: 80%;
         height: 70vw;
         margin: 2vw 10vw;
+        padding: 2vw;
     }
 
     .project-content {
@@ -701,4 +720,14 @@ input[type=submit]:hover {
         width: 1vw;
         height: 44vw;
     }
+    
+    .projects {
+        height: 390vw;
+    }   
+    
+    .float-item {
+        height: 55vw;
+        width: 100%;
+    }
+    
 }
