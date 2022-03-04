@@ -453,7 +453,7 @@ input[type=submit]:hover {
 }
 
 .web-sample-img {
-    background: url("/Users/wbowers/Library/CloudStorage/OneDrive-EastsidePreparatorySchool/Documents/Web Design 2/williamb-eps.github.io/final-project/images/case-study-pic.jpeg");
+    background: url("https://williamb-eps.github.io/final-project/images/case-study-pic.jpeg");
     width: 100%;
     height: 55vw;
     background-position: center;
