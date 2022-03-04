@@ -18,7 +18,9 @@
                     <img src="images/logo.webp"  alt="">
                 </div>
                 <div class="widget">
-                    <iframe src="https://widgets.spinitron.com/widget/now-playing?station=kmgp&amp;num=1&amp;sharing=1" style="height:100%; width:100%;border:none; margin:0; padding:0;"></iframe>  
+                    <div class="" id="show">
+                        <a href=""></a>
+                    </div>
                 </div>
                 <div class="buttons">
                     <button>
@@ -40,16 +42,29 @@
             </div>
         </div>
         
-        <!-- <div class="video">
-            <video src="images/radio-bg-vid.mp4" autoplay loop muted></video>
-        </div> -->
-        <h1>Welcome to Space 101.1 Radio</h1>
+
+            <div class="container2">
+                <h2>Featured</h2>
+                    <img src="images/orbit.webp" style="width:100%" alt="">
+                    <button class="special-button">
+                        <a href="#">NW Orbit: Jason McCue</a>
+                    </button>
+                    <button class="normal-button">
+                        <a href="#">Schedule</a>
+                    </button>
+                    <button class="normal-button">
+                        <a href="#">Programs</a>
+                    </button>
+                    
+                    
+
+            </div>
             <div class="container1">
                 <h2>Highlighted programs</h2>
                 <div class="slideshow-container">
 
                     <div class="mySlides fade">
-                      <img src="images/orbit.webp" style="width:100%">
+                      <img src="images/orbit.jpeg" style="width:100%">
                       <div class="text">NW Orbit</div>
                     </div>
                     
@@ -68,29 +83,15 @@
                         <span class="dot"></span> 
                         <span class="dot"></span> 
                         <span class="dot"></span> 
-                      </div>
-                      
+                    </div>
             </div>
-            <div class="container1">
-                    <h2>Recent songs:</h2>
-                    <iframe src="https://widgets.spinitron.com/widget/now-playing?station=kmgp&amp;num=5&amp;time=1&amp;sharing=1" style="height:100%; width:100%;border:none; margin:0; padding:0;"></iframe>
-                    <p>Song ◦ Artist ◦ Time</p>
-                    <p>Song ◦ Artist ◦ Time</p>
-                    <p>Song ◦ Artist ◦ Time</p>
-                    <p>Song ◦ Artist ◦ Time</p>
-                    <p>Song ◦ Artist ◦ Time</p>
-                    <p>Song ◦ Artist ◦ Time</p>          
+
+            <div class="songs-container">
+                <div class="curr-songs"><h2>Recent songs</h2>
+                    <iframe src="https://widgets.spinitron.com/widget/now-playing?station=kmgp&amp;num=6&amp;time=1&amp;sharing=1" style="height:100%; width:100%;border:none; margin:0; padding:0;"></iframe></div>
             </div>
-            <div class="container1">
-                <h2>Schedule</h2>
-                <div class="" id="show"></div>
-                <button>
-                    <a href="#">Weekly Schedule</a>
-                </button>
-                <button>
-                    <a href="#">More Programs</a>
-                </button>
-            </div>
+
+
             <div class="container2">
                 <div class="split">
                     <h2>Connect with us</h2>
@@ -110,18 +111,10 @@
                     <img src="images/parks-logo.webp" width="70%" alt="">
                 </div>
             </div>
-            <div class="container1">
-                <button>
-                    <a href="#">NW Orbit: Fretland</a>
-                </button>
-                <button>
-                    <a href="#">Weekly Schedule</a>
-                </button>
-            </div>
      </div>
 
      <script>
-         document.getElementById("show").innerHTML = "Current show: " + show;
+         document.getElementById("show").innerHTML =  "Current show: " + show;
         var slideIndex = 0;
         showSlides();
 

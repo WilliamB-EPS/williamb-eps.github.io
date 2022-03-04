@@ -10,10 +10,12 @@ body {
 
 h1 {
     font-size: 3vw;
+    margin: 0;
 }
 
 h2 {
     font-size: 2.5vw;
+    margin: 1.5vw;
 }
 
 p,a {
@@ -31,7 +33,7 @@ iframe {
     background: white;
     margin-top: -5vw;
     padding-top: 5vw;
-    height: 90vw;
+    height: 80vw;
     width: 100%;
     text-align: center;
 }
@@ -149,7 +151,8 @@ hr {
 }
 
 video {
-    position: fixed;
+    position: absolute;
+    top: 100%;
     right: 0;
     bottom: 0;
     min-width: 100%; 
@@ -160,33 +163,42 @@ video {
 
 .container1 {
     float: left;
-    width: 31%;
-    height: 30vw;
+    width: 60%;
+    height: 45vw;
     margin: 0 1vw;
-    padding: 0.5vw;
+    padding: 1vw;
 }
 
 .container2 {
     float: left;
-    width: 60.5%;
-    height: 30vw;
-    margin: 0 1.5vw;
-    padding: 0.5vw;
+    width: 35%;
+    height: 45vw;
+    margin: 0.5vw 1vw;
+    padding: 1vw;
 }
 
 #show {
-    font-size: 1.75vw; 
-    margin-bottom: 1vw;
+    font-size: 2.25vw; 
+    margin-top: -0.25vw;
 }
 
 .container2 p {
     margin: 1.5vw 0;
 }
 
-.container1 button {
-    margin: 2.25vw 1vw;
-    width: 20vw;
+.special-button {
+    margin: 1.5vw auto 1vw auto;
+    width: 26vw;
     height: 5vw;
+    display: block;
+}
+
+.normal-button {
+    margin: 1vw 0;
+    width: 13vw;
+    height: 4vw;
+    display: inline;
+    border-radius: 1.5vw;
 }
 
 .float {
@@ -274,8 +286,19 @@ video {
     .text {font-size: 11px}
   }
 
+  .songs-container {
+      background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/space-fm-project/images/bg.jpeg");
+      width: 100%;
+      height: 40vw;
+      margin-top: 48vw;
+      background-size: cover;
+      background-repeat: none;
+  }
 
-
-.recentsong {
-    font-size: 40px !important;
-}
+  .curr-songs {
+      background: rgba(255,255,255,0.7);
+      transform: translate(33%,10%);
+      width: 60vw;
+      height: 30vw;
+      padding: 2vw;
+  }
