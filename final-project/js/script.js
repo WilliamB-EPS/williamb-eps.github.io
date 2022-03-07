@@ -42,9 +42,13 @@ function displayContent(n) {
 
 // code for before and after slides on case study page 
 
-// javascript influenced by (not copied from) Taras' demo: https://jacketedsquash6.github.io/sliderDemo/
+// slider javascript influenced by (not copied from) Taras' demo: https://jacketedsquash6.github.io/sliderDemo/
 
 function cropImage(val) {
     percent = val + "%";
     document.getElementsByClassName("before-img")[0].style.width = percent;
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    cropImage(document.getElementById("slider").value)
+});

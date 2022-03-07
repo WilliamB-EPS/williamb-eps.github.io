@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Case Study</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- Import for social media icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <!-- Import for JS (includes nav animation) -->
      <script src="js/script.js"></script>
@@ -58,11 +59,14 @@
         <h2>Before and After</h2>
         <p style="text-align: center;">Move the slider to see the original page vs the redesign.</p>
 
-        <!-- HTML influenced by (not copied from) Taras' demo: https://jacketedsquash6.github.io/sliderDemo/ -->
+        <!-- Slider HTML influenced by (not copied from) Taras' demo: https://jacketedsquash6.github.io/sliderDemo/ -->
 
         <div class="slider-container">
             <div class="after-img img"></div>
             <div class="before-img img"></div>
+
+            <!-- Slider element -->
+
             <input type="range" min="0" max="100" value="50" class="slider" name="slider" id="slider" oninput="cropImage(this.value)">
         </div>   
     </div>
