@@ -388,8 +388,6 @@ input[type=submit]:hover {
     transition-duration: 0.5s;
 }
 
-/* CSS for unfinished pages (until media querie) */
-
 .portfolio-img {
     background: url("https://williamb-eps.github.io/final-project/images/portfolio-img.jpeg");
     background-size: cover;
@@ -475,7 +473,6 @@ input[type=submit]:hover {
     border: 1vw solid black;
     margin: 1vw auto;
 }
-
 
 .img {
     position: absolute;
