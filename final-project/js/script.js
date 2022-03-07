@@ -48,7 +48,3 @@ function cropImage(val) {
     percent = val + "%";
     document.getElementsByClassName("before-img")[0].style.width = percent;
 }
-
-document.addEventListener("DOMContentLoaded", function() {
-    cropImage(document.getElementById("slider").value)
-});
