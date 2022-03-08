@@ -8,7 +8,7 @@ function closeNav() {
     document.getElementById("nav").style.height = "0%";
 }
 
-// code for slide show (html on portfolio page):
+// code for slide show on portfolio page:
 // JavaScript influenced by (not copied from): https://www.w3schools.com/howto/howto_js_slideshow.asp -->
 
 
@@ -40,9 +40,8 @@ function displayContent(n) {
     mySlides[slideIdx-1].style.display = "block";  
 }
 
-// code for before and after slides on case study page 
-
-// slider javascript influenced by (not copied from) Taras' demo: https://jacketedsquash6.github.io/sliderDemo/
+// code for slider on case study page 
+// JavaScript influenced by (not copied from) Taras' demo: https://jacketedsquash6.github.io/sliderDemo/
 
 function cropImage(val) {
     percent = val + "%";
