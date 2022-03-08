@@ -90,8 +90,9 @@ img {
 }
 
 .demos {
-    /*background: rgb(36, 69, 156);*/
-    background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/images/demos-bg.jpeg");
+    background: url("/Users/wbowers/Library/CloudStorage/OneDrive-EastsidePreparatorySchool/Documents/Web Design 2/williamb-eps.github.io/images/demos-img.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 42vw;
     margin-top: -5.5vw;
@@ -112,7 +113,7 @@ img {
     width: 15vw;
     height: 8vw;
     background: rgb(200, 79, 48);
-    margin: 1vw 2vw;
+    margin: 1.5vw 2vw;
 }
 
 .demo-button {
@@ -205,7 +206,7 @@ img {
     }
 
     .demos {
-        height: 90vw;
+        height: 80vw;
         padding: 0 4vw;
     }
 
