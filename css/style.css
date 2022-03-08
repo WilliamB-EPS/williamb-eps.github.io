@@ -90,7 +90,7 @@ img {
 }
 
 .demos {
-    background: url("/Users/wbowers/Library/CloudStorage/OneDrive-EastsidePreparatorySchool/Documents/Web Design 2/williamb-eps.github.io/images/demos-img.jpeg");
+    background: url("https://williamb-eps.github.io/images/demos-img.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
