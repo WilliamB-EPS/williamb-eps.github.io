@@ -6,7 +6,7 @@ var day = today.getDay();
 var show;
 // monday
 if (day == 1) {
-    if (19 <= time && time <= 21) {
+    if (19 <= time && time < 21) {
         show = "Roots Roundup";
     } else {
         show = "SPACE MIX ";
@@ -15,7 +15,7 @@ if (day == 1) {
 } else if (day == 2) {
     if (17 <= time && time < 21) {
         show = "Northest Orbit";
-    } else if (21 <= time && time <= 23) {
+    } else if (21 <= time && time < 23) {
         show = "Magnuson Blues"
     } else {
         show = "SPACE MIX";
@@ -26,7 +26,7 @@ if (day == 1) {
         show = "World Beat Adventure";
     } else if (21 <= time && time < 22) {
         show = "Transcend This Temporal Plane"
-    } else if (22 <= time && time <= 23) {
+    } else if (22 <= time && time < 23) {
         show = "PM Love Potion no. 69"
     } else {
         show = "SPACE MIX";

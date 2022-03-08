@@ -33,16 +33,20 @@
             </div>
             <hr>
             <div class="nav">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Listen</a>
-                <a href="#">Donate</a>
-                <a href="#">Volunteer</a>
-                <a href="#"><i class="fa fa-search"></i></a>
+                <id id="myTopNav">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Listen</a>
+                    <a href="#">Volunteer</a>
+                    <a href="#">NW Orbit Archive</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </id>
             </div>
         </div>
 
-        <h2 style="font-size: 2.25vw; margin: 3vw 0 2vw 0">People-powered arts-oriented radio for Northeast Seattle and beyond</h2>
+        <h3 style="margin: 3vw 0 2vw 0;">People-powered arts-oriented radio for Northeast Seattle and beyond</h3>
         
 
             <div class="container2">
@@ -85,42 +89,86 @@
         </div>
 
             <div class="songs-container">
-                <h1 style="text-align: left;">More Info</h1>
-                <div class="curr-songs"><h2>Recent songs</h2>
-                    <iframe src="https://widgets.spinitron.com/widget/now-playing?station=kmgp&amp;num=7&amp;time=1&amp;sharing=1" style="height:100%; width:100%;border:none; margin:0; padding:0;"></iframe>
+                <h2 style="margin: 1vw; font-size: 2.75vw">More Info</h2>
+                <div class="curr-songs">
+                    <h3>Recent songs</h3>
+                    <iframe src="https://widgets.spinitron.com/widget/now-playing?station=kmgp&amp;num=6&amp;time=1&amp;sharing=1" style="height:100%; width:100%;border:none; margin:0; padding:0;"></iframe>
                 </div>
 
                 <div class="text-container">
-                    <h2>About</h2>
-                    <p>People-powered arts-oriented radio for Northeast Seattle and beyond. Broadcasting now from Magnuson Park</p>
-                    <p>Connect with us:</p>
-                    <a href="#">HELLO@SPACE101FM.ORG</a>
+                    <h3>About</h3>
+                    <p>On SPACE 101.1, listeners may hear anything from deep cut R&B to an hour show about birding, or poetry with a visiting artist. You may hear shows in languages other than English, or learn a new recipe featuring unfamiliar ingredients from a country far away.​</p>
                 </div>
 
                 <div class="contact">
-                    <h2>Contact Us</h2>
+                    <h3>Contact Us</h3>
+                    <a href="#">HELLO@SPACE101FM.ORG</a>
+                    <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-facebook fa-3x"></i></a>
                 </div>
             </div>
 
-            <div class="container2">
-                <div class="split">
-                    <h2>Connect with us</h2>
-                    <a href="#">HELLO@SPACE101FM.ORG</a>
+            <div class="nw-orbit">
+                <h2>NW Orbit</h2>
+                <p>Monthly feature on SPACE 101.1 FM highlighting local bands you need to know. Interview and music. Hosted by Phoebe.</p>
+                <div class="orbit-content">
+                    <img src="images/fretland.png" alt="" style="width: 80%;" >
+                    <h3>February 2022: Fretland</h3>
+                    <p>From Snohomish, WA, Fretland beautifully blends Americana, Indie Folk, and Country. Interview with Hillary Grace Fretland & Luke Francis</p>
+                </div>
+                <div class="orbit-content">
+                    <img src="images/jason.jpeg" style="width: 80%;" alt="">
+                    <h3>March 2022: Jason McCue</h3>
+                    <p>Seattle singer-songwriter Jason McCue combines intricate guitar finger-picking with distinct vocals for a sound that is all his own.</p>
+                </div>
+            </div>
+
+           
+
+            <div class="donate">
+                <h2>Support Space Radio</h2>
+                <div class="third">
+                    <h3>Donate</h3>
+                    <p>Your donation supports community radio and ensures that our unique programming will continue to grow. Give $101 or more and get our inaugural SPACE FM t-shirt!</p>
+                    <button>
+                        <a href="#">Donate Once</a>
+                    </button>
+                    <button>
+                        <a href="#">Donate Weekly</a>
+                    </button>
+                </div>
+                <div class="third">
+                    <h3>Volunteer</h3>
+                    <img src="images/volunteer.png" style="width: 100%; margin-top: -2vw;" alt="">
+                    <a href="#" style="text-decoration: underline;">See our volunteering opportunities</a>
+                </div>
+                <div class="third">
+                    <h3>Listen Live</h3>
+                    <a href="#"><i class="fa fa-spotify fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-music fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-soundcloud fa-3x"></i></a>
+                    <p>Now playing on 101.1 FM in Seattle, WA
+                        and streaming world wide!</p>
+                    <button>
+                        <a href="#">Listen Live</a>
+                    </button>
+                </div>
+            </div>
+
+                <div class="split1">
                     <p>
                         SPACE 101.1 LPFM is a service of Sand Point Arts and Cultural Exchange (SPACE). Funding, facilitating and promoting arts and cultural uses of Magnuson Park for the public.
                         <br>
                         SPACE is a 501(c)(3), EIN 91-1712171.
                     </p>
                 </div>
-                <div class="split">
+                <div class="split2">
                     <p> 
                         Powered in part with the support of 
                         <br> 
                         Seattle Parks and Recreation
                     </p>
-                    <img src="images/parks-logo.webp" width="70%" alt="">
                 </div>
-            </div>
 
 
      <script>
@@ -143,6 +191,15 @@
         slides[slideIndex-1].style.display = "block";  
         dots[slideIndex-1].className += " active";
         setTimeout(showSlides, 4000); // Change image every 2 seconds
+        }
+
+        function myFunction() {
+            var x = document.getElementById("myTopNav");
+            if (x.className === "nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav";
+            }
         }
      </script>
     
