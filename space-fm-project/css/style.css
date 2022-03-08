@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@600&family=Nunito+Sans:wght@300&family=Quicksand:wght@300&display=swap');
+
+
 * {
     box-sizing: border-box;
 }
@@ -6,6 +9,7 @@ body {
     margin: 0;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    font-family: Quicksand;
 }
 
 h1 {
@@ -14,7 +18,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5vw;
+    font-size: 2vw;
     margin: 1.5vw;
 }
 
@@ -33,7 +37,7 @@ iframe {
     background: white;
     margin-top: -5vw;
     padding-top: 5vw;
-    height: 80vw;
+    height: 64.5vw;
     width: 100%;
     text-align: center;
 }
@@ -234,6 +238,10 @@ video {
     position: relative;
     margin: auto;
   }
+
+.slideshow-container img {
+    max-height: 35vw;
+}
   
   /* Caption text */
   .text {
@@ -287,18 +295,44 @@ video {
   }
 
   .songs-container {
-      background: url("/Users/wbowers/OneDrive - Eastside Preparatory School/Documents/Web Design 2/williamb-eps.github.io/space-fm-project/images/bg.jpeg");
+      /*
+      background: rgb(33, 47, 64);
+      */
+      background: rgb(240, 240, 240);
       width: 100%;
       height: 40vw;
-      margin-top: 48vw;
-      background-size: cover;
-      background-repeat: none;
+      margin-top: 1vw;
+      padding-top: 0.5vw;
+      text-align: center;
   }
 
   .curr-songs {
-      background: rgba(255,255,255,0.7);
-      transform: translate(33%,10%);
-      width: 60vw;
+      background: rgba(255,255,255,0.5);
+      float: left;
+      width: 39%;
       height: 30vw;
       padding: 2vw;
+      margin: 0 1vw;
+      text-align: center;
   }
+
+  .text-container {
+    background: rgba(255,255,255,0.5);
+    float: left;
+    width: 27.25%;
+    height: 30vw;
+    padding: 2vw;
+    margin: 0 1vw;
+    text-align: center;
+  }
+
+  .contact {
+    background: rgba(255,255,255,0.5);
+    float: left;
+    width: 27.25%;
+    height: 30vw;
+    padding: 2vw;
+    margin: 0 1vw;
+    text-align: center;
+  }
+
