@@ -127,8 +127,12 @@ img {
     transition-duration: 0.5s;
 }
 
+.demos button a:hover {
+    text-decoration: underline;
+}
+
 .footer {
-    background: rgb(34, 52, 138);
+    background: rgb(25, 72, 138);
     height: 15vw;
     border-top: 0.05vw solid white;
 }
