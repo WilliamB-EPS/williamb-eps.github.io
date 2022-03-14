@@ -39,7 +39,7 @@ iframe {
     background: white;
     margin-top: -5vw;
     padding-top: 5vw;
-    height: 62.5vw;
+    height: 63.5vw;
     width: 100%;
     text-align: center;
 }
@@ -144,16 +144,14 @@ hr {
     float: left;
     width: 60%;
     height: 40vw;
-    margin: 0 1vw;
-    padding: 1vw;
+    margin: 2vw 1vw;
 }
 
 .container2 {
     float: left;
     width: 35%;
     height: 40vw;
-    margin: 0.5vw 1vw;
-    padding: 1vw;
+    margin: 2vw 1vw;
 }
 
 #show {
@@ -166,14 +164,14 @@ hr {
 }
 
 .special-button {
-    margin: 1.5vw auto 1vw auto;
+    margin: 1vw auto 1vw auto;
     width: 26vw;
     height: 5vw;
     display: block;
 }
 
 .normal-button {
-    margin: 1vw 1vw;
+    margin: 0 1vw;
     width: 12vw;
     height: 4vw;
     display: inline;
@@ -227,6 +225,10 @@ hr {
 
 .slideshow-container img {
     max-height: 35vw;
+}
+
+img {
+    max-width: 100%;
 }
   
   /* Caption text */
@@ -323,6 +325,7 @@ hr {
 
 img {
     border-radius: 1vw;
+    width: 100%;
 }
 
   .split1 {
@@ -491,11 +494,12 @@ img {
 
     .songs-container {
         margin-top: 25vw;
-        height: 155vw;
+        height: 135vw;
+        padding: 0 3vw;
     }
 
     .songs-container h2 {
-        padding: 0;
+        display: none;
     }
   
     .curr-songs, .text-container, .contact {
@@ -511,6 +515,7 @@ img {
       height: 140vw;
       text-align: center;
       margin-top:98vw;
+      padding: 0 3vw;
   }
   
   .orbit-content {
@@ -520,6 +525,7 @@ img {
   .third {
       width: 100%;
       height: 100vw;
+      padding: 2vw;
   }
   
   .text-container button {
@@ -540,6 +546,10 @@ img {
         height: 30vw;
 
     }
+
+    .donate h2 {
+        padding-bottom: 2vw;
+    }
   
   
   .split1 p, .split2 p {
@@ -549,6 +559,7 @@ img {
   .donate {
       margin-top: 105vw;
       height: 320vw;
+      padding: 2vw 3vw;
   }
 
 }
