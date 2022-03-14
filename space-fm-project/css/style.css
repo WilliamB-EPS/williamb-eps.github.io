@@ -286,23 +286,25 @@ hr {
   }
 
   .curr-songs {
-      background: rgba(245,245,245);
+        background: rgb(250, 250, 250);
       float: left;
       width: 39%;
-      height: 19vw;
+      height: 25vw;
       padding: 1vw;
       margin: 1vw;
       text-align: center;
+     border-radius: 1vw;
   }
 
   .text-container {
-    background: rgba(245,245,245);
+    background: rgb(250, 250, 250);
     float: left;
     width: 27.25%;
     height: 25vw;
     padding: 1vw;
     margin: 1vw;
     text-align: center;
+    border-radius: 1vw;
   }
 
   .nw-orbit {
@@ -317,6 +319,10 @@ hr {
     float: left;
     width: 50%;
     padding: 1vw;
+}
+
+img {
+    border-radius: 1vw;
 }
 
   .split1 {
@@ -359,6 +365,7 @@ hr {
     float: left;
     height: 30vw;
     margin: 1vw;
+    border-radius: 1vw;
 }
 
 .third button, .text-container button {
@@ -383,6 +390,14 @@ hr {
 .nav .icon {
     display: none;
   }
+
+  .recentsongs {
+    height:80%; 
+    width:100%;
+    border:none; 
+    margin:0; 
+    padding:0;
+  }
   
 
   /* On smaller screens, get rid of fancy header */
@@ -397,7 +412,7 @@ hr {
           float: right;
           display: block;
           position: absolute;
-          top: 1vw;
+          top: 2vw;
           right: 0;
           padding: 0;
         }
@@ -405,7 +420,7 @@ hr {
       
         .nav.responsive .icon {
           position: absolute;
-          top: 1vw;
+          top: 2vw;
           right: 0;
         }
         .nav.responsive a {
@@ -414,25 +429,27 @@ hr {
 
         .nav {
             border: none;
-            padding-top: 0;
-            margin-bottom: 6vw;
+            margin-bottom: 2vw;
+            width: 100%;
         }
 
         .nav a {
             font-size: 8vw;
-            padding: 2vw 0;
+            padding-bottom: 2vw;
         }
+
 
     .header-top {
         display: none;
     }
 
     h2 {
-        font-size: 7vw;
+        font-size: 8vw;
     }
 
     h3 {
-        font-size: 6vw;
+        font-size: 6.5vw;
+        margin-top: 2vw;
     }
 
     p,a {
@@ -473,12 +490,12 @@ hr {
     }
 
     .songs-container {
-        margin-top: 5vw;
+        margin-top: 25vw;
         height: 155vw;
     }
 
     .songs-container h2 {
-        display: none;
+        padding: 0;
     }
   
     .curr-songs, .text-container, .contact {
@@ -493,7 +510,7 @@ hr {
     .nw-orbit {
       height: 140vw;
       text-align: center;
-      margin-top:95vw;
+      margin-top:98vw;
   }
   
   .orbit-content {
@@ -533,4 +550,5 @@ hr {
       margin-top: 105vw;
       height: 320vw;
   }
-  }
+
+}
