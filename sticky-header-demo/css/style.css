@@ -151,7 +151,9 @@ header {
 
     /* nav-related media queries from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
 
-    .nav.responsive {position: relative;}
+    .nav.responsive {
+        position: relative;
+    }
     .nav.responsive .icon {
       position: absolute;
       right: 0;

@@ -39,7 +39,7 @@ iframe {
     background: white;
     margin-top: -5vw;
     padding-top: 5vw;
-    height: 64.5vw;
+    height: 62.5vw;
     width: 100%;
     text-align: center;
 }
@@ -97,7 +97,7 @@ button {
     width: 10vw;
     height: 5vw;
     background-color: rgb(219, 104, 37);
-    border-radius: 2vw;
+    border-radius: 1vw;
     border: none;
     margin: 0 1vw -10vw 0;
 }
@@ -116,13 +116,16 @@ button:hover {
 
 .nav {
     padding: 0 4vw;
-    margin-top: 1.25vw;
+    margin-top: 1vw;
     text-align: center;
+    padding-top: 1vw;
+    border-top: 0.1vw solid white;
+    overflow: hidden;
 }
 
 .nav a {
     color: white;
-    margin: 0 2vw;
+    padding: 0 2vw;
 }
 
 .nav a:hover {
@@ -130,30 +133,10 @@ button:hover {
     transition-duration: 0.5s;
 }
 
-
-.nav .fa:hover {
-    color: rgb(56, 150, 194);
-    transition-duration: 0.5s;
-}
-
-.nav p {
-    margin-bottom: 2vw;
-}
-
 hr {
     color: white;
     clear: both;
     margin: 0;
-}
-
-video {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-    z-index: -2;
 }
 
 
@@ -190,11 +173,11 @@ video {
 }
 
 .normal-button {
-    margin: 1vw 0;
-    width: 13vw;
+    margin: 1vw 1vw;
+    width: 12vw;
     height: 4vw;
     display: inline;
-    border-radius: 1.5vw;
+    border-radius: 1vw;
 }
 
 .float {
@@ -208,10 +191,16 @@ video {
     width: 16vw;
 }
 
-.contact .fa {
+.text-container .fa {
     color: black;
-    margin: 4vw 2vw 0vw 2vw;
+    margin: 0 2vw;
 }
+
+.text-container .fa:hover, .third .fa:hover {
+    color:rgb(56, 150, 194);
+    transition-duration: 0.5s;
+}
+
 
 .fa:hover {
     color:rgb(56, 150, 194);
@@ -291,7 +280,7 @@ video {
       background: rgb(240, 240, 240);
       width: 100%;
       height: 35vw;
-      margin-top: 2vw;
+      margin-top: 3vw;
       padding-top: 0.5vw;
       text-align: center;
   }
@@ -329,16 +318,6 @@ video {
     width: 50%;
     padding: 1vw;
 }
-
-  .contact {
-    background: rgba(245,245,245);
-    float: left;
-    width: 27.25%;
-    height: 25vw;
-    padding: 1vw;
-    margin: 1vw;
-    text-align: center;
-  }
 
   .split1 {
       width: 60%;
@@ -382,13 +361,14 @@ video {
     margin: 1vw;
 }
 
-.third button {
+.third button, .text-container button {
     width: 20vw;
     margin: 0.5vw;
 }
 
 .third .fa {
     color: black;
+    margin:2vw;
 }
 
 .third a:hover {
@@ -408,7 +388,7 @@ video {
   /* On smaller screens, get rid of fancy header */
 
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 800px) {
 
         .nav a:not(:first-child) {
             display: none;
@@ -416,81 +396,141 @@ video {
         .nav a.icon {
           float: right;
           display: block;
+          position: absolute;
+          top: 1vw;
+          right: 0;
+          padding: 0;
         }
 
       
-        .nav.responsive {position: relative;}
         .nav.responsive .icon {
           position: absolute;
+          top: 1vw;
           right: 0;
-          top: 0;
-          text-align: left;
         }
         .nav.responsive a {
-          float: none;
           display: block;
-          text-align: center;
         }
 
-    body {
-        margin: 0;
+        .nav {
+            border: none;
+            padding-top: 0;
+            margin-bottom: 6vw;
+        }
+
+        .nav a {
+            font-size: 8vw;
+            padding: 2vw 0;
+        }
+
+    .header-top {
+        display: none;
     }
 
     h2 {
-        font-size: 6vw;
+        font-size: 7vw;
     }
 
     h3 {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     p,a {
         font-size: 5vw;
     }
 
-    .header-top {
-        height: 19vw;
-        padding: 0;
-    }
-
     #show {
         font-size: 5vw;
         padding: 0 3vw;
-        margin-top: 1vw;
-    }
-
-    .widget {
-        height: 13vw;
-        width: 40%;
-        margin: 0;
-        border: none;
-        margin-left: -10vw;
-    }
-
-    .buttons {
-        width: 55%;
-        text-align: left;
-        margin-right: 5vw;
-    }
-
-    button {
-        width: 22vw;
-        height: 12vw;
-        margin: 1vw 0.5vw
-    }
-
-    .logo {
-        height: 12vw;
-        width: 0%;
-    }
-
-    .logo img {
-        height: 12vw;
+        margin-top: 2vw;
     }
 
     .buttons {
         height: 8vw;
     }
 
-    
+    .container2 {
+        display: none;
+    }
+
+    .container1 {
+        width: 100%;
+        height: 70vw;
+        margin-top: 6vw;
+    }
+
+    .slideshow-container img {
+        max-height: 60vw;
+    }
+
+    .text {
+        bottom: 3vw;
+        font-size: 6vw;
+    }
+
+    .content {
+        height: 100vw;
+    }
+
+    .songs-container {
+        margin-top: 5vw;
+        height: 155vw;
+    }
+
+    .songs-container h2 {
+        display: none;
+    }
+  
+    .curr-songs, .text-container, .contact {
+        width: 100%;
+        height: 75vw;
+    }
+
+    .text-container .fa {
+        color: black;
+    }
+
+    .nw-orbit {
+      height: 140vw;
+      text-align: center;
+      margin-top:95vw;
+  }
+  
+  .orbit-content {
+      width: 100%;
+  }
+
+  .third {
+      width: 100%;
+      height: 100vw;
+  }
+  
+  .text-container button {
+      height: 12vw;
+      width: 40vw;
+      margin: -1.5vw;
+  }
+  
+
+    .third button, .text-container button {
+        width: 60vw;
+        height: 15vw;
+        margin: 2vw;
+    }
+
+    .split1,.split2 {
+        width: 100%;
+        height: 30vw;
+
+    }
+  
+  
+  .split1 p, .split2 p {
+      font-size: 4vw;
+  }
+
+  .donate {
+      margin-top: 105vw;
+      height: 320vw;
+  }
   }

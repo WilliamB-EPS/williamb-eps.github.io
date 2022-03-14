@@ -78,7 +78,7 @@ if (day == 1) {
 } else if (day == 0) {
     if (0 <= time && time <= 2) {
         show = "Story Untold";
-    } else if (7 <= time && time <= 8) {
+    } else if (7 <= time && time < 8) {
         show = "Radio Survivor";
     } else if (12 <= time && time < 14) {
         show = "American Routes";
@@ -88,9 +88,9 @@ if (day == 1) {
         show = "Johnny Cool's Happy Hour";
     } else if (20 <= time && time < 20.5) {
         show = "Broken, Alaska";
-    } else if (21 <= time && time <= 22) {
+    } else if (21 <= time && time < 22) {
         show = "Sound Improv Live! (2nd Sunday)";
-    } 
     } else {
         show = "SPACE MIX";
+    }
 }
