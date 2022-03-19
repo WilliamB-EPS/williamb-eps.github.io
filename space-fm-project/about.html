@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <style>
+        h3 {
+            text-align: center;
+        }
+        img {
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-top">
+            <div class="logo">
+                <img src="images/logo.webp"  alt="">
+            </div>
+            <div class="widget">
+                <div class="" id="show">
+                    <a href=""></a>
+                </div>
+            </div>
+            <div class="buttons">
+                <button>
+                    <a href="">Listen Live</a>
+                </button>
+                <button>
+                    <a href="">Donate</a>
+                </button>
+            </div>
+        </div>
+            <div id="myTopNav" class="nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="#">Listen</a>
+                <a href="#">Volunteer</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars" style="font-size: 9.5vw;"></i>
+                </a>
+        </div>
+    </div>
+
+    <h3 style="margin: 3vw 0 1vw 0;">Mission and Vision</h3>
+    <div style="text-align: center;">
+        <img src="images/about-img.jpeg" class="abt-img" alt="">
+        <img src="images/on-air.jpeg" class="abt-img" alt="">
+    </div>
+
+    <div class="text-content-container">
+        <div class="text-content">
+            <p>Why a radio station in Magnuson Park?</p>
+            <p>It was the inspiring potential of the community itself that compelled SPACE
+
+                to start a low-power FM radio station. The park community and surrounding
+                
+                neighborhoods have many unleveraged strengths and potential partnerships
+                
+                that will now come to exist through the radio station’s ability to share
+                
+                information, provide equal access to the airwaves, and connect the amazing
+                
+                breadth of individuals, groups and organizations within its broadcast zone
+                
+                and beyond.    ​
+            </p>
+
+            <p>LPFMs can be operated on shoestring budgets and are largely run by
+
+                volunteers. In addition to engaging hundreds of people this way, the station
+                
+                intends to offer regular hours devoted to the youth living in the park and offer
+                
+                them many opportunities to gain job, technical and storytelling skills they can
+                
+                use their whole lives. 
+            </p>
+
+
+            <p>People with unique and varied interests will meet each other through their
+
+                programming interests and the physical space can serve as a community hub
+                
+                and gathering place as well as another safe space for the youth living in the
+                
+                park. On SPACE 101.1, listeners may hear anything from deep cut R&B to an hour show about birding, or poetry with a visiting artist. You may hear shows in languages other than English, or learn a new recipe featuring unfamiliar ingredients from a country far away.
+            </p>
+
+            <p> The station will support small and local businesses by providing a very affordable way to reach a nearby audience and by sharing special events and other news, including school and other non-profit's announcements. The station will also expand on the mission of SPACE by providing the arts a stable and elevated platform to promote and share events and offerings.
+
+            </p>
+        </div>
+    </div>
+    
+    <div class="pictures-content"></div>
+
+    <h3>Meet the team</h3>
+
+    <div class="team">
+
+        <div class="team-content">
+            <p> Karina Kunins, president</p>
+            <p>Eric Zappa, vice president</p>
+            <p>Gabrielle Gerhard, secretary</p>
+            <p> Nina Tsai McKay, treasurer</p>
+            <p>Mark Patterson</p>
+    
+            <br>
+
+            <p>SPACE 101.1 FM LP exists thanks to a volunteer band of believers.</p>
+    
+            <p>With support from the SPACE board of directors, volunteers from our nearby communities have raised money and contributed hundreds of hours to launch NE Seattle's own hyper-local
+    
+                arts-oriented radio station. </p>
+            </div>
+
+        <div class="team-pic">
+            <img src="images/big-logo.webp" style="width:86%" alt="">
+        </div>
+    </div>
+
+    <div class="text-content-container2">
+            <div class="space-pics">
+                <img src="images/space-art.gif" alt="">
+                <img src="images/building.webp" alt="">
+            </div>
+
+            <div class="space-text">
+                <p>SPACE 101.1 FM is a service of</p>
+                <img src="images/space-logo.webp" style="width: 70%;" alt="">
+                <p>Founded in 1994 by a coalition of creative pioneers, Sand Point Arts and Cultural Exchange (SPACE), is the non-profit responsible for waving the flag for arts and cultural organizations and activities at Warren G. Magnuson Park, a former U.S. Navy base. 
+
+                </p>
+
+                <p>In 2004, SPACE began and led the advocacy efforts resulting in the historic preservation of two park buildings, 30 and 18.  Now operating out of a public gallery in Building 30 and a radio station in Building 138, SPACE builds community by funding, facilitating and promoting arts and cultural uses of the park for the public. We work to connect communities within and out of the park by providing safe and welcoming opportunities for all to engage with the delight, power and connection of cultural experiences.
+
+                </p>
+
+
+            </div>
+    </div>
+
+    <div class="split1">
+        <p>
+            SPACE 101.1 LPFM is a service of Sand Point Arts and Cultural Exchange (SPACE). Funding, facilitating and promoting arts and cultural uses of Magnuson Park for the public.
+            <br>
+            SPACE is a 501(c)(3), EIN 91-1712171.
+        </p>
+    </div>
+    <div class="split2">
+        <p> 
+            Powered in part with the support of 
+            <br> 
+            Seattle Parks and Recreation
+        </p>
+    </div>
+
+
+
+    <script>
+        document.getElementById("show").innerHTML =  "Current show: " + show;
+       var slideIndex = 0;
+       showSlides();
+
+       function showSlides() {
+       var i;
+       var slides = document.getElementsByClassName("mySlides");
+       var dots = document.getElementsByClassName("dot");
+       for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";  
+       }
+       slideIndex++;
+       if (slideIndex > slides.length) {slideIndex = 1}    
+       for (i = 0; i < dots.length; i++) {
+           dots[i].className = dots[i].className.replace(" active", "");
+       }
+       slides[slideIndex-1].style.display = "block";  
+       dots[slideIndex-1].className += " active";
+       setTimeout(showSlides, 4000); // Change image every 2 seconds
+       }
+
+       function myFunction() {
+           var x = document.getElementById("myTopNav");
+           if (x.className === "nav") {
+               x.className += " responsive";
+           } else {
+               x.className = "nav";
+           }
+       }
+    </script>
+</body>
+</html>

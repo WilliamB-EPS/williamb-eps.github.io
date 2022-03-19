@@ -133,6 +133,7 @@ button:hover {
     transition-duration: 0.5s;
 }
 
+
 hr {
     color: white;
     clear: both;
@@ -177,6 +178,7 @@ hr {
     display: inline;
     border-radius: 1vw;
 }
+
 
 .float {
     float: left;
@@ -230,6 +232,24 @@ hr {
 img {
     max-width: 100%;
 }
+
+.text-content-container {
+    background: rgb(240, 240, 240);
+    margin-top: 2vw;
+    height: 47vw;
+}
+
+.text-content-container2 {
+    background: rgb(240, 240, 240);
+    margin-top: 2vw;
+    height: 47vw;
+}
+
+.text-content {
+    width: 75%;
+    padding: 2vw;
+    margin: 0 auto;
+}
   
   /* Caption text */
   .text {
@@ -241,6 +261,10 @@ img {
     width: 100%;
     text-align: center;
     background: rgba(0,0,0,0.6);
+  }
+
+  .team {
+    margin-top: -6vw; padding: 5vw; text-align: center; height: 42vw;
   }
 
   
@@ -376,6 +400,10 @@ img {
     margin: 0.5vw;
 }
 
+.space-pics img {
+    width: 80%;
+}
+
 .third .fa {
     color: black;
     margin:2vw;
@@ -389,6 +417,13 @@ img {
     color: white;
 }
 
+.team-content {
+    float: left; width: 50%;
+}
+
+.team-pic {
+    float: right; width: 35%
+}
 
 .nav .icon {
     display: none;
@@ -400,6 +435,18 @@ img {
     border:none; 
     margin:0; 
     padding:0;
+  }
+
+  .abt-img {
+    width: 40%; margin: 1vw;
+  }
+
+  .space-pics {
+    float: left; width: 50%; padding: 2vw; text-align: center;
+  }
+
+  .space-text {
+    float: left; width: 45%; padding: 2vw;
   }
   
 
@@ -492,9 +539,12 @@ img {
         height: 100vw;
     }
 
+    .text-content {
+        width: 95%;
+    }
     .songs-container {
         margin-top: 25vw;
-        height: 135vw;
+        height: 235vw;
         padding: 0 3vw;
     }
 
@@ -514,7 +564,7 @@ img {
     .nw-orbit {
       height: 140vw;
       text-align: center;
-      margin-top:98vw;
+      margin-top:8vw;
       padding: 0 3vw;
   }
   
@@ -558,8 +608,39 @@ img {
 
   .donate {
       margin-top: 105vw;
-      height: 320vw;
+      height: 325vw;
       padding: 2vw 3vw;
   }
+
+  .team {
+      height: 250vw;
+      text-align: center;
+  }
+
+  .text-content-container {
+      height: 325vw;
+  }
+
+  .abt-img {
+      width: 95%;
+  }
+
+  .team-content, .team-pic {
+    width: 100%;
+    text-align: center;
+}
+
+.space-pics, .space-text {
+    padding: 5vw;
+    width: 100%;
+}
+.text-content-container2 {
+    height: 300vw;
+}
+
+.space-pics img {
+    width: 100%;
+}
+
 
 }
