@@ -3,6 +3,11 @@
 
 body {
     margin: 0;
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: Quicksand;
+    color: white;
+}
+
+.artist {
+    color: rgb(219, 104, 37);
 }
