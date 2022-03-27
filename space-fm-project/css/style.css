@@ -47,14 +47,13 @@ iframe {
 
 .header {
     background: rgba(0,0,0,0.85);
-    padding: 1vw 0;
     width: 100%;
     color: white;
 }
 
 .header-top {
     height: 8vw;
-    padding: 1.5vw 0;
+    padding: .5vw 0;
 }
 
 .logo {
@@ -64,8 +63,9 @@ iframe {
 }
 
 .logo img {
-    height: 5vw;
+    height: 7vw;
     width: 100%;
+    margin-top: 0.5vw;
 }
 
 .widget {
@@ -74,14 +74,16 @@ iframe {
     text-align: center;
     border-right: 0.2vw solid white;
     border-left: 0.2vw solid white;
-    height: 5vw;
-    padding: 1.5vw 0;
+    height: 8vw;
     
+}
+
+.widget h3 {
+    margin: 0 2vw;
 }
 
 .widget p {
     font-size: 2vw;
-    margin: 1.5vw 0;
     color: white;
 }
 
@@ -89,7 +91,7 @@ iframe {
 .buttons {
     float: right;
     width: 30%;
-    height:4vw;
+    height:8vw;
     text-align: center;
 }
 
@@ -102,6 +104,12 @@ button {
     margin: 0 1vw -10vw 0;
 }
 
+
+.header button {
+    height: 6vw;
+    width: 11vw;
+    margin-top: 0.75vw;
+}
 
 button a {
     text-decoration: none;
@@ -121,6 +129,7 @@ button:hover {
     padding-top: 1vw;
     border-top: 0.1vw solid white;
     overflow: hidden;
+    height: 4vw;
 }
 
 .nav a {
@@ -157,7 +166,9 @@ hr {
 
 #show {
     font-size: 2.25vw; 
-    margin-top: -0.25vw;
+    margin: 2.5vw 3vw 0 0;
+    padding: 0;
+    text-align: left;
 }
 
 .container2 p {
@@ -509,7 +520,7 @@ img {
     #show {
         font-size: 5vw;
         padding: 0 3vw;
-        margin-top: 2vw;
+        margin: 2vw 0 0vw 0;
     }
 
     .buttons {
@@ -526,10 +537,10 @@ img {
         margin-top: 6vw;
     }
 
-    .slideshow-container img {
-        max-height: 60vw;
+    .widget img {
+        margin-top: -6vw;
     }
-
+    
     .text {
         bottom: 3vw;
         font-size: 6vw;
