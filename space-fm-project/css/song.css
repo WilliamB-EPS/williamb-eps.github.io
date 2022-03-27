@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@600&family=Nunito+Sans:wght@300&family=Quicksand:wght@300&display=swap');
+
+
 body {
     margin: 0;
     font-size: 4vw;
+    font-family: Quicksand;
 }
