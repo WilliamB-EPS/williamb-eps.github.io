@@ -3,11 +3,11 @@
 
 body {
     margin: 0;
-    font-size: 2.5vw;
+    font-size: 2.75vw;
     font-family: Quicksand;
     color: white;
 }
 
-.song {
+a {
     color: white;
 }
