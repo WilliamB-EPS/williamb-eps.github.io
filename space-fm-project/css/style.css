@@ -39,7 +39,7 @@ iframe {
     background: white;
     margin-top: -5vw;
     padding-top: 5vw;
-    height: 63.5vw;
+    height: 65.5vw;
     width: 100%;
     text-align: center;
 }
@@ -57,9 +57,10 @@ iframe {
 }
 
 .logo {
+    width: 13%;
     float: left;
-    margin-bottom: -2vw;
-    padding: 0 3vw;
+    padding: 1.5vw 3vw;
+    height: 11vw;
 }
 
 .logo img {
@@ -70,7 +71,7 @@ iframe {
 
 .widget {
     float: left;
-    width: 45%;
+    width: 47%;
     text-align: center;
     border-right: 0.2vw solid white;
     border-left: 0.2vw solid white;
@@ -95,15 +96,15 @@ iframe {
     width: 15%;
     height:11vw;
     text-align: center;
-    border-right: 0.2vw solid white;
 }
  
 .currentshow {
-    width: 40%;
+    width: 25%;
     float: left;
     height: 11vw;
     text-align: center;
     padding: 1vw;
+    border-left: 0.2vw solid white;
 }
 
 button {
@@ -136,12 +137,11 @@ button:hover {
 
 .nav {
     padding: 0 4vw;
-    margin-top: 1vw;
     text-align: center;
-    padding-top: 1.25vw;
+    padding-top: 1vw;
     border-top: 0.1vw solid white;
     overflow: hidden;
-    height: 4.5vw;
+    height: 4vw;
 }
 
 .nav img {
@@ -170,14 +170,14 @@ hr {
 .container1 {
     float: left;
     width: 60%;
-    height: 40vw;
+    height: 36vw;
     margin: 2vw 1vw;
 }
 
 .container2 {
     float: left;
     width: 35%;
-    height: 40vw;
+    height: 36vw;
     margin: 2vw 1vw;
 }
 
@@ -330,8 +330,8 @@ img {
   .songs-container {
       background: rgb(240, 240, 240);
       width: 100%;
-      height: 35vw;
-      margin-top: 3vw;
+      height: 41vw;
+      margin-top: 2.5vw;
       padding-top: 0.5vw;
       text-align: center;
   }
@@ -345,6 +345,10 @@ img {
       margin: 1vw;
       text-align: center;
      border-radius: 1vw;
+  }
+
+  .third h3 {
+      margin: 1.5vw;
   }
 
   .text-container {
@@ -400,6 +404,36 @@ img {
     text-align: center;
     padding-top: 1vw;
 }
+
+input[type=text], select, textarea {
+    width: 80%; 
+    padding: 1vw;
+    border: 0.1vw solid #ccc;
+    border-radius: 1.5vw;
+    margin: 0.5vw 3vw;
+    font-family: Quicksand;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(219, 104, 37);
+    color: white;
+    padding: 1vw 1.5vw;
+    border: none;
+    border-radius: 0.75vw;
+    width: 7vw;
+    font-size: 1.25vw;
+  }
+  
+
+  label {
+      font-size: 1.25vw;
+  }
+
+  input[type=submit]:hover {
+    background-color: rgb(56, 150, 194);
+    transition-duration: 0.5s;
+  }
 
 
 .split1 p, .split2 p {
