@@ -52,7 +52,7 @@ iframe {
 }
 
 .header-top {
-    height: 8vw;
+    height: 11vw;
     padding: .5vw 0;
 }
 
@@ -70,11 +70,12 @@ iframe {
 
 .widget {
     float: left;
-    width: 55%;
+    width: 40%;
     text-align: center;
     border-right: 0.2vw solid white;
     border-left: 0.2vw solid white;
-    height: 8vw;
+    height: 11vw;
+    padding: 1vw;
     
 }
 
@@ -83,15 +84,25 @@ iframe {
 }
 
 .widget p {
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: white;
+    margin: 0vw 0vw 1vw 0vw;
 }
 
 
 .buttons {
-    float: right;
+    float: left;
+    width: 15%;
+    height:11vw;
+    text-align: center;
+}
+ 
+.currentshow {
     width: 30%;
-    height:8vw;
+    float: left;
+    height: 11vw;
+    padding: 0;
+    margin: auto 0;
     text-align: center;
 }
 
@@ -106,9 +117,10 @@ button {
 
 
 .header button {
-    height: 6vw;
-    width: 11vw;
-    margin-top: 0.75vw;
+    height: 4vw;
+    width: 9vw;
+    margin: 1vw;
+    display: block;
 }
 
 button a {
@@ -166,7 +178,7 @@ hr {
 
 #show {
     font-size: 2.25vw; 
-    margin: 2.5vw 3vw 0 0;
+    margin: 1.25vw 3vw 0 0;
     padding: 0;
     text-align: left;
 }
