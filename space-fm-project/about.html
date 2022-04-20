@@ -23,15 +23,25 @@
         <div class="header">
             <div class="header-top">
                 <div class="logo">
-                    <img src="images/logo.webp"  alt="">
+                    <img src="images/logo.webp" style="width:100%" alt="">
+                </div>
+                <div class="currentshow">
+                    <div class="currshow-img">
+                        <img src="images/dj-placeholder" alt="">
+                    </div>
+                    <div class="currshow-text">
+                        <div class="" id="show">
+                            <a href=""></a>
+                        </div>
+                        <div class="" id="host">
+                            <a href=""></a>
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="widget">
-                    <div style="float: left; width: 30%;">
-                        <img src="images/on-air-gif.gif" style="width: 120%; margin-top: -4.8vw;" alt="">
-                    </div>
-                    <div class="" id="show">
-                        <a href=""></a>
-                    </div>
+                    <p>Recently played</p>
+                    <iframe src="https://widgets.spinitron.com/widget/now-playing?station=kmgp&amp;num=6&amp;time=1&amp;sharing=0&css=https%3A%2F%2Fwilliamb-eps.github.io%2Fspace-fm-project%2Fcss%2Fsong.css" style="width: 100%; height:75%; border:none"></iframe> 
                 </div>
                 <div class="buttons">
                     <button>
@@ -45,20 +55,20 @@
                 <div id="myTopNav" class="nav">
                     <a href="index.html">Home</a>
                     <a href="about.html">About</a>
-                    <a href="#">Listen</a>
-                    <a href="#">Volunteer</a>
+                    <a href="listen.html">Listen</a>
+                    <a href="volunteer.html">Volunteer</a>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                         <i class="fa fa-bars" style="font-size: 9.5vw;"></i>
                     </a>
             </div>
         </div>
+        <h3 style="margin: 3vw 0 1vw 0;">All about Space FM: our mission and vision</h3>
+        <div style="text-align: center; margin-top: 2vw;">
+            <img src="images/about-img.jpeg" class="abt-img" alt="">
+            <img src="images/on-air.jpeg" class="abt-img" alt="">
+        </div>
     </div>
 
-    <h3 style="margin: 3vw 0 1vw 0;">Mission and Vision</h3>
-    <div style="text-align: center;">
-        <img src="images/about-img.jpeg" class="abt-img" alt="">
-        <img src="images/on-air.jpeg" class="abt-img" alt="">
-    </div>
 
     <div class="text-content-container">
         <div class="text-content">
@@ -107,7 +117,7 @@
     
     <div class="pictures-content"></div>
 
-    <h3>Meet the team</h3>
+    <h2 style="text-align: center;">Meet the team</h2>
 
     <div class="team">
 
@@ -171,7 +181,8 @@
 
 
     <script>
-        document.getElementById("show").innerHTML =  "Current show: " + show;
+       document.getElementById("show").innerHTML = show;
+         document.getElementById("host").innerHTML = host;
        var slideIndex = 0;
        showSlides();
 

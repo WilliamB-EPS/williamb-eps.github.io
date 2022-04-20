@@ -18,10 +18,18 @@
                     <img src="images/logo.webp" style="width:100%" alt="">
                 </div>
                 <div class="currentshow">
-                    <p>Current show</p>
-                    <div class="" id="show">
-                        <a href=""></a>
+                    <div class="currshow-img">
+                        <img src="images/dj-placeholder" alt="">
                     </div>
+                    <div class="currshow-text">
+                        <div class="" id="show">
+                            <a href=""></a>
+                        </div>
+                        <div class="" id="host">
+                            <a href=""></a>
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="widget">
                     <p>Recently played</p>
@@ -39,8 +47,8 @@
                 <div id="myTopNav" class="nav">
                     <a href="index.html">Home</a>
                     <a href="about.html">About</a>
-                    <a href="#">Listen</a>
-                    <a href="#">Volunteer</a>
+                    <a href="listen.html">Listen</a>
+                    <a href="volunteer.html">Volunteer</a>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                         <i class="fa fa-bars" style="font-size: 9.5vw;"></i>
                     </a>
@@ -92,22 +100,21 @@
             <div class="songs-container">
                 <h2>About Us</h2>
                 <div class="third">
-                    <h3>About</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices. Interdum varius sit amet mattis vulputate enim. Ultricies lacus sed turpis tincidunt id. Lacus laoreet non curabitur gravida arcu ac tortor dignissim. 
-                    </p>
-                    <button>
-                        <a href="#">Learn More</a>
-                    </button>
+                    <h3>Our music</h3>
+                        <p>At all times of the day (and night) where our special programs aren't airing, we present SPACE MIX - a tailored blend of the best new music, vintage alternative rock, classic R&B, with healthy amounts of local music, and unexpected delights. SPACE MIX is expertly curated by our music director Eric Z.​</p>
+                        <a href="mailto:music@space101fm.org" style="text-decoration: underline;">Contact us about music</a>
                 </div>
                 <div class="third">
-                    <h3>Contact Us</h3>
+                    <h3>Your local radio</h3>
+                    <p>People-powered arts-oriented radio for Northeast Seattle and beyond.</p>
+                    <p>Broadcasting now from Magnuson park. Tune in live! </p>
+                    <p>Social media:</p>
                     <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
                     <a href="#"><i class="fa fa-facebook fa-3x"></i></a>
                     <a href="#"><i class="fa fa-envelope fa-3x"></i></a>
                 </div>
                 <div class="third">
-                    <h3>Submit a Question</h3>
+                    <h3>Ask a question</h3>
                     <form action="action_page.php">
 
                         <label for="fname">Name</label>
@@ -125,16 +132,15 @@
 
             <div class="nw-orbit">
                 <h2>NW Orbit</h2>
-                <p>Monthly feature on SPACE 101.1 FM highlighting local bands you need to know. Interview and music. Hosted by Phoebe.</p>
+                <p>Pacific NW artists you can't miss, refreshed every month.</p>
+                <a href="listen.html" style="display:block; text-decoration: underline;"> See our full intervies here, hosted by Phoebe.</a>
                 <div class="orbit-content">
                     <img src="images/fretland.png" alt="" style="width: 80%;" >
                     <h3>February 2022: Fretland</h3>
-                    <p>From Snohomish, WA, Fretland beautifully blends Americana, Indie Folk, and Country. Interview with Hillary Grace Fretland & Luke Francis</p>
                 </div>
                 <div class="orbit-content">
                     <img src="images/jason.jpeg" style="width: 80%;" alt="">
                     <h3>March 2022: Jason McCue</h3>
-                    <p>Seattle singer-songwriter Jason McCue combines intricate guitar finger-picking with distinct vocals for a sound that is all his own.</p>
                 </div>
             </div>
 
@@ -188,6 +194,7 @@
 
      <script>
          document.getElementById("show").innerHTML = show;
+         document.getElementById("host").innerHTML = host;
         var slideIndex = 0;
         showSlides();
 

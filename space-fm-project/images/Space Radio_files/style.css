@@ -574,7 +574,7 @@ input[type=text], select, textarea {
 
   .schedule {
       background: rgb(240, 240, 240);
-      height: 77vw;
+      height: 50vw;
       text-align: left;
       padding: 1vw 0vw;
   }
@@ -585,85 +585,16 @@ input[type=text], select, textarea {
 
   .schedule-split1 {
       float: left;
-      width: 30%;
+      width: 25%;
       text-align: right;
   }
 
   .schedule-split2 {
-    float: left;
+    float: right;
     width: 30%;
     text-align: left;
 }
 
-.img-stack {
-    float: left;
-    width: 40%;
-    padding: 1vw;
-    text-align: center;
-}
-
-.img-stack img {
-    width: 70%;
-    margin: 0 auto;
-}
-
-.volunteer-container {
-    width: 100%;
-    height: 38vw;
-    margin-top: 1vw;
-}
-
-.vleft {
-    float: left;
-    width: 50%;
-    padding: 2vw;
-}
-
-.vright {
-    float: left;
-    width: 50%;
-    padding: 2vw;
-}
-
-.vleft p {
-    margin: 0;
-}
-
-.vright img {
-    width: 90%;
-}
-
-.vleft button {
-    width: 17vw;
-    height: 5vw;
-    margin: 0vw 1.5vw 2vw 1.5vw;
-}
-
-.more-volunteering {
-    background: rgb(240, 240, 240);
-    height: 80vw;
-    padding: 2vw;
-}
-
-.more-volunteering p {
-    margin: 0.5vw;
-}
-
-.more-volunteering h3 {
-    margin: 0.5vw;
-    font-size: 2vw;
-}
-
-.vleft2 {
-    width: 40%;
-    float: left;
-    padding: 0 2vw;
-}
-
-.vright2 {
-    float: left;
-    width: 60%;
-}
 
   /* On smaller screens, get rid of fancy header */
 
