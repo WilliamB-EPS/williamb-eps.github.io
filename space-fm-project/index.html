@@ -19,7 +19,7 @@
                 </div>
                 <div class="currentshow">
                     <div class="currshow-img">
-                        <img src="images/dj-placeholder" alt="">
+                        <img src="images/" alt="" id="dj-img">
                     </div>
                     <div class="currshow-text">
                         <div class="" id="show">
@@ -48,14 +48,26 @@
                     <a href="index.html">Home</a>
                     <a href="about.html">About</a>
                     <a href="listen.html">Listen</a>
-                    <a href="volunteer.html">Volunteer</a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars" style="font-size: 9.5vw;"></i>
-                    </a>
-            </div>
+                    <a href="orbit.html">NW Orbit</a>
+                    <a href="volunteer.html">Volunteer</a>    
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="responsive-nav">
+                        <i class="fa fa-bars fa-2x"></i>
+                    </span>                
+                </div>
+            
+                <div class="overlay" id="myNav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="listen.html">Listen</a>
+                        <a href="orbit.html">NW Orbit</a>
+                        <a href="volunteer.html">Volunteer</a>
+                    </div>
+                </div>
         </div>
 
-        <h3 style="margin: 3vw 0 1vw 0;">People-powered arts-oriented radio for Northeast Seattle and beyond</h3>
+        <h3 style="margin: 3vw 0 1vw 0;">People-powered Arts-oriented Radio for Northeast Seattle and Beyond</h3>
         
 
             <div class="container2">
@@ -77,7 +89,7 @@
                     <div class="mySlides fade">
                         <img src="images/concert.jpeg">
                         <div class="text">Check out our 
-                            <a href="#" style="color:white; font-size: 2vw; text-decoration: underline;">news and events</a>
+                            <a href="#">news and events</a>
                         </div>
                     </div>
 
@@ -87,7 +99,7 @@
                     <div class="mySlides fade">
                       <img src="images/jason.jpeg">
                       <div class="text">Learn about our
-                        <a href="#" style="color:white; font-size: 2vw; text-decoration: underline;">NW Orbit program</a>
+                        <a href="#">NW Orbit program</a>
                           
                       </div>
                     </div>
@@ -95,7 +107,7 @@
                     <div class="mySlides fade">
                       <img src="images/blues.png">
                       <div class="text">Check out our 
-                        <a href="#" style="color:white; font-size: 2vw; text-decoration: underline;">weekly schedule</a>
+                        <a href="#">weekly schedule</a>
                           
                       </div>
                     </div>
@@ -103,7 +115,7 @@
                     <div class="mySlides fade">
                       <img src="images/about-img.jpeg">
                       <div class="text">Learn about 
-                        <a href="#" style="color:white; font-size: 2vw; text-decoration: underline;">who we are</a>
+                        <a href="#" >who we are</a>
                           
                       </div>
                     </div>
@@ -111,7 +123,7 @@
                     <div class="mySlides fade">
                         <img src="images/volunteer-img.jpeg">
                         <div class="text">Become a 
-                            <a href="#" style="color:white; font-size: 2vw; text-decoration: underline;">volunteer at Space FM</a>
+                            <a href="#">volunteer at Space FM</a>
                               
                           </div>
                       </div>
@@ -225,6 +237,8 @@
      <script>
          document.getElementById("show").innerHTML = show;
          document.getElementById("host").innerHTML = host;
+         document.getElementById("dj-img").src = image_path;
+         let imgpath = image_path;
         var slideIndex = 0;
         showSlides();
 
@@ -254,6 +268,7 @@
             }
         }
      </script>
+
     
 
 </body>

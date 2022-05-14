@@ -44,18 +44,30 @@
                     </button>
                 </div>
             </div>
-                <div id="myTopNav" class="nav">
+            <div id="myTopNav" class="nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="listen.html">Listen</a>
+                <a href="orbit.html">NW Orbit</a>
+                <a href="volunteer.html">Volunteer</a>    
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="responsive-nav">
+                    <i class="fa fa-bars fa-2x"></i>
+                </span>                
+            </div>
+        
+            <div class="overlay" id="myNav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
                     <a href="index.html">Home</a>
                     <a href="about.html">About</a>
                     <a href="listen.html">Listen</a>
+                    <a href="orbit.html">NW Orbit</a>
                     <a href="volunteer.html">Volunteer</a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars" style="font-size: 9.5vw;"></i>
-                    </a>
+                </div>
             </div>
         </div>
 
-        <h3 style="margin: 3vw 0 1vw 0;">Programs, schedule, and popular music on Space FM</h3>
+        <h3 style="margin: 3vw 0 1vw 0;">Programs, Schedule, and Popular Music on Space FM</h3>
 
         <div class="top-songs">
             <h3 style="text-align: center; margin: 0">Top songs this month</h3>
@@ -81,95 +93,40 @@
             <h2>Programs</h2>
             <p>Check out a preview of our diverse programs, running 7 days a week.</p>
             <div class="program-img">
-                <img src="images/dj-placeholder" style="width: 50%;" alt="">
+                <img src="images/carmen-ghia.png" style="width: 50%;" alt="">
             </div>
             <div class="program-text">
-                <h3>Roots Roundup, Monday Nights</h3>
-                <p>Dig this eclectic Americana every week.</p>
+                <h3>Head's Up - Saturday Nights</h3>
+                <p>Two hours of the best surf sounds in Seattle. Classic and local surf rock with no messy vocals.</p>
             </div>
 
             <div class="program-img">
-                <img src="images/dj-placeholder" style="width: 50%;" alt="">
+                <img src="images/megan.jpg" style="width: 50%;" alt="">
             </div>
             <div class="program-text">
-                <h3> Magnuson Blues, Tuesday nights</h3>
-                <p>Because Friday is still a long time coming.</p>
+                <h3>Bargain Bin Vinyl Hour - Tuesday Nights</h3>
+                <p>Join Megan Tuesday's at 8pm to dive deep into the budget bins of our local record stores.</p>
             </div>
 
             <div class="program-img">
-                <img src="images/dj-placeholder" style="width: 50%;" alt="">
+                <img src="images/prof-dj-grumpy.jpg" style="width: 50%;" alt="">
             </div>
             <div class="program-text">
-                <h3>Wedgwood Rocks, Friday Nights</h3>
-                <p>Alternative, indie, country, jazz. Whatever it is, it rocks!</p>
+                <h3>History as Music, Music as History - Sunday Nights</h3>
+                <p>An exploration of music, history, and everything in-between. Hosted by Professor DJ Grumpy.</p>
             </div>
 
             <div class="program-img">
-                <img src="images/dj-placeholder" style="width: 50%;" alt="">
+                <img src="images/dj-9.jpg" style="width: 50%;" alt="">
             </div>
             <div class="program-text">
-                <h3>The Jet Set, Saturday Nights</h3>
-                <p>Modern retro rock featuring classic new wave, early punk and more.</p>
+                <h3>Transcend this Temporal Plane -  Wednesday Nights</h3>
+                <p>Weekly mind exploration powered by pop music through the ages.</p>
             </div>
 
-            <div class="program-img">
-                <img src="images/dj-placeholder" style="width: 50%;" alt="">
-            </div>
-            <div class="program-text">
-                <h3>Broken Alaska, Sunday Nights</h3>
-                <p>Come visit the tiny coastal town of Broken, Alaska: where neighbors get along like... well, family.</p>
-            </div>
-
-            <div class="program-img">
-                <img src="images/dj-placeholder" style="width: 50%;" alt="">
-            </div>
-            <div class="program-text">
-                <h3>Magnuson Nature News, Monthly</h3>
-                <p>Naturalist Emily Bishton highlights timely nature news from Magnuson Park for the whole family.</p>
-            </div>
         </div>
 
-        <div class="orbit-container">
-            <h2>Northwest Orbit</h2>
-            <p>Monthly feature on SPACE 101.1 FM highlighting local bands you need to know. Interview and music.</p>
-            <p>Hosted by Phoebe.</p>
-            <div class="third">
-                <h3>April 2022: SuperCoze</h3>
-                <p>Seattle's SuperCoze bring a blast of sunshine with their mix indie pop, surf rock, and heartfelt lyrics. Interview with Cody Choi.</p>
-                <audio controls>
-                    <source src="interview.mp3" type="audio/mpeg">
-                </audio>
-                <audio controls>
-                    <source src="interview.mp3" type="audio/mpeg">
-                </audio>
-            </div>
-            <div class="third">
-                <h3>March 2022: Jason McCue</h3>
-                <p>Seattle singer-songwriter Jason McCue combines intricate guitar finger-picking with distinct vocals for a sound that is all his own.</p>
-                <audio controls>
-                    <source src="interview.mp3" type="audio/mpeg">
-                </audio>
-                <audio controls>
-                    <source src="interview.mp3" type="audio/mpeg">
-                </audio>
-                <audio controls>
-                    <source src="interview.mp3" type="audio/mpeg">
-                </audio>
-            </div>
-            <div class="third">
-                <h3>February 2022: Fretland</h3>
-                <p>From Snohomish, WA, Fretland beautifully blends Americana, Indie Folk, and Country.</p>
-                <audio controls>
-                    <source src="interview.mp3" type="audio/mpeg">
-                </audio>
-                <audio controls>
-                    <source src="interview.mp3" type="audio/mpeg">
-                </audio>
-                <audio controls>
-                    <source src="interview.mp3" type="audio/mpeg">
-                </audio>
-            </div>
-        </div>
+    
 
         <div class="schedule">
             <h2>Schedule</h2>
@@ -193,10 +150,8 @@
             </div>
 
             <div class="img-stack">
-                <p>Placeholder DJ (will replace with hosts)</p>
-                <img src="images/dj_placeholder.jpeg" alt="">
-                <img src="images/dj_placeholder.jpeg" alt="">
-                <img src="images/dj_placeholder.jpeg" alt="">
+                <img src="images/vinyl-hour.jpeg" alt="">
+                <img src="images/heads-up.png" alt="">
             </div>
 
             <div class="schedule-split2">
@@ -244,6 +199,7 @@
      <script>
         document.getElementById("show").innerHTML = show;
         document.getElementById("host").innerHTML = host;
+        document.getElementById('myImageID').src="images/my_other_image.png";
      </script>
     
 

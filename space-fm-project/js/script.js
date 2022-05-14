@@ -5,6 +5,8 @@ var time = today.getHours();
 var day = today.getDay();
 var show;
 var host;
+// var image_path;
+var image_path = "images/dj-placeholder"
 // monday
 if (day == 1) {
     if (19 <= time && time < 21) {
@@ -16,7 +18,11 @@ if (day == 1) {
     }
 // tuesday
 } else if (day == 2) {
-    if (21 <= time && time < 23) {
+    if (20 <= time && time < 21) {
+        show = "Bargain Bin Vinyl Hour";
+        host = "Megan";
+        image_path = "images/megan.jpg"
+    } else if (21 <= time && time < 23) {
         show = "Magnuson Blues"
         host = "Hosted by: John Wooler"
     } else {
@@ -31,6 +37,7 @@ if (day == 1) {
     } else if (21 <= time && time < 22) {
         show = "Transcend This Temporal Plane"
         host = "Hosted by: DJ Nine"
+        image_path = "images/dj-9.jpg"
     } else if (22 <= time && time < 23) {
         show = "Mulicultural Mindsets"
         host = "Hosted by: DJ Afreesha"
@@ -79,6 +86,7 @@ if (day == 1) {
     } else if (21 <= time && time < 23) {
         show = " Head’s Up";
         host = "Hosted by: Carmen Ghia"
+        image_path = "images/carmen-ghia.png"
     } else if (time >= 23) {
         show = "Story Untold";
         host = "Hosted by: PJ Noce"
@@ -97,6 +105,7 @@ if (day == 1) {
     } else if (18 <= time && time < 19) {
         show = "History as Music, Music as History";
         host = "Hosted by: DJ Professor Grumpy";
+        image_path = "images/prof-dj-grumpy.jpg"
     } else if (19 <= time && time < 20) {
         show = "The Soul Shakedown";
         host = "Hosted by: DJ Johnny Cool"
@@ -107,3 +116,12 @@ if (day == 1) {
         show = "SPACE MIX";
         host = "Hosted by: Eric Z."
     }
+
+
+    function openNav() {
+        document.getElementById("myNav").style.width = "40%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }

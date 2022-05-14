@@ -110,7 +110,7 @@ iframe {
 }
 
 .currshow-img img {
-    width: 90%;
+    width: 80%;
 }
  
 .currentshow {
@@ -151,12 +151,12 @@ button:hover {
 }
 
 .nav {
-    padding: 0 4vw;
+    padding: 1.25vw 4vw;
     text-align: center;
     padding-top: 1vw;
     border-top: 0.05vw solid white;
     overflow: hidden;
-    height: 4vw;
+    
 }
 
 .nav img {
@@ -167,7 +167,7 @@ button:hover {
 
 .nav a {
     color: white;
-    padding: 0 2vw;
+    margin: 0vw 3.5vw;
 }
 
 .nav a:hover {
@@ -392,6 +392,7 @@ img {
     width: 50%;
     padding: 1vw;
     margin-top: 1vw;
+    
 }
 
 img {
@@ -546,7 +547,7 @@ input[type=text], select, textarea {
       padding: 2vw;
       background: rgb(240, 240, 240);
       margin-top: 35vw;
-      height: 61vw;
+      height: 51vw;
       text-align: center;
   }
 
@@ -573,7 +574,7 @@ input[type=text], select, textarea {
   }
 
   .schedule {
-      background: rgb(240, 240, 240);
+      background: white;
       height: 77vw;
       text-align: left;
       padding: 1vw 0vw;
@@ -665,56 +666,106 @@ input[type=text], select, textarea {
     width: 60%;
 }
 
+.thirdv2 {
+    background: rgb(250,250,250);
+    width: 46%;
+    float: left;
+    height: 44vw;
+    margin: 2vw;
+    padding: 0 1.5vw;
+    border-radius: 1vw;
+}
+
+.thirdv2 img, .thirdv2TALL img {
+    width: 80%;
+    max-height: 70%;
+    margin: 1vw;
+}
+
+.thirdv2TALL {
+    background: rgb(250,250,250);
+    width: 46%;
+    float: left;
+    height: 50vw;
+    margin: 2vw;
+    padding: 0 1.5vw;
+    border-radius: 1vw;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .text a {
+      color: white;
+      text-decoration: underline;
+      font-size: 2vw;
+  }
+  
+  .overlay a {
+    text-decoration: none;
+    font-size: 6vw;
+    margin: 2vw;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 1vw;
+    right: 2vw;
+    font-size: 10vw;
+    color: white;
+  }
+
+  .responsive-nav {
+      display: none;
+  }
+
+
   /* On smaller screens, get rid of fancy header */
 
 
   @media only screen and (max-width: 800px) {
 
+
         .nav a {
             display: none;
         }
-        .nav a.icon {
-          float: right;
-          display: block;
-          position: absolute;
-          top: 6vw;
-          right: 4vw;
-          padding: 0;
-        }
-
-        .nav .responsive {
-            width: 100%;
-            background: white;
-            z-index: 100;
-            position: fixed;
-        }
-
-      
-        .nav.responsive .icon {
-          position: absolute;
-          top: 6vw;
-          right: 4vw;
-        }
-
-        .nav.responsive a {
-            font-size: 5vw;
-            color: white;
-            display: block;
-            float: none;
-        }
 
         .nav {
-            border: none;
-            margin-bottom: 2vw;
-            width: 100%;
-            height: auto;
+            border:none;
         }
 
-        .nav a {
-            font-size: 8vw;
-            padding-bottom: 2vw;
+        .responsive-nav {
+            display: block;
+            position: absolute;
+            top: 8vw;
+            right: 8vw;
         }
-
+      
         h2 {
             font-size: 8vw;
         }
@@ -724,7 +775,7 @@ input[type=text], select, textarea {
             margin-top: 2vw;
         }
 
-        p,a {
+        p, a {
             font-size: 5vw;
         }
 
@@ -760,6 +811,49 @@ input[type=text], select, textarea {
             font-size: 4vw;
 
         }
+
+        .container2 {
+            display: none;
+        }
+
+        .container1 {
+            width: 100%;
+            height: 60vw;
+        }
+
+        .third {
+            width: 100%;
+            height: 80vw;
+        }
+
+
+        .slideshow-container img {
+            max-height: 65vw;
+        }
+
+        .songs-container {
+            margin-top: 70vw;
+            height: 210vw;
+        }
+
+        .nw-orbit {
+            height: 140vw;
+        }
+
+        .orbit-content {
+            width: 100%;
+            height: 70vw;
+        }
+
+        .donate {
+            margin-top: 100vw;
+        }
+
+
+        .text, .text a {
+            font-size: 6vw;  
+        }
+        
         
 
 
