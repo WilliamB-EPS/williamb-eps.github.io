@@ -19,7 +19,7 @@
                 </div>
                 <div class="currentshow">
                     <div class="currshow-img">
-                        <img src="images/dj-placeholder" alt="">
+                        <img src="images/" alt="" id="dj-img">
                     </div>
                     <div class="currshow-text">
                         <div class="" id="show">
@@ -70,6 +70,9 @@
         <h3 style="margin: 3vw 0 1vw 0;">Join Seattle's People-powered Radio Station by Helping in Any Number of Ways.</h3>
 
         <div class="volunteer-container">
+            <div class="vright">
+                <img src="images/volunteer-img.jpeg" alt="">
+            </div>
             <div class="vleft">
                 <button>
                     <a href="#">Program Application</a>
@@ -89,17 +92,15 @@
                 <p>Program development/training</p>
                 <p>Policy and procedure development</p>
             </div>
-            <div class="vright">
-                <img src="images/volunteer-img.jpeg" alt="">
-            </div>
+
         </div>
        
         <div class="more-volunteering">
             <h2 style="text-align: center">Listen as we grow!</h2>
             <div class="vleft2">
-                <img src="images/community-radio.png" alt="">
-                <img src="images/volunteer-radio.jpeg" alt="">
-                <img src="images/more-volunteereing.jpeg" alt="">
+                <img src="images/community-radio.png" class="vanish" alt="">
+                <img src="images/volunteer-radio.jpeg" class="vanish"  alt="">
+                <img src="images/more-volunteereing.jpeg"  alt="">
             </div>
             <div class="vright2">
                 <p>Tune in to original hyper-local programming created by your friends and neighbors right here in NE Seattle and beyond. As our capacity to staff the station increases, more people will be able to participate. We are seeking programming from diverse communities city wide in the following areas:</p>
@@ -150,6 +151,7 @@
      <script>
         document.getElementById("show").innerHTML = show;
         document.getElementById("host").innerHTML = host;
+        document.getElementById("dj-img").src = image_path;
      </script>
     
 

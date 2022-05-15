@@ -19,7 +19,7 @@
                 </div>
                 <div class="currentshow">
                     <div class="currshow-img">
-                        <img src="images/dj-placeholder" alt="">
+                        <img src="images/" alt="" id="dj-img">
                     </div>
                     <div class="currshow-text">
                         <div class="" id="show">
@@ -69,6 +69,11 @@
 
         <h3 style="margin: 3vw 0 1vw 0;">Programs, Schedule, and Popular Music on Space FM</h3>
 
+
+        <div class="songs-image">
+            <img src="images/topsongs-img.webp" style="width: 80%" alt="">
+        </div>
+
         <div class="top-songs">
             <h3 style="text-align: center; margin: 0">Top songs this month</h3>
             <ol>
@@ -85,9 +90,6 @@
             </ol>
         </div>
 
-        <div class="songs-image">
-            <img src="images/topsongs-img.webp" style="width: 80%" alt="">
-        </div>
 
         <div class="shows-container">
             <h2>Programs</h2>
@@ -199,7 +201,7 @@
      <script>
         document.getElementById("show").innerHTML = show;
         document.getElementById("host").innerHTML = host;
-        document.getElementById('myImageID').src="images/my_other_image.png";
+        document.getElementById("dj-img").src = image_path;
      </script>
     
 

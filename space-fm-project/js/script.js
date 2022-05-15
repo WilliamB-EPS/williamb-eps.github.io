@@ -96,7 +96,7 @@ if (day == 1) {
     }
 // sunday
 } else if (day == 0) {
-    } else if (12 <= time && time < 14) {
+    } if (12 <= time && time < 14) {
         show = "American Routes";
         host = "Hosted by: Nick Spitzer";
     } else if (16 <= time && time < 20) {
