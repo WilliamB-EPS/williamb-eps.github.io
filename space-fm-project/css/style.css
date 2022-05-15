@@ -751,8 +751,8 @@ input[type=text], select, textarea {
     position: absolute;
     top: 1vw;
     right: 2vw;
-    font-size: 10vw;
     color: white;
+    font-size: 20vw;
   }
 
   .responsive-nav {
@@ -778,11 +778,13 @@ input[type=text], select, textarea {
             border:none;
         }
 
+
         .responsive-nav {
             display: block;
             position: absolute;
             top: 13.5vw;
             right: 6vw;
+            font-size: 5vw;
         }
         
 
@@ -871,7 +873,7 @@ input[type=text], select, textarea {
         }
 
         .nw-orbit {
-            height: 140vw;
+            height: 150vw;
         }
 
         .orbit-content {
