@@ -93,10 +93,10 @@ if (day == 1) {
     } else {
         show = "SPACE MIX";
         host = "Hosted by: Eric Z."
-    }
-// sunday
+    } 
+
 } else if (day == 0) {
-    } if (12 <= time && time < 14) {
+    if (12 <= time && time < 14) {
         show = "American Routes";
         host = "Hosted by: Nick Spitzer";
     } else if (16 <= time && time < 20) {
@@ -116,6 +116,7 @@ if (day == 1) {
         show = "SPACE MIX";
         host = "Hosted by: Eric Z."
     }
+}
 
 
     function openNav() {
