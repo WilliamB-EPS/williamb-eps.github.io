@@ -476,7 +476,7 @@ input[type=text], select, textarea {
     width: 48%;
     float: left;
     height: 30vw;
-    margin: 1vw 1vw 2vw 1vw;
+    margin: 1% 1% 2% 1%;
     padding: 0 1.5vw;
     border-radius: 1vw;
 }
@@ -486,7 +486,7 @@ input[type=text], select, textarea {
     width: 48%;
     float: left;
     height: 30vw;
-    margin: 1vw;
+    margin: 1%;
     padding: 0 1.5vw;
     border-radius: 1vw;
 }
