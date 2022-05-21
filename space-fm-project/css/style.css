@@ -24,6 +24,21 @@ h3 {
     font-size: 2vw;
 }
 
+.about-float1 {
+    width: 70%;
+    float: left;
+}
+
+.about-float2 {
+    margin-top: -1vw;
+    width: 30%;
+    float: left;
+}
+
+.about-float2 .fa {
+    display: block;
+}
+
 p,a,li {
     font-size: 1.5vw;
     color: black;
@@ -215,12 +230,10 @@ hr {
     display: block;
 }
 
-.normal-button {
-    margin: 0 1vw;
-    width: 12vw;
-    height: 4vw;
+.half .normal-button {
     display: inline;
-    border-radius: 1vw;
+    width: 17vw;
+    margin: 0 1vw;
 }
 
 
@@ -270,7 +283,7 @@ hr {
   }
 
 .slideshow-container img {
-    max-height: 35vw;
+    max-height: 36vw;
 }
 
 img {
@@ -613,7 +626,8 @@ input[type=text], select, textarea {
   }
 
   audio {
-      margin: 0.5vw;
+      width: 21vw;
+      height: 4.5vw;
   }
 
   .schedule {
@@ -703,6 +717,11 @@ input[type=text], select, textarea {
     float: left;
     padding: 0 2vw;
 }
+
+.about-float1 img {
+    width: 100%;
+}
+
 
 .vright2 {
     float: left;
@@ -846,7 +865,7 @@ input[type=text], select, textarea {
         }
 
         .currshow-img {
-            padding-top: 4vw;
+            padding-top: 7vw;
         }
 
         .currentshow {
@@ -857,7 +876,7 @@ input[type=text], select, textarea {
         }
 
         #show {
-            padding: 4vw 1vw 0vw 1vw;
+            padding: 7vw 2vw 0vw 0vw;
             font-size: 6.5vw;
         }
 
@@ -917,6 +936,29 @@ input[type=text], select, textarea {
 
         .text, .text a {
             font-size: 6vw;  
+        }
+
+        .half .normal-button {
+            width: 40vw;
+        }
+
+        .about-float1 {
+            margin-top: -5vw;
+            width: 100%;
+        }
+
+        .about-float1 img {
+            width: 80%;
+        }
+        
+        .about-float2 {
+            margin-top: 1vw;
+            width: 100%;
+        }
+
+        .about-float2 .fa {
+            display: inline;
+            margin: 0 5vw;
         }
 
 
@@ -1042,8 +1084,8 @@ input[type=text], select, textarea {
         }
 
         audio {
-            width: 70vw;
-            height: 10vw;
+            width: 80vw;
+            height: 100vw;
         }
 
         .vleft, .vright {
