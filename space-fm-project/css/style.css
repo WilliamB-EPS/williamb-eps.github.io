@@ -258,6 +258,11 @@ hr {
     transition-duration: 0.5s;
 }
 
+.half .fa:hover, .third .fa:hover {
+    color:rgb(56, 150, 194);
+    transition-duration: 0.5s;
+}
+
 
 .fa:hover {
     color:rgb(56, 150, 194);
