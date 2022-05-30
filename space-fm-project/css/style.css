@@ -829,9 +829,16 @@ input[type=text], select, textarea {
         .responsive-nav {
             display: block;
             position: absolute;
-            top: 13.5vw;
-            right: 6vw;
-            font-size: 5vw;
+            top: 5vw;
+            right: 4vw;
+            font-size: 3vw;
+        }
+
+        .responsive-nav p, .responsive-nav a {
+            display: inline;
+            color: white;
+            font-size: 5.5vw;
+            margin: 0vw;
         }
         
 
@@ -848,12 +855,34 @@ input[type=text], select, textarea {
             font-size: 5vw;
         }
 
-        .widget, .buttons, .logo {
+        .buttons {
             display: none;
         }
 
+        .header-top p {
+            font-size: 5vw;
+            margin-bottom: 5vw;
+        }
+
+        .nav a {
+            margin: 2vw;
+        }
+
+        .widget {
+            width: 100%;
+            height: auto;
+            padding-top: 3vw;
+            border-left: none;
+            border-top: solid white 0.1vw;
+        }
+
         .logo {
-            width: 20%;
+            width: auto;
+            height: 20vw;
+            float: none;
+            position: absolute;
+            top: -0.5vw;
+            left: -1vw
         }
 
         .logo img {
@@ -861,22 +890,25 @@ input[type=text], select, textarea {
         }
 
         .header {
-            height: 40vw;
+            height: 100vw;
         }
 
         .currshow-img {
-            padding-top: 7vw;
+            padding-top: 4vw;
+            width: 25%;
         }
 
         .currentshow {
-            width: 80%;
-            margin-left: 2vw;
+            width: 100%;
+            margin-top: 17vw;
             padding: 2vw;
             border: none;
+            height: 35vw;
+            border-top: solid white 0.1vw;
         }
 
         #show {
-            padding: 7vw 2vw 0vw 0vw;
+            padding: 6vw 2vw 0vw 0vw;
             font-size: 6.5vw;
         }
 
@@ -887,7 +919,33 @@ input[type=text], select, textarea {
         }
 
         .container2 {
-            display: none;
+            height: 110vw;
+            width: 100%;
+
+        }
+
+        img {
+            border-radius: 12%;
+        }
+        
+        .container2 button {
+            margin-top: 5vw;
+            border-radius: 3vw;
+        }
+
+        .container2 img {
+            width: 95%;
+        }
+        
+        .slideshow-container img {
+            width: 95%;
+            margin: 0;
+        }
+
+
+        .special-button {
+            width: 70vw;
+            height: 14vw;
         }
 
         .container1 {
@@ -898,6 +956,7 @@ input[type=text], select, textarea {
         .third, .half {
             width: 100%;
             height: 90vw;
+            border-radius: 7vw;
         }
 
         .third h3 {
@@ -915,9 +974,17 @@ input[type=text], select, textarea {
             max-height: 65vw;
         }
 
+        .content {
+            height: 175vw;
+        }
+
         .songs-container {
-            margin-top: 70vw;
-            height: 210vw;
+            margin-top: 150vw;
+            height: 400vw;
+        }
+
+        .songs-container h2 {
+            margin: 4vw;
         }
 
         .nw-orbit {
@@ -948,17 +1015,18 @@ input[type=text], select, textarea {
         }
 
         .about-float1 img {
-            width: 80%;
+            width: 95%;
         }
         
         .about-float2 {
-            margin-top: 1vw;
+            margin-top: 3vw;
             width: 100%;
         }
 
         .about-float2 .fa {
             display: inline;
             margin: 0 5vw;
+            font-size: 10vw;
         }
 
 
@@ -1006,7 +1074,7 @@ input[type=text], select, textarea {
 
         .text-content-container {
             height: 420vw;
-            margin-top: 70vw;
+            margin-top: 20vw;
         }
 
         .abt-img2 {
@@ -1085,7 +1153,7 @@ input[type=text], select, textarea {
 
         audio {
             width: 80vw;
-            height: 100vw;
+            height: 11vw;
         }
 
         .vleft, .vright {
@@ -1122,6 +1190,7 @@ input[type=text], select, textarea {
             height: 100vw;
             margin-top: 340vw;
         }
+
 
    
         
