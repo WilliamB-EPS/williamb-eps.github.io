@@ -520,6 +520,18 @@ input[type=text], select, textarea {
     width: 10vw;
 }
 
+.currshow-img {
+    margin-left: 5%;
+}
+
+.currshow-text {
+    width: 60%
+}
+
+.split1, .split2 {
+    padding: 5vw;
+}
+
 .third {
     background: rgb(250,250,250);
     width: 31.25%;
@@ -829,20 +841,19 @@ input[type=text], select, textarea {
         .nav {
             border:none;
         }
-
-
+        
         .responsive-nav {
             display: block;
             position: absolute;
             top: 5vw;
-            right: 4vw;
+            right: 5vw;
             font-size: 3vw;
         }
 
         .responsive-nav p, .responsive-nav a {
             display: inline;
             color: white;
-            font-size: 5.5vw;
+            font-size: 5vw;
             margin: 0vw;
         }
         
@@ -864,6 +875,11 @@ input[type=text], select, textarea {
             display: none;
         }
 
+        .top-songs {
+            padding: 8vw;
+            margin-top: -4vw;
+        }
+
         .header-top p {
             font-size: 5vw;
             margin-bottom: 5vw;
@@ -876,7 +892,8 @@ input[type=text], select, textarea {
         .widget {
             width: 100%;
             height: auto;
-            padding-top: 3vw;
+            padding: 2vw 5vw;
+            height: 50vw;
             border-left: none;
             border-top: solid white 0.1vw;
         }
@@ -887,7 +904,7 @@ input[type=text], select, textarea {
             float: none;
             position: absolute;
             top: -0.5vw;
-            left: -1vw
+            left: 1vw;
         }
 
         .logo img {
@@ -926,11 +943,28 @@ input[type=text], select, textarea {
         .container2 {
             height: 110vw;
             width: 100%;
+            padding: 8vw;
+            margin-top: -5vw;
 
         }
 
+        .content h3 {
+            padding: 1vw 6vw;
+            margin-bottom: -5vw;
+        }
+
+        .schedule {
+            padding: 2vw 8vw;
+        }
+
+        .volunteer-container {
+            padding: 4vw;
+            height: 45vw;
+        }
+
+
         img {
-            border-radius: 12%;
+            border-radius: 4vw;
         }
         
         .container2 button {
@@ -969,14 +1003,19 @@ input[type=text], select, textarea {
         }
 
         .third button, .half button {
-            width: 45vw;
+            width: 40vw;
             height: 20vw;
             border-radius: 5vw;
             margin: 4vw 1vw;
         }
 
+        .slideshow-container {
+            margin-bottom: 5vw;
+        }
+
         .slideshow-container img {
             max-height: 65vw;
+            border-radius: 4vw;
         }
 
         .content {
@@ -985,7 +1024,8 @@ input[type=text], select, textarea {
 
         .songs-container {
             margin-top: 150vw;
-            height: 400vw;
+            height: 410vw;
+            padding: 6vw;
         }
 
         .songs-container h2 {
@@ -1168,7 +1208,8 @@ input[type=text], select, textarea {
 
         .more-volunteering {
             margin-top: 150vw;
-            height: 440vw;
+            height: 480vw;
+            padding: 6vw;
         }
 
         .vleft button {
