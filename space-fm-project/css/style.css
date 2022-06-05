@@ -899,7 +899,7 @@ input[type=text], select, textarea {
         }
 
         .logo {
-            width: auto;
+            width: 20%;
             height: 40vw;
             float: none;
             position: absolute;
@@ -1003,10 +1003,14 @@ input[type=text], select, textarea {
         }
 
         .third button, .half button {
-            width: 40vw;
+            width: 35vw;
             height: 20vw;
             border-radius: 5vw;
-            margin: 4vw 1vw;
+            margin: 4% 1%;
+        }
+
+        .third button a, .half button a {
+            font-size: 4.5vw;
         }
 
         .slideshow-container {
