@@ -341,8 +341,11 @@ img {
     transition: background-color 0.6s ease;
   }
   
-  .active {
-    background-color: #717171;
+
+
+  .nav .active {
+      color:rgb(56, 150, 194);
+      font-weight: bold;
   }
   
   /* Fading animation */
@@ -425,7 +428,7 @@ img {
       float: left;
       padding: 2vw;
       text-align: center;
-      height: 10vw;
+      height: 15vw;
   }
 
   .split2 {
@@ -433,7 +436,7 @@ img {
     float: left;
     padding: 2vw;
     text-align: center;
-    height: 10vw;
+    height: 15vw;
 }
 
 input[type=text], select, textarea {
@@ -995,22 +998,20 @@ input[type=text], select, textarea {
         .third, .half {
             width: 100%;
             height: 90vw;
-            border-radius: 7vw;
+            border-radius: 6vw;
+            padding: 3vw;
         }
 
         .third h3 {
             margin: 3vw;
         }
 
-        .third button, .half button {
-            width: 35vw;
-            height: 20vw;
+        .third button, .half button, .half .normal-button {
+            width: 38vw;
+            height: 18vw;
+            padding: 1vw;
             border-radius: 5vw;
             margin: 4% 1%;
-        }
-
-        .third button a, .half button a {
-            font-size: 4.5vw;
         }
 
         .slideshow-container {
@@ -1029,7 +1030,7 @@ input[type=text], select, textarea {
         .songs-container {
             margin-top: 150vw;
             height: 410vw;
-            padding: 6vw;
+            padding: 2vw 6vw;
         }
 
         .songs-container h2 {
@@ -1052,10 +1053,6 @@ input[type=text], select, textarea {
 
         .text, .text a {
             font-size: 6vw;  
-        }
-
-        .half .normal-button {
-            width: 40vw;
         }
 
         .about-float1 {
