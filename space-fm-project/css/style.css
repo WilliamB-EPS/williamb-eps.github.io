@@ -863,11 +863,15 @@ input[type=text], select, textarea {
 
         h2 {
             font-size: 8vw;
+            font-family: Quicksand;
+            font-weight: normal;
         }
 
         h3 {
             font-size: 6.5vw;
             margin-top: 2vw;
+            font-family: Quicksand;
+            font-weight: normal;
         }
 
         p, a, li {
