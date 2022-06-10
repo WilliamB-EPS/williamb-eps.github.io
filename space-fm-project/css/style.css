@@ -746,6 +746,7 @@ input[type=text], select, textarea {
 
 .about-float1 img {
     width: 100%;
+    border-radius: 10%;
 }
 
 
@@ -881,7 +882,7 @@ input[type=text], select, textarea {
         }
 
         p, a, li {
-            font-size: 5vw;
+            font-size: 4.7vw;
         }
 
         .buttons {
@@ -1018,11 +1019,11 @@ input[type=text], select, textarea {
         }
 
         .third button, .half button, .half .normal-button {
-            width: 38%;
-            height: 18%;
+            width: 34%;
+            height: 19%;
             padding: 1vw;
             border-radius: 5vw;
-            margin: 4% 1%;
+            margin: 3% 1%;
         }
 
         .slideshow-container {
