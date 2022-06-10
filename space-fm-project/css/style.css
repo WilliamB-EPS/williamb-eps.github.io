@@ -956,7 +956,7 @@ input[type=text], select, textarea {
 
         .container2 {
             height: 110vw;
-            width: 100%;
+            width: 98%;
             padding: 8vw;
             margin-top: -5vw;
 
@@ -974,7 +974,7 @@ input[type=text], select, textarea {
 
         .volunteer-container {
             padding: 4vw;
-            height: 45vw;
+            height: 180vw;
         }
 
 
@@ -1003,7 +1003,7 @@ input[type=text], select, textarea {
         }
 
         .container1 {
-            width: 100%;
+            width: 98%;
             height: 70vw;
         }
 
@@ -1179,12 +1179,12 @@ input[type=text], select, textarea {
         }
 
         .top-songs {
-            height: 145vw;
+            height: 135vw;
         }
 
         .shows-container {
-            margin-top: 190vw;
-            height: 490vw;
+            margin-top: 180vw;
+            height: 470vw;
             padding: 0 8vw;
         }
 
@@ -1225,9 +1225,8 @@ input[type=text], select, textarea {
         }
 
 
-        .more-volunteering {
-            margin-top: 150vw;
-            height: 450vw;
+        .more-volunteering {      
+            height: 445vw;
             padding: 6vw;
         }
 
