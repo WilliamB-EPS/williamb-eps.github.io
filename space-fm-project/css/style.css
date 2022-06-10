@@ -1131,7 +1131,7 @@ input[type=text], select, textarea {
         }
 
         .text-content-container {
-            height: 450vw;
+            height: 390vw;
             margin-top: 20vw;
         }
 
@@ -1145,6 +1145,7 @@ input[type=text], select, textarea {
 
         .team {
             height: 100vw;
+            padding-top: 5vw;
         }
 
         .team-pic {
@@ -1161,7 +1162,7 @@ input[type=text], select, textarea {
         }
 
         .text-content-container2 {
-            height: 320vw;
+            height: 300vw;
             padding: 6vw 10vw;;
         }
 
