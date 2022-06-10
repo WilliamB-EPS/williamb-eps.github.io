@@ -969,7 +969,7 @@ input[type=text], select, textarea {
 
         .schedule {
             padding: 2vw 8vw;
-            height: 90vw;
+            height: 400vw;
         }
 
         .volunteer-container {
@@ -1252,8 +1252,7 @@ input[type=text], select, textarea {
         }
 
         .other-times {
-            height: 100vw;
-            margin-top: 340vw;
+            height: 90vw;
         }
 
 
