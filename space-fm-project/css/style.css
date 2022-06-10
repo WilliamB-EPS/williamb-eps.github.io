@@ -1131,7 +1131,7 @@ input[type=text], select, textarea {
         }
 
         .text-content-container {
-            height: 390vw;
+            height: 380vw;
             margin-top: 20vw;
         }
 
@@ -1144,7 +1144,7 @@ input[type=text], select, textarea {
         }
 
         .team {
-            height: 100vw;
+            height: 90vw;
             padding-top: 5vw;
         }
 
@@ -1162,7 +1162,7 @@ input[type=text], select, textarea {
         }
 
         .text-content-container2 {
-            height: 300vw;
+            height: 280vw;
             padding: 6vw 10vw;;
         }
 
@@ -1227,7 +1227,7 @@ input[type=text], select, textarea {
 
         .more-volunteering {
             margin-top: 150vw;
-            height: 495vw;
+            height: 450vw;
             padding: 6vw;
         }
 
