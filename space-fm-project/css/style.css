@@ -1172,12 +1172,12 @@ input[type=text], select, textarea {
         }
 
         .top-songs {
-            height: 150vw;
+            height: 145vw;
         }
 
         .shows-container {
             margin-top: 190vw;
-            height: 480vw;
+            height: 490vw;
             padding: 0 8vw;
         }
 
@@ -1220,7 +1220,7 @@ input[type=text], select, textarea {
 
         .more-volunteering {
             margin-top: 150vw;
-            height: 480vw;
+            height: 495vw;
             padding: 6vw;
         }
 
