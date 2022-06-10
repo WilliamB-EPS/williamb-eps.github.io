@@ -13,15 +13,18 @@ body {
 
 h1 {
     font-size: 3vw;
+    font-family: Nunito Sans;
 }
 
 h2 {
     font-size: 2.75vw;
     margin: 1.5vw;
+    font-family: Nunito Sans;
 }
 
 h3 {
     font-size: 2vw;
+    font-family: Nunito Sans;
 }
 
 .about-float1 {
@@ -863,14 +866,14 @@ input[type=text], select, textarea {
 
         h2 {
             font-size: 8vw;
-            font-family: Quicksand;
+            font-family: Nunito Sans;
             font-weight: normal;
         }
 
         h3 {
             font-size: 6.5vw;
             margin-top: 2vw;
-            font-family: Quicksand;
+            font-family: Nunito Sans;
             font-weight: normal;
         }
 
