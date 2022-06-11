@@ -31,18 +31,19 @@ h3 {
 }
 
 .about-float1 {
-    width: 70%;
+    margin-top: 1vw;
+    width: 45%;
     float: left;
 }
 
 .about-float2 {
-    margin-top: -1vw;
-    width: 30%;
+    width: 55%;
     float: left;
 }
 
-.about-float2 .fa {
-    display: block;
+.half .about-float1 .fa {
+    display: relative;
+    margin: 1vw 1vw;
 }
 
 p,a,li {
@@ -744,9 +745,17 @@ input[type=text], select, textarea {
     padding: 0 2vw;
 }
 
-.about-float1 img {
-    width: 100%;
-    border-radius: 10%;
+.about-float2 img {
+    width: 90%;
+    border-radius: 5%;
+    margin-top: 0vw;
+    border: .2vw solid rgb(240,240,240);
+}
+
+.about-float2 img:hover {
+    width: 95%;
+    transition-duration: 1s;
+    margin-top: -0.5vw;
 }
 
 
@@ -1072,8 +1081,10 @@ input[type=text], select, textarea {
             width: 100%;
         }
 
-        .about-float1 img {
-            width: 95%;
+        .about-float2 img {
+            margin-top: -0.5vw;
+            width: 80%;
+            border: 1vw solid rgb(240,240,240);
         }
         
         .about-float2 {
@@ -1081,12 +1092,11 @@ input[type=text], select, textarea {
             width: 100%;
         }
 
-        .about-float2 .fa {
+        .half .about-float1 .fa {
             display: inline;
-            margin: 0 5vw;
+            margin: 5vw 5vw 0vw 5vw;
             font-size: 10vw;
         }
-
 
         input[type=text], select, textarea {
             width: 90%; 
@@ -1219,6 +1229,7 @@ input[type=text], select, textarea {
             border-radius: 6vw;
         }
 
+
         audio {
             width: 80vw;
             height: 11vw;
@@ -1258,9 +1269,6 @@ input[type=text], select, textarea {
             height: 90vw;
         }
 
-
-   
-        
 
 
 
