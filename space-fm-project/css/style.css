@@ -31,7 +31,7 @@ h3 {
 }
 
 .about-float1 {
-    margin-top: 1vw;
+    margin-top: -0.5vw;
     width: 45%;
     float: left;
 }
@@ -44,6 +44,7 @@ h3 {
 .half .about-float1 .fa {
     display: relative;
     margin: 1vw 1vw;
+    text-decoration: none;
 }
 
 p,a,li {

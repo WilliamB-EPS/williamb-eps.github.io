@@ -29,5 +29,8 @@ path accordingly. View the other shows as examples.
 6. There are links to download spotify and soundcloud playlists on the homepage.
 Whenever there are files for this, be sure to add them.
 
+7. To update the most popular songs on the listen page, just change the text
+in the <li> tags and follow the format used with the example songs.
+
 Feel free to email me at wbowers@eastsideprep.org if you have any questions or 
 find any lingering problems.
