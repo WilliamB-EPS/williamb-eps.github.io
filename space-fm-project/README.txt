@@ -1,7 +1,7 @@
 Hello! I am instructions for how to complete/maintain this website
 
-Quick note: when adding images (or audio or any media), make sure to add them 
-to add them to the appropriate folder or create one if there is not one already
+Quick note: when adding images (or any media), make sure to add them to add it
+to the appropriate folder or create one if there is not one already
 
 1. The audio files for NW orbit still need to be implemented. To do this, create
 an audio folder in this project and add the audio files you need. Then add them 

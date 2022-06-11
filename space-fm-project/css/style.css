@@ -132,7 +132,8 @@ iframe {
 }
 
 .currshow-img img {
-    width: 80%;
+    width: 85%;
+    margin-top: 4%;
 }
  
 .currentshow {
@@ -749,7 +750,7 @@ input[type=text], select, textarea {
     width: 90%;
     border-radius: 5%;
     margin-top: 0vw;
-    border: .2vw solid rgb(240,240,240);
+    border: .1vw solid rgb(200,200,200);
 }
 
 .about-float2 img:hover {
@@ -1079,7 +1080,7 @@ input[type=text], select, textarea {
         .about-float2 img {
             margin-top: -0.5vw;
             width: 75%;
-            border: 1vw solid rgb(240,240,240);
+            border: 0.5vw solid rgb(200,200,200);
         }
         
         .about-float2 {
