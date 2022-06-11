@@ -1077,18 +1077,18 @@ input[type=text], select, textarea {
         }
 
         .about-float1 {
-            margin-top: -5vw;
+            margin-top: -2vw;
             width: 100%;
         }
 
         .about-float2 img {
             margin-top: -0.5vw;
-            width: 80%;
+            width: 75%;
             border: 1vw solid rgb(240,240,240);
         }
         
         .about-float2 {
-            margin-top: 3vw;
+            margin-top: 3.5vw;
             width: 100%;
         }
 
