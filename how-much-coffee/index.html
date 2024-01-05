@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Survey</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<button onclick="redirect()">Take me to the survey</button>
+
+<script>
+    function redirect() {
+        const rand = Math.random();
+        if (rand < 0.5) {
+            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdnD3_WhoaXLe0t1HemG5wwoRA2NykhwoJ59F_1wjMm1m2Epw/viewform?usp=sf_link';
+        } else {
+            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfum887Z8hwpSp8HvKJO4s4URuXjPCqB6-X0_S9j9mh7y8Vhw/viewform?usp=sf_link';
+        }
+    }
+</script>
+
+</body>
+</html>
